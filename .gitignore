@@ -19,3 +19,11 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+.idea/*
+.idea/runConfigurations/Development__ADPQ.xml
+
+.idea/runConfigurations/Production__ADPQ.xml
+
+.idea/runConfigurations/spec__ADPQ.xml
+
+.idea/runConfigurations/test__ADPQ.xml
