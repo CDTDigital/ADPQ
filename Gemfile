@@ -56,3 +56,4 @@ gem 'sniffybara', git: 'https://github.com/department-of-veterans-affairs/sniffy
 gem 'rswag'
 
 gem 'rails_12factor', group: :production
+gem 'newrelic_rpm'
