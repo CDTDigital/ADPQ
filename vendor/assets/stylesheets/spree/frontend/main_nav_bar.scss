@@ -3,13 +3,14 @@
 #main-nav-bar {
   button {
     position: relative;
-    top: -34px;
+    top: -33px;
     left: 2px;
     border-bottom-right-radius: 2px;
     border-top-right-radius: 2px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     float: right;
+    padding: 5px 12px;
   }
 
   label {
@@ -33,7 +34,7 @@
 
     form {
       width: 85%;
-      margin: 0 auto;
+      margin: 1em auto;
     }
 
   }
