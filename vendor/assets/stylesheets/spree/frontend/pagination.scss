@@ -1,0 +1,17 @@
+@import "colors";
+
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
+  color: $dark-gray;
+  background-color: $gold;
+  border-color: $gold;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  color: $dark-gray;
+}

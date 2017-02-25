@@ -1,0 +1,59 @@
+@import "colors";
+
+#products {
+  a {
+    color: $dark-gray;
+    font-weight: bold;
+  }
+
+  .panel {
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .panel-footer {
+    background-color: transparent;
+    border-top: none;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 60px;
+  }
+
+}
+
+#offers {
+  margin-bottom: 1em;
+}
+
+#product-images {
+  .panel {
+    border: none;
+    box-shadow: none;
+  }
+
+  .panel-default {
+    border: none;
+  }
+}
+
+#product-description {
+  .well {
+    background-color: $light-gray;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+#product-properties {
+  td {
+    border: none;
+  }
+}
+
+.lead.price.selling {
+  font-weight: bold;
+  font-size: 2em;
+}

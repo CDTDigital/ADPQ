@@ -1,0 +1,10 @@
+@import "colors";
+#update-button {
+  background-color: $light-gray;
+  border-color: $light-gray;
+}
+
+.warning.cart-total .lead {
+  font-weight: bold;
+  font-size: 2em;
+}
