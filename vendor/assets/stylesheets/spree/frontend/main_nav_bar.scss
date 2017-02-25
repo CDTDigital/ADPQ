@@ -1,0 +1,45 @@
+@import "colors";
+
+#main-nav-bar {
+  //button {
+  //  position: relative;
+  //  top: -34px;
+  //  left: 2px;
+  //  border-bottom-right-radius: 2px;
+  //  border-top-right-radius: 2px;
+  //  border-top-left-radius: 0;
+  //  border-bottom-left-radius: 0;
+  //  float: right;
+  //}
+
+  label {
+    font-weight: normal;
+    font-size: 1.15em;
+    color: white;
+    margin-right: 1em;
+  }
+
+  .form-group {
+    margin-right: 1em;
+  }
+
+
+
+}
+
+@media screen and (min-width: 768px) {
+  #main-nav_bar {
+
+    button {
+      top: 0 !important;
+      left: -9px !important;
+      float: none !important;
+    }
+
+
+    form {
+      width: 50% !important;
+      margin: 0 auto !important;
+    }
+  }
+}

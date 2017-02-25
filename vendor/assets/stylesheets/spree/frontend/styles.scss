@@ -61,10 +61,27 @@ html body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-.btn-success {
+.hide-text {
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.btn {
+  border-radius: 2px;
+}
+
+.alert {
+  border-radius: 0;
+  border: none;
+}
+
+.btn.btn-success,
+.btn.btn-primary {
   color: $dark;
   background-color: $gold;
   border-color: $gold;
+  font-weight: bold;
 
   &:hover {
     background-color: $dark-gold;
@@ -96,4 +113,40 @@ html body {
     color: $dark;
   }
 
+}
+
+.form-control {
+  border-radius: 0;
+  border: 1px solid $dark-gray;
+}
+
+#taxon.form-control {
+  border-radius: 0;
+}
+
+.container {
+  color: $dark-gray;
+}
+
+#content {
+  a, td {
+    color: $dark-gray;
+  }
+}
+
+.panel {
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+abbr.required,
+.error {
+  color: $red;
+}
+
+.well {
+  background-color: $light-gray;
+  border-radius: 0;
 }

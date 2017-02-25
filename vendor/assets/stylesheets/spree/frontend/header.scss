@@ -1,9 +1,13 @@
 @import 'colors';
 #spree-header {
-  background-color: $dark-gray;
+  background-color: $dark-er-gray;
 
   #logo {
     margin-bottom: 0;
+
+    a, span {
+      display: inline-block;
+    }
 
     img {
       max-width: 100%;
@@ -15,5 +19,11 @@
     padding: 0;
   }
 
+  span {
+    color: $gold;
+  }
+}
 
+#top-nav-bar {
+  font-size: 1.15em;
 }

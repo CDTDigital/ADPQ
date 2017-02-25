@@ -1,0 +1,23 @@
+@import "colors";
+
+#checkout {
+  .nav-pills > li.active > a,
+  .nav-pills > li.active > a:hover,
+  .nav-pills > li.active > a:focus {
+    color: $dark-gray;
+    background-color: $gold;
+    border-radius: 0;
+  }
+
+  .nav > li > a:hover,
+  .nav > li > a:focus {
+    border-radius: 0;
+  }
+}
+
+#summary-order-total,
+#order_total {
+  color: $dark-gray;
+  font-weight: bold;
+  font-size: 2em;
+}

@@ -1,0 +1,18 @@
+@import "colors";
+
+#breadcrumbs {
+  color: $dark-gray;
+
+  a {
+    color: $dark-gray;
+  }
+
+  .breadcrumb > li + li:before {
+    color: $dark-gray;
+  }
+
+  .breadcrumb {
+    background-color: $light-gray;
+    border-radius: 0;
+  }
+}
