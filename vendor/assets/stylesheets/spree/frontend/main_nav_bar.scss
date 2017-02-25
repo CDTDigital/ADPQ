@@ -1,45 +1,85 @@
 @import "colors";
 
+#nav-bar > li:nth-child(4) > a {
+  position: relative;
+  left: 20px;
+
+  @media screen and (min-width: 768px) {
+    left: 0;
+  }
+}
+
+#keywords {
+  display: inline-block;
+}
+
 #main-nav-bar {
-  //button {
-  //  position: relative;
-  //  top: -34px;
-  //  left: 2px;
-  //  border-bottom-right-radius: 2px;
-  //  border-top-right-radius: 2px;
-  //  border-top-left-radius: 0;
-  //  border-bottom-left-radius: 0;
-  //  float: right;
-  //}
+  button {
+    position: relative;
+    top: -33px;
+    left: 0;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    float: right;
+    padding: 5px 12px;
+  }
 
   label {
     font-weight: normal;
     font-size: 1.15em;
     color: white;
     margin-right: 1em;
+    display: block;
   }
 
   .form-group {
     margin-right: 1em;
   }
 
+  form {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+  }
 
-
-}
-
-@media screen and (min-width: 768px) {
-  #main-nav_bar {
+  @media screen and (min-width: 544px) {
 
     button {
-      top: 0 !important;
-      left: -9px !important;
-      float: none !important;
+      top: -3px;
+      left: -1px;
+      float: none;
     }
 
+  }
+
+  @media screen and (min-width: 768px) {
+
+    button {
+      top: 0;
+      left: -1px;
+      float: none;
+    }
 
     form {
-      width: 50% !important;
-      margin: 0 auto !important;
+      width: 85%;
+      margin: 1em auto;
+    }
+
+  }
+
+  @media screen and (min-width: 990px) {
+    form {
+      width: 78%;
+    }
+  }
+
+  @media screen and (min-width: 1199px) {
+    form {
+      width: 45%;
     }
   }
 }
+
+

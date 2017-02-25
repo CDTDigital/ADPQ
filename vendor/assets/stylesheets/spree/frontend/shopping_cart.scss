@@ -1,10 +1,72 @@
 @import "colors";
+
 #update-button {
   background-color: $light-gray;
   border-color: $light-gray;
 }
 
-.warning.cart-total .lead {
-  font-weight: bold;
-  font-size: 2em;
+.warning.cart-total {
+  .lead {
+    font-weight: bold;
+    font-size: 2em;
+  }
 }
+
+#cart-detail > tbody:nth-child(6) > tr > td {
+  background-color: $light-gold;
+  border: none;
+
+  h5 {
+    font-weight: bold;
+  }
+}
+
+#content > div > h1 {
+  font-weight: bold;
+}
+.table > tbody + tbody {
+  border-top: none;
+}
+
+#line_items > tr > td.cart-item-delete {
+  border-right: none;
+
+  @media screen and (min-width: 768px) {
+    border-right: 1px solid #ddd;
+  }
+}
+
+#line_items > tr > td.cart-item-image {
+  border-left: none;
+
+  @media screen and (min-width: 768px) {
+    border-left: 1px solid #ddd;
+  }
+}
+
+.table > thead > tr > td.active,
+.table > thead > tr > th.active,
+.table > thead > tr.active > td,
+.table > thead > tr.active > th,
+.table > tbody > tr > td.active,
+.table > tbody > tr > th.active,
+.table > tbody > tr.active > td,
+.table > tbody > tr.active > th,
+.table > tfoot > tr > td.active,
+.table > tfoot > tr > th.active,
+.table > tfoot > tr.active > td,
+.table > tfoot > tr.active > th,
+.table > thead > tr > th {
+  background-color: $light-gray;
+  font-weight: normal;
+  border: 1px solid $light-gray;
+}
+
+#line_items > tr > td.lead.text-primary.cart-item-price,
+#line_items > tr > td.lead.text-primary.cart-item-total {
+  font-weight: bold;
+  font-size: 1.15em;
+}
+
+
+
