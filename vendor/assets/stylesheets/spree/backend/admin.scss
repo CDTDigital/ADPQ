@@ -7,6 +7,10 @@
   .container-fluid {
     height: 51px;
   }
+
+  .nav > li {
+    background-color: $dark-gray;
+  }
 }
 
 #logo {
@@ -405,7 +409,7 @@ input[type="radio"] {
   .table > tbody > tr > td,
   .table > tfoot > tr > th,
   .table > tfoot > tr > td {
-    border-top: none;
+    border: none;
   }
 
 }
@@ -441,7 +445,8 @@ input[type="radio"] {
 
 #content {
   td > a.btn.btn-primary.btn-sm.icon-link.with-tip.action-edit.no-text,
-  td > a.btn.btn-danger.btn-sm.delete-resource.icon-link.with-tip.action-delete.no-text {
+  td > a.btn.btn-danger.btn-sm.delete-resource.icon-link.with-tip.action-delete.no-text,
+  #line-item-9 > td.cart-line-item-delete.actions.actions-4.text-center > a.delete-line-item.btn.btn-danger.btn-sm.icon-link.with-tip.action-delete.no-text{
     color: white;
   }
 }
@@ -484,3 +489,29 @@ body > header > nav > div > div > div.col-sm-9.col-md-10 > div > ul > li > a > i
 .per_page_label {
   margin-left: 1em;
 }
+
+@media (max-width: 767px) {
+  #logo {
+    height: 65px;
+  }
+  .user.user-menu {
+    position: relative;
+    top: -15px;
+  }
+
+  .navbar-nav .open .dropdown-menu {
+    position: absolute;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+  }
+}
+
+
