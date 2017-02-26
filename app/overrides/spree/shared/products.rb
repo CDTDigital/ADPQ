@@ -27,4 +27,3 @@ Deface::Override.new(virtual_path: 'spree/shared/_products',
                      name: 'rearrange_products',
                      replace_contents: 'div#products',
                      text: products_html)
-
