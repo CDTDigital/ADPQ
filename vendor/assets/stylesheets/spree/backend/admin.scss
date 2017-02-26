@@ -1,0 +1,486 @@
+@import 'colors';
+
+.navbar-inverse {
+  background-color: $dark-gray;
+  border-color: $dark-gray;
+
+  .container-fluid {
+    height: 51px;
+  }
+}
+
+#logo {
+  position: relative;
+  top: -15px;
+  height: 75px;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: asset-url("sourcesanspro-light-webfont.eot?#iefix") format("embedded-opentype"), asset-url("sourcesanspro-light-webfont.woff2") format("woff2"), asset-url("sourcesanspro-light-webfont.woff") format("woff"), asset-url("sourcesanspro-light-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: asset-url("sourcesanspro-regular-webfont.eot?#iefix") format("embedded-opentype"), asset-url("sourcesanspro-regular-webfont.woff2") format("woff2"), asset-url("sourcesanspro-regular-webfont.woff") format("woff"), asset-url("sourcesanspro-regular-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: 400;
+  src: asset-url("sourcesanspro-italic-webfont.eot?#iefix") format("embedded-opentype"), asset-url("sourcesanspro-italic-webfont.woff2") format("woff2"), asset-url("sourcesanspro-italic-webfont.woff") format("woff"), asset-url("sourcesanspro-italic-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: asset-url("sourcesanspro-bold-webfont.eot?#iefix") format("embedded-opentype"), asset-url("sourcesanspro-bold-webfont.woff2") format("woff2"), asset-url("sourcesanspro-bold-webfont.woff") format("woff"), asset-url("sourcesanspro-bold-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 300;
+  src: asset-url("merriweather-light-webfont.eot?#iefix") format("embedded-opentype"), asset-url("merriweather-light-webfont.woff2") format("woff2"), asset-url("merriweather-light-webfont.woff") format("woff"), asset-url("merriweather-light-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  src: asset-url("merriweather-regular-webfont.eot?#iefix") format("embedded-opentype"), asset-url("merriweather-regular-webfont.woff2") format("woff2"), asset-url("merriweather-regular-webfont.woff") format("woff"), asset-url("merriweather-regular-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  font-style: italic;
+  font-weight: 400;
+  src: asset-url("merriweather-italic-webfont.eot?#iefix") format("embedded-opentype"), asset-url("merriweather-italic-webfont.woff2") format("woff2"), asset-url("merriweather-italic-webfont.woff") format("woff"), asset-url("merriweather-italic-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  src: asset-url("merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), asset-url("merriweather-bold-webfont.woff2") format("woff2"), asset-url("merriweather-bold-webfont.woff") format("woff"), asset-url("merriweather-bold-webfont.ttf") format("truetype");
+}
+
+html body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.hide-text {
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.alert {
+  border-radius: 0;
+  border: none;
+}
+
+.form-control {
+  border-radius: 0;
+  border: 1px solid $dark-gray;
+}
+
+.container {
+  color: $dark-gray;
+}
+
+#content {
+  a, td {
+    color: $dark-gray;
+  }
+}
+
+.panel {
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+abbr.required,
+.error {
+  color: $red;
+}
+
+.well {
+  background-color: $light-gray;
+  border-radius: 0;
+}
+
+.table {
+  width: 99%;
+  max-width: 99%;
+  margin-bottom: 20px;
+}
+
+input,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+input[type="search"],
+input[type="file"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+textarea,
+select {
+  appearance: none;
+  border: 1px solid #5b616b;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: #212121;
+  display: block;
+  font-size: 1.7rem;
+  max-width: 46rem;
+  outline: none;
+  padding: 1rem 0.7em;
+  width: 100%;
+}
+
+input:focus, input.usa-input-focus,
+input[type="text"]:focus,
+input[type="text"].usa-input-focus,
+input[type="email"]:focus,
+input[type="email"].usa-input-focus,
+input[type="password"]:focus,
+input[type="password"].usa-input-focus,
+input[type="url"]:focus,
+input[type="url"].usa-input-focus,
+input[type="tel"]:focus,
+input[type="tel"].usa-input-focus,
+input[type="number"]:focus,
+input[type="number"].usa-input-focus,
+input[type="search"]:focus,
+input[type="search"].usa-input-focus,
+input[type="file"]:focus,
+input[type="file"].usa-input-focus,
+input[type="date"]:focus,
+input[type="date"].usa-input-focus,
+input[type="datetime-local"]:focus,
+input[type="datetime-local"].usa-input-focus,
+input[type="month"]:focus,
+input[type="month"].usa-input-focus,
+input[type="time"]:focus,
+input[type="time"].usa-input-focus,
+input[type="week"]:focus,
+input[type="week"].usa-input-focus,
+textarea:focus,
+textarea.usa-input-focus,
+select:focus,
+select.usa-input-focus {
+  box-shadow: 0 0 3px #3e94cf, 0 0 7px #3e94cf;
+}
+
+input.usa-input-success,
+input[type="text"].usa-input-success,
+input[type="email"].usa-input-success,
+input[type="password"].usa-input-success,
+input[type="url"].usa-input-success,
+input[type="tel"].usa-input-success,
+input[type="number"].usa-input-success,
+input[type="search"].usa-input-success,
+input[type="file"].usa-input-success,
+input[type="date"].usa-input-success,
+input[type="datetime-local"].usa-input-success,
+input[type="month"].usa-input-success,
+input[type="time"].usa-input-success,
+input[type="week"].usa-input-success,
+textarea.usa-input-success,
+select.usa-input-success {
+  border: 3px solid #4aa564;
+}
+
+select#taxon {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #ffffff;
+  background-image: asset-url("arrow-down.png");
+  background-image: asset-url("arrow-down.svg");
+  background-position: right 1.3rem center;
+  background-repeat: no-repeat;
+  background-size: 1.3rem;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    width: 200px;
+  }
+
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline-block;
+  width: inherit;
+}
+
+.table > thead > tr > td.active,
+.table > thead > tr > th.active,
+.table > thead > tr.active > td,
+.table > thead > tr.active > th,
+.table > tbody > tr > td.active,
+.table > tbody > tr > th.active,
+.table > tbody > tr.active > td,
+.table > tbody > tr.active > th,
+.table > tfoot > tr > td.active,
+.table > tfoot > tr > th.active,
+.table > tfoot > tr.active > td,
+.table > tfoot > tr.active > th,
+.table > thead > tr > th {
+  background-color: $light-gray;
+  font-weight: normal;
+  border: 1px solid $light-gray;
+}
+
+.table > thead > tr > td.warning,
+.table > thead > tr > th.warning,
+.table > thead > tr.warning > td,
+.table > thead > tr.warning > th,
+.table > tbody > tr > td.warning,
+.table > tbody > tr > th.warning,
+.table > tbody > tr.warning > td,
+.table > tbody > tr.warning > th,
+.table > tfoot > tr > td.warning,
+.table > tfoot > tr > th.warning,
+.table > tfoot > tr.warning > td,
+.table > tfoot > tr.warning > th {
+  background-color: $light-gold;
+  border: none;
+}
+
+.panel-default > .panel-heading {
+  color: $dark-gray;
+  background-color: $light-gray;
+  border-color: $light-gray;
+}
+
+.admin {
+
+  a {
+    color: $dark-gray;
+
+    &.delete-resource,
+    &.action-edit {
+      color: white;
+    }
+  }
+
+  .content-header.page-header {
+    h1 {
+      font-size: 3em;
+      font-weight: bold;
+    }
+  }
+
+  .btn {
+    border-radius: 2px;
+  }
+
+  .btn-default,
+  .btn-default:hover:focus,
+  .btn-default:focus {
+    border-color: $dark-gray;
+  }
+
+  .btn-success,
+  .btn-primary {
+    color: $dark-gray;
+    background-color: $gold;
+    border-color: $gold;
+    font-weight: bold;
+
+    &:hover {
+      background-color: $dark-gold;
+      border-color: $dark-gold;
+      color: $dark;
+    }
+
+    &:active {
+      background-color: $gold;
+      border-color: $gold;
+      color: white;
+    }
+
+    &:focus {
+      background-color: $gold;
+      border-color: $gold;
+      color: white;
+    }
+
+    &:active:focus, &:active:hover {
+      background-color: $dark-gold;
+      border-color: $dark-gold;
+      color: $dark;
+    }
+
+    &[disabled]:hover {
+      background-color: $dark-gold;
+      border-color: $gold;
+      color: $dark;
+    }
+
+    &.action-edit {
+      color: white;
+    }
+  }
+
+
+  td.actions.actions-3.text-right > form {
+    display: none;
+  }
+
+  select#per_page {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #ffffff;
+    background-image: asset-url("arrow-down.png");
+    background-image: asset-url("arrow-down.svg");
+    background-position: right 1.3rem center;
+    background-repeat: no-repeat;
+    background-size: 1.3rem;
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+      width: 200px;
+    }
+  }
+
+  table.table thead th {
+    text-transform: none;
+    font-size: 1em;
+  }
+
+  .index-filter-button .glyphicon,
+  .index-filter-button .icon,
+  .index-filter-button .select2-container-multi .select2-choices .select2-search-choice .select2-search-choice-close,
+  .select2-container-multi .select2-choices .select2-search-choice .index-filter-button .select2-search-choice-close,
+  .index-filter-button #ui-datepicker-div .ui-widget-header .ui-icon.ui-icon-circle-triangle-w,
+  #ui-datepicker-div .ui-widget-header .index-filter-button .ui-icon.ui-icon-circle-triangle-w,
+  .index-filter-button #ui-datepicker-div .ui-widget-header .ui-icon.ui-icon-circle-triangle-e,
+  #ui-datepicker-div .ui-widget-header .index-filter-button .ui-icon.ui-icon-circle-triangle-e {
+    color: $dark-gray;
+  }
+
+  #main-sidebar ul.nav.nav-pills li.selected a {
+    color: $gold;
+  }
+
+  .table > thead > tr > td.active,
+  .table > thead > tr > th.active,
+  .table > thead > tr.active > td,
+  .table > thead > tr.active > th,
+  .table > tbody > tr > td.active,
+  .table > tbody > tr > th.active,
+  .table > tbody > tr.active > td,
+  .table > tbody > tr.active > th,
+  .table > tfoot > tr > td.active,
+  .table > tfoot > tr > th.active,
+  .table > tfoot > tr.active > td,
+  .table > tfoot > tr.active > th,
+  .table > thead > tr > th {
+    background-color: transparent;
+    border: none;
+  }
+
+  .table > thead > tr > th,
+  .table > thead > tr > td,
+  .table > tbody > tr > th,
+  .table > tbody > tr > td,
+  .table > tfoot > tr > th,
+  .table > tfoot > tr > td {
+    border-top: none;
+  }
+
+}
+
+#main-sidebar {
+  background-color: $dark-gray;
+  border-right: none;
+  color: white;
+
+  ul.nav.nav-pills {
+    border-top: none;
+  }
+
+  ul.nav-sidebar > li {
+    border-bottom: none;
+  }
+
+  ul.nav-sidebar > li > a {
+    text-transform: none;
+    letter-spacing: 1px;
+    font-size: 1.15em;
+    padding: 15px;
+    color: white;
+    height: 51px;
+  }
+
+  .nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    color: $gold;
+    background-color: $dark-gray;
+  }
+}
+
+#content {
+  td > a.btn.btn-primary.btn-sm.icon-link.with-tip.action-edit.no-text,
+  td > a.btn.btn-danger.btn-sm.delete-resource.icon-link.with-tip.action-delete.no-text {
+    color: white;
+  }
+}
+
+label, span.or {
+  text-transform: none;
+  font-size: 1.15em;
+  color: $dark-gray;
+}
+
+#sidebar > ul > li > a {
+  color: $dark-gray;
+}
+
+#sidebar > ul > li.active {
+  a {
+    color: $gold;
+    background-color: $dark-er-gray;
+    font-weight: bold;
+    font-size: 1.15em;
+  }
+}
+
+#main-sidebar > ul:nth-child(2),
+#main-sidebar > ul:nth-child(4),
+#main-sidebar > ul:nth-child(5),
+#main-sidebar > ul:nth-child(6),
+#main-sidebar > ul:nth-child(7),
+#main-sidebar > ul:nth-child(8),
+#sidebar > ul > li:nth-child(3),
+#sidebar > ul > li:nth-child(4),
+#sidebar > ul > li:nth-child(5) {
+  display: none;
+}
+
+body > header > nav > div > div > div.col-sm-9.col-md-10 > div > ul > li > a > i {
+  color: $gold;
+}
+
+.per_page_label {
+  margin-left: 1em;
+}
