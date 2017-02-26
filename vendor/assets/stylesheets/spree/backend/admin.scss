@@ -1,5 +1,23 @@
-/* General site-wide styles */
 @import 'colors';
+
+.navbar-inverse {
+  background-color: $dark-gray;
+  border-color: $dark-gray;
+
+  .container-fluid {
+    height: 51px;
+  }
+
+  .nav > li {
+    background-color: $dark-gray;
+  }
+}
+
+#logo {
+  position: relative;
+  top: -15px;
+  height: 75px;
+}
 
 @font-face {
   font-family: "Source Sans Pro";
@@ -67,61 +85,14 @@ html body {
   overflow: hidden;
 }
 
-.btn {
-  border-radius: 2px;
-}
-
 .alert {
   border-radius: 0;
   border: none;
 }
 
-.btn.btn-success,
-.btn.btn-primary {
-  color: $dark;
-  background-color: $gold;
-  border-color: $gold;
-  font-weight: bold;
-
-  &:hover {
-    background-color: $dark-gold;
-    border-color: $dark-gold;
-    color: $dark;
-  }
-
-  &:active {
-    background-color: $gold;
-    border-color: $gold;
-    color: white;
-  }
-
-  &:focus {
-    background-color: $gold;
-    border-color: $gold;
-    color: white;
-  }
-
-  &:active:focus, &:active:hover {
-    background-color: $dark-gold;
-    border-color: $dark-gold;
-    color: $dark;
-  }
-
-  &[disabled]:hover {
-    background-color: $dark-gold;
-    border-color: $gold;
-    color: $dark;
-  }
-
-}
-
 .form-control {
   border-radius: 0;
   border: 1px solid $dark-gray;
-}
-
-#taxon.form-control {
-  border-radius: 0;
 }
 
 .container {
@@ -302,3 +273,245 @@ input[type="radio"] {
   background-color: $light-gray;
   border-color: $light-gray;
 }
+
+.admin {
+
+  a {
+    color: $dark-gray;
+
+    &.delete-resource,
+    &.action-edit {
+      color: white;
+    }
+  }
+
+  .content-header.page-header {
+    h1 {
+      font-size: 3em;
+      font-weight: bold;
+    }
+  }
+
+  .btn {
+    border-radius: 2px;
+  }
+
+  .btn-default,
+  .btn-default:hover:focus,
+  .btn-default:focus {
+    border-color: $dark-gray;
+  }
+
+  .btn-success,
+  .btn-primary {
+    color: $dark-gray;
+    background-color: $gold;
+    border-color: $gold;
+    font-weight: bold;
+
+    &:hover {
+      background-color: $dark-gold;
+      border-color: $dark-gold;
+      color: $dark;
+    }
+
+    &:active {
+      background-color: $gold;
+      border-color: $gold;
+      color: white;
+    }
+
+    &:focus {
+      background-color: $gold;
+      border-color: $gold;
+      color: white;
+    }
+
+    &:active:focus, &:active:hover {
+      background-color: $dark-gold;
+      border-color: $dark-gold;
+      color: $dark;
+    }
+
+    &[disabled]:hover {
+      background-color: $dark-gold;
+      border-color: $gold;
+      color: $dark;
+    }
+
+    &.action-edit {
+      color: white;
+    }
+  }
+
+
+  td.actions.actions-3.text-right > form {
+    display: none;
+  }
+
+  select#per_page {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #ffffff;
+    background-image: asset-url("arrow-down.png");
+    background-image: asset-url("arrow-down.svg");
+    background-position: right 1.3rem center;
+    background-repeat: no-repeat;
+    background-size: 1.3rem;
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+      width: 200px;
+    }
+  }
+
+  table.table thead th {
+    text-transform: none;
+    font-size: 1em;
+  }
+
+  .index-filter-button .glyphicon,
+  .index-filter-button .icon,
+  .index-filter-button .select2-container-multi .select2-choices .select2-search-choice .select2-search-choice-close,
+  .select2-container-multi .select2-choices .select2-search-choice .index-filter-button .select2-search-choice-close,
+  .index-filter-button #ui-datepicker-div .ui-widget-header .ui-icon.ui-icon-circle-triangle-w,
+  #ui-datepicker-div .ui-widget-header .index-filter-button .ui-icon.ui-icon-circle-triangle-w,
+  .index-filter-button #ui-datepicker-div .ui-widget-header .ui-icon.ui-icon-circle-triangle-e,
+  #ui-datepicker-div .ui-widget-header .index-filter-button .ui-icon.ui-icon-circle-triangle-e {
+    color: $dark-gray;
+  }
+
+  #main-sidebar ul.nav.nav-pills li.selected a {
+    color: $gold;
+  }
+
+  .table > thead > tr > td.active,
+  .table > thead > tr > th.active,
+  .table > thead > tr.active > td,
+  .table > thead > tr.active > th,
+  .table > tbody > tr > td.active,
+  .table > tbody > tr > th.active,
+  .table > tbody > tr.active > td,
+  .table > tbody > tr.active > th,
+  .table > tfoot > tr > td.active,
+  .table > tfoot > tr > th.active,
+  .table > tfoot > tr.active > td,
+  .table > tfoot > tr.active > th,
+  .table > thead > tr > th {
+    background-color: transparent;
+    border: none;
+  }
+
+  .table > thead > tr > th,
+  .table > thead > tr > td,
+  .table > tbody > tr > th,
+  .table > tbody > tr > td,
+  .table > tfoot > tr > th,
+  .table > tfoot > tr > td {
+    border: none;
+  }
+
+}
+
+#main-sidebar {
+  background-color: $dark-gray;
+  border-right: none;
+  color: white;
+
+  ul.nav.nav-pills {
+    border-top: none;
+  }
+
+  ul.nav-sidebar > li {
+    border-bottom: none;
+  }
+
+  ul.nav-sidebar > li > a {
+    text-transform: none;
+    letter-spacing: 1px;
+    font-size: 1.15em;
+    padding: 15px;
+    color: white;
+    height: 51px;
+  }
+
+  .nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    color: $gold;
+    background-color: $dark-gray;
+  }
+}
+
+#content {
+  td > a.btn.btn-primary.btn-sm.icon-link.with-tip.action-edit.no-text,
+  td > a.btn.btn-danger.btn-sm.delete-resource.icon-link.with-tip.action-delete.no-text,
+  #line-item-9 > td.cart-line-item-delete.actions.actions-4.text-center > a.delete-line-item.btn.btn-danger.btn-sm.icon-link.with-tip.action-delete.no-text{
+    color: white;
+  }
+}
+
+label, span.or {
+  text-transform: none;
+  font-size: 1.15em;
+  color: $dark-gray;
+}
+
+#sidebar > ul > li > a {
+  color: $dark-gray;
+}
+
+#sidebar > ul > li.active {
+  a {
+    color: $gold;
+    background-color: $dark-er-gray;
+    font-weight: bold;
+    font-size: 1.15em;
+  }
+}
+
+#main-sidebar > ul:nth-child(2),
+#main-sidebar > ul:nth-child(4),
+#main-sidebar > ul:nth-child(5),
+#main-sidebar > ul:nth-child(6),
+#main-sidebar > ul:nth-child(7),
+#main-sidebar > ul:nth-child(8),
+#sidebar > ul > li:nth-child(3),
+#sidebar > ul > li:nth-child(4),
+#sidebar > ul > li:nth-child(5) {
+  display: none;
+}
+
+body > header > nav > div > div > div.col-sm-9.col-md-10 > div > ul > li > a > i {
+  color: $gold;
+}
+
+.per_page_label {
+  margin-left: 1em;
+}
+
+@media (max-width: 767px) {
+  #logo {
+    height: 65px;
+  }
+  .user.user-menu {
+    position: relative;
+    top: -15px;
+  }
+
+  .navbar-nav .open .dropdown-menu {
+    position: absolute;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+  }
+}
+
+

@@ -44,26 +44,10 @@
   }
 }
 
-.table > thead > tr > td.active,
-.table > thead > tr > th.active,
-.table > thead > tr.active > td,
-.table > thead > tr.active > th,
-.table > tbody > tr > td.active,
-.table > tbody > tr > th.active,
-.table > tbody > tr.active > td,
-.table > tbody > tr.active > th,
-.table > tfoot > tr > td.active,
-.table > tfoot > tr > th.active,
-.table > tfoot > tr.active > td,
-.table > tfoot > tr.active > th,
-.table > thead > tr > th {
-  background-color: $light-gray;
-  font-weight: normal;
-  border: 1px solid $light-gray;
-}
-
 #line_items > tr > td.lead.text-primary.cart-item-price,
-#line_items > tr > td.lead.text-primary.cart-item-total {
+#line_items > tr > td.lead.text-primary.cart-item-total,
+#line-items > tbody > tr > td.lead.text-primary.price,
+#line-items > tbody > tr > td.lead.text-primary.total {
   font-weight: bold;
   font-size: 1.15em;
 }
