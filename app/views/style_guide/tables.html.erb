@@ -1,0 +1,62 @@
+<h1>Tables</h1>
+<h2>Bordered Table</h2>
+<table class="table" id="cart-detail">
+  <thead>
+  <tr class="active" data-hook="cart_items_headers">
+    <th>Item</th>
+    <th>Price</th>
+    <th>Qty</th>
+    <th>Total</th>
+    <th></th>
+  </tr>
+  </thead>
+
+  <tbody id="line_items">
+  <tr class="line-item">
+    <td class="cart-item-description" data-hook="cart_item_description">
+      <h4><a href="#">Ruby on Rails Tote</a></h4>
+
+      <span>
+        Sit velit ipsam aliquid ut velit itaque quibusdam iure. Veniam amet occaecati id voluptates. Plac...
+      </span>
+    </td>
+    <td class="lead text-primary cart-item-price" data-hook="cart_item_price">
+      $15.99
+    </td>
+    <td class="cart-item-quantity" data-hook="cart_item_quantity" valign="center">
+      <input min="0" class="form-control line_item_quantity" size="5" type="number" value="1" name="order[line_items_attributes][0][quantity]" id="order_line_items_attributes_0_quantity">
+    </td>
+    <td class="lead text-primary cart-item-total" data-hook="cart_item_total">
+      $15.99
+    </td>
+    <td class="cart-item-delete" data-hook="cart_item_delete">
+      <a class="delete" id="delete_line_item_10" href="#"><span class="glyphicon glyphicon-minus-sign"></span></a>
+    </td>
+  </tr>
+  <input type="hidden" value="10" name="order[line_items_attributes][0][id]" id="order_line_items_attributes_0_id">
+  </tbody>
+</table>
+
+
+<div class="admin">
+  <h2>Borderless Table</h2>
+  <table class="table" id="listing_properties" data-hook="">
+    <thead>
+    <tr data-hook="listing_properties_header">
+      <th>Name</th>
+      <th>Description</th>
+      <th class="actions"></th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ruby on Rails Tote</td>
+        <td>Sit velit ipsam aliquid ut velit itaque quibusdam iure. Veniam amet occaecati id voluptates. Plac...</td>
+        <td class="actions actions-2 text-right">
+          <a data-action="edit" class="btn btn-primary btn-sm icon-link with-tip action-edit no-text" title="" href="#" data-original-title="Edit"><span class="glyphicon glyphicon-pencil"></span></a>
+          <a class="btn btn-danger btn-sm delete-resource icon-link with-tip action-delete no-text" data-confirm="Are you sure?" data-action="remove" title="remove" href="#" data-original-title="Delete"><span class="glyphicon glyphicon-remove"></span></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

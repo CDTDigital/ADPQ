@@ -1,0 +1,455 @@
+// Place all the styles related to the StyleGuide controller here.
+// They will automatically be included in application.css.scss.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import 'colors';
+
+#logo {
+  margin-bottom: 0;
+  margin-left: 1em;
+  text-align: left;
+  display: inline;
+
+  a, span {
+    display: inline-block;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  span {
+    color: white;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 55px;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: block;
+
+    img {
+      max-height: 75px;
+    }
+  }
+}
+
+#header {
+  padding: 0;
+  background-color: $dark-gray;
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+
+  .navbar {
+    margin-bottom: 0;
+  }
+}
+
+#main-sidebar {
+  position: fixed;
+  top: 77px;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  z-index: 1000;
+  display: block;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: $dark-gray;
+  border-right: none;
+  color: white;
+
+  ul.nav.nav-sidebar.active {
+    border-left: 5px solid $gold;
+  }
+
+  ul.nav-sidebar > li > a {
+    font-size: 1.15em;
+
+    &:hover {
+      background-color: $dark-gray;
+
+      span {
+        color: $gold;
+      }
+    }
+  }
+
+  .nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: $dark-gray;
+  }
+
+  span {
+    color: white;
+  }
+
+}
+
+#responsive-menu {
+  padding: 0;
+  z-index: 1000;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: $dark-gray;
+  border-right: none;
+  color: white;
+  display: none;
+
+  ul.nav.nav-sidebar.active {
+    border-left: 5px solid $gold;
+  }
+
+  ul.nav-sidebar > li > a {
+    font-size: 1.15em;
+
+    &:hover {
+      background-color: $dark-gray;
+
+      span {
+        color: $gold;
+      }
+    }
+  }
+
+  .nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: $dark-gray;
+  }
+
+  span {
+    color: white;
+  }
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+#style-guide {
+  .style-guide-title {
+    margin-left: .5em;
+    font-size: 1em;
+    font-style: italic;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    @media screen and (min-width: 768px) {
+      font-size: 2em;
+    }
+  }
+
+  .menu {
+    float: right;
+    padding: .25em;
+    cursor: pointer;
+    font-size: 2em;
+    background-color: transparent;
+    color: white;
+
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+
+  .container-wrapper {
+    margin-top: 6em;
+  }
+
+  .btn.btn-success.btn-success-active {
+    background-color: $gold;
+    border-color: $gold;
+    color: white;
+
+    &:hover {
+      background-color: $gold;
+      border-color: $gold;
+      color: white;
+    }
+  }
+
+  .btn.btn-success.btn-success-hover {
+    background-color: $dark-gold;
+    border-color: $dark-gold;
+    color: $dark;
+  }
+
+  .btn.btn-default.btn-default-hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+  }
+
+  .btn.btn-default.btn-default-active {
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    background-color: #e6e6e6;
+    border-color: #adadad;
+
+    &:hover {
+      outline: 0;
+      -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+      box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+      background-color: #e6e6e6;
+      border-color: #adadad;
+    }
+  }
+
+  .color-square {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-bottom: 7rem;
+    padding-bottom: 50%;
+    position: relative;
+
+    @media screen and (min-width: 600px) {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 22.23176%;
+      margin-bottom: 0;
+      padding-bottom: 19%;
+    }
+
+  }
+
+  .color-inner-content {
+    position: absolute;
+    top: 100%;
+  }
+
+  .color-hex {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+
+  .color-name {
+    margin: 0;
+  }
+
+  .row {
+    margin-left: 1em;
+    margin-bottom: 5em;
+  }
+
+  .color-dark-gold {
+    background-color: $dark-gold;
+  }
+
+  .color-gold {
+    background-color: $gold;
+  }
+
+  .color-light-gold {
+    background-color: $light-gold;
+  }
+
+  .color-dark {
+    background-color: $dark;
+  }
+
+  .color-dark-gray {
+    background-color: $dark-gray;
+  }
+
+  .color-dark-er-gray {
+    background-color: $dark-er-gray;
+  }
+
+  .color-light-gray {
+    background-color: $light-gray;
+  }
+
+  .color-red {
+    background-color: $red;
+  }
+
+  .color-green {
+    background-color: $green;
+  }
+
+  label {
+    font-weight: normal;
+    font-size: 1.15em;
+  }
+
+  input[type="checkbox"],
+  input[type="radio"] {
+    display: inline-block;
+    width: inherit;
+  }
+
+  tr.line-item {
+    border: 1px solid #ddd
+  }
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.admin {
+  .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 8px 16px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .btn-success, .admin .btn-primary {
+    color: $dark;
+    background-color: $gold;
+    border-color: $gold;
+    font-weight: bold;
+  }
+
+  .btn-default,
+  .btn-default:hover:focus,
+  .btn-default:focus {
+    border-color: $dark-gray;
+  }
+
+  .btn-success,
+  .btn-primary {
+    color: $dark-gray;
+    background-color: $gold;
+    border-color: $gold;
+    font-weight: bold;
+
+    &:hover {
+      background-color: $dark-gold;
+      border-color: $dark-gold;
+      color: $dark;
+    }
+
+    &:active {
+      background-color: $gold;
+      border-color: $gold;
+      color: white;
+    }
+
+    &:focus {
+      background-color: $gold;
+      border-color: $gold;
+      color: white;
+    }
+
+    &:active:focus, &:active:hover {
+      background-color: $dark-gold;
+      border-color: $dark-gold;
+      color: $dark;
+    }
+
+    &[disabled]:hover {
+      background-color: $dark-gold;
+      border-color: $gold;
+      color: $dark;
+    }
+
+    &.action-edit {
+      color: white;
+    }
+  }
+
+  td.actions.actions-3.text-right > form {
+    display: none;
+  }
+
+  select#per_page {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #ffffff;
+    background-image: asset-url("arrow-down.png");
+    background-image: asset-url("arrow-down.svg");
+    background-position: right 1.3rem center;
+    background-repeat: no-repeat;
+    background-size: 1.3rem;
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+      width: 200px;
+    }
+  }
+
+  table.table thead th {
+    text-transform: none;
+    font-size: 1em;
+  }
+
+  .index-filter-button .glyphicon,
+  .index-filter-button .icon,
+  .index-filter-button .select2-container-multi .select2-choices .select2-search-choice .select2-search-choice-close,
+  .select2-container-multi .select2-choices .select2-search-choice .index-filter-button .select2-search-choice-close,
+  .index-filter-button #ui-datepicker-div .ui-widget-header .ui-icon.ui-icon-circle-triangle-w,
+  #ui-datepicker-div .ui-widget-header .index-filter-button .ui-icon.ui-icon-circle-triangle-w,
+  .index-filter-button #ui-datepicker-div .ui-widget-header .ui-icon.ui-icon-circle-triangle-e,
+  #ui-datepicker-div .ui-widget-header .index-filter-button .ui-icon.ui-icon-circle-triangle-e {
+    color: $dark-gray;
+  }
+
+  #main-sidebar ul.nav.nav-pills li.selected a {
+    color: $gold;
+  }
+
+  .table > thead > tr > td.active,
+  .table > thead > tr > th.active,
+  .table > thead > tr.active > td,
+  .table > thead > tr.active > th,
+  .table > tbody > tr > td.active,
+  .table > tbody > tr > th.active,
+  .table > tbody > tr.active > td,
+  .table > tbody > tr.active > th,
+  .table > tfoot > tr > td.active,
+  .table > tfoot > tr > th.active,
+  .table > tfoot > tr.active > td,
+  .table > tfoot > tr.active > th,
+  .table > thead > tr > th {
+    background-color: transparent;
+    border: none;
+  }
+
+  .table > thead > tr > th,
+  .table > thead > tr > td,
+  .table > tbody > tr > th,
+  .table > tbody > tr > td,
+  .table > tfoot > tr > th,
+  .table > tfoot > tr > td {
+    border: none;
+  }
+
+  .btn-danger {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+
+    &:hover {
+      color: $dark;
+    }
+  }
+}

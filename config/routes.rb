@@ -1,5 +1,12 @@
 Rails.application.routes.draw do
 
+  get 'style_guide', to: 'style_guide#index', as: 'style_guide'
+  get 'style_guide/colors'
+  get 'style_guide/buttons_iconography'
+  get 'style_guide/typography'
+  get 'style_guide/forms'
+  get 'style_guide/tables'
+
   # This line mounts Spree's routes at the root of your application.
   # This means, any requests to URLs such as /products, will go to Spree::ProductsController.
   # If you would like to change where this engine is mounted, simply change the :at option to something different.
