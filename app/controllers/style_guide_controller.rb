@@ -1,6 +1,6 @@
 class StyleGuideController < ApplicationController
   layout 'style_guide_layout'
-
+  skip_before_action :authorized_user
   def index
     redirect_to action: 'buttons_iconography'
   end
