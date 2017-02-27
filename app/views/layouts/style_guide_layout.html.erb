@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= full_title(yield(:title)) %></title>
+  <%= csrf_meta_tags %>
+
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body id="style-guide">
+<%= render 'layouts/style_guide_header' %>
+<div id="wrapper" class="container-fluid">
+  <div class="row container-wrapper">
+    <%= render 'layouts/style_guide_side_nav' %>
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+      <%= yield %>
+    </div>
+  </div>
+</div>
+</body>
+</html>

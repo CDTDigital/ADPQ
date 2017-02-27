@@ -1,0 +1,53 @@
+<h1>Forms</h1>
+
+<h2>Text input</h2>
+<label for="text-input">Text input label</label>
+<input type="text" id="text-input"/>
+
+<label for="text-input-required">Text input required label<abbr class="required" title="required">*</abbr> </label>
+<input type="text" id="text-input-required"/>
+
+<label for="text-area">Text area input label</label>
+<textarea id="text-area" rows="10"></textarea>
+
+<h2>Dropdown</h2>
+
+<label for="options">Dropdown label</label>
+<select name="options" id="options">
+  <option value="value1">Option A</option>
+  <option value="value2">Option B</option>
+  <option value="value3">Option C</option>
+</select>
+
+<h2>Checkboxes</h2>
+
+<p class="checkbox">
+  <label for="checkbox-billing">
+    <input type="checkbox" value="1" checked="checked" name="checkbox-billing" id="checkbox">
+    Use Billing Address
+  </label>
+</p>
+
+<p class="checkbox">
+  <label for="checkbox-address">
+    <input type="checkbox" value="1" checked="checked" name="checkbox" id="checkbox-address">
+    Save my address
+  </label>
+</p>
+
+<h2>Radio Buttons</h2>
+
+<ul>
+  <li>
+    <label for="shipping-ground">
+      <input type="radio" value="ground" name="shipping" id="shipping-ground" checked>
+      <span class="rate-name">UPS Ground (USD)</span>
+    </label>
+  </li>
+  <li>
+    <label for="shipping-two-day">
+      <input type="radio" value="two_day" name="shipping" id="shipping-two-day">
+      <span class="rate-name">UPS Two Day (USD)</span>
+    </label>
+  </li>
+</ul>

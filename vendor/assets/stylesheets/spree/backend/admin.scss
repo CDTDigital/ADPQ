@@ -103,6 +103,12 @@ html body {
   a, td {
     color: $dark-gray;
   }
+
+  td.actions.actions-1.text-center {
+    a {
+      color: white;
+    }
+  }
 }
 
 .panel {
@@ -292,6 +298,11 @@ input[type="radio"] {
     }
   }
 
+  .btn,
+  .nav-pills > li > a {
+    letter-spacing: 0;
+  }
+
   .btn {
     border-radius: 2px;
   }
@@ -369,6 +380,7 @@ input[type="radio"] {
   table.table thead th {
     text-transform: none;
     font-size: 1em;
+    letter-spacing: 0;
   }
 
   .index-filter-button .glyphicon,
@@ -429,7 +441,7 @@ input[type="radio"] {
 
   ul.nav-sidebar > li > a {
     text-transform: none;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     font-size: 1.15em;
     padding: 15px;
     color: white;
@@ -455,6 +467,7 @@ label, span.or {
   text-transform: none;
   font-size: 1.15em;
   color: $dark-gray;
+  letter-spacing: 0;
 }
 
 #sidebar > ul > li > a {
@@ -513,5 +526,3 @@ body > header > nav > div > div > div.col-sm-9.col-md-10 > div > ul > li > a > i
     background-clip: padding-box;
   }
 }
-
-
