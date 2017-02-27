@@ -1,0 +1,10 @@
+<% if @products.present? %>
+  <% @products.each do |product| %>
+    <% product.product_properties.each do |property| %>
+     <%= property.property.presentation %>: <%= property.value %>
+    <% end %>
+    <br>
+  <% end %>
+<% else %>
+  <%= link_to 'add to compare', '/compare/' + Spree::Product.first.friendly_id, method: :post %>
+<% end %>

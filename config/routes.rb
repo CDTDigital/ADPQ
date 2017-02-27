@@ -16,5 +16,10 @@ Rails.application.routes.draw do
           mount Rswag::Ui::Engine => '/api-docs'
   mount Rswag::Api::Engine => '/api-docs'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-
+  Spree::Core::Engine.add_routes do
+    get '/compare', :to => 'products#compare'
+    get '/delete_compare', :to => 'products#clear_compare'
+    post '/compare/:id', :to => 'products#add_to_compare'
+    delete '/compare', :to => 'products#clear_compare'
+  end
 end
