@@ -26,7 +26,11 @@ module Spree
     end
 
     def compare
-      @products = [Product.friendly.find(session[:compare].first)]
+      if session[:compare]
+        @products = [Product.friendly.find(session[:compare].first)]
+      else
+        @products = []
+      end
     end
 
     def add_to_compare
