@@ -1,0 +1,10 @@
+Contract Line Item Number (CLIN) ,UNSPSC Code (Version 11) ,Manufacturer Part Number (OEM) ,Manufacturer (OEM) ,SKU # / Item # ,New Item Description ,Unit of Measure ,Quantity in Unit of Measure (if Applicable ) ,List Price/MSRP ,Contract Unit Price ,Contract Discount ,Category 
+3000,81110000,999-5023,NWN,999-5023,Basic Installation,Each,1,43.00,35.69,17%,VAS Installation
+3001,81110000,999-2001,NWN,999-2001,Basic Asset Tagging,Each,1,11.00,9.13,17%,"VAS sset Tagging- Bidder adminstration of Sate provided tage
+(with number)"
+3002,81110000,Included,NWN,Included,Asset information via internet,Each,1,Included,Included,17%,VAS Asset informatin via internet
+3003,81110000,Included,NWN,Included,Self-Warranty Certification,Each,1,Included,Included,17%,VAS Self Warranty Certification
+3004,81110000,999-0003,NWN,999-0003,Basic Imaging,Each,1,26.00,21.58,17%,VAS  Imaging
+3005,81110000,999-0024,NWN,999-0024,Basic Disposition/Disposal Services,Each,1,11.00,9.13,17%,VAS Take Back Services
+*Non Core,81110000,999-5033,NWN,999-5033,Basic Deployment & Logistics,Each,1,49.00,40.67,17%,VAS Non-Core Deployment and Logistics
+3007,81110000,999-5201,NWN,999-5201,Basic Emergency Services,Each,1,79.00,65.57,17%,VAS Emergency Serices (4 hours response per occurrence)

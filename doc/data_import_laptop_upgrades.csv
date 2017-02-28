@@ -1,0 +1,67 @@
+Contract Line Item Number (CLIN) ,UNSPSC Code (Version 11) ,Manufacturer Part Number (OEM) ,Manufacturer (OEM) ,SKU # / Item # ,New Item Description ,Unit of Measure ,Quantity in Unit of Measure (if Applicable ) ,List Price/MSRP ,Contract Unit Price ,Contract Discount ,Category 
+1006,43211500,F2B56AA,HP,F2B56AA,External USB DVD+/-RW Drive,Each,1,171.00,111.15,0.35,Options/Upgrade Ultralight Laptop
+1007,43211500,E7U25AA,HP,E7U25AA,HP SB03XL Notebook Battery,Each,1,146.00,94.90,0.35,Options/Upgrade Ultralight Laptop
+1014,43211500,D9Y32AA#ABA,HP,D9Y32AA#ABA,HP UltraSlim Docking Station,Each,1,220.00,143.00,0.35,Options/Upgrade Ultralight Laptop
+1032-A,43211500,H5M92AA,HP,H5M92AA,HP Business Top Load Case,Each,1,39.00,25.35,0.35,"Options/Upgrade Standard, Power Laptops"
+1056,43211500,A896056,Logitech,A896056,USB Powered External Speakers Logitech: 980-000028-CA,Each,1,25.00,16.25,0.35,"Options/Upgrade Standard, Power, Mobile  Laptops"
+1058,43211500,A896060,Logitech,A896060,Wireless keyboard Logitech: 920-004088-CA,Each,1,60.00,39.00,0.35,Options/Upgrade All Laptops
+1059,43211500,A896059,Logitech,A896059,Logitech Headset/Headphone,Each,1,30.00,19.50,0.35,Options/Upgrade All Laptops
+1061-A,43211500,A896049,HP,A896049,USB Ergonomic Keyboard,Each,1,35.00,22.75,0.35,Options/Upgrade All Laptops
+1062,43211500,A896051,HP,A896051,Targus USB optical mouse,Each,1,40.00,26.00,0.35,Options/Upgrade All Laptops
+1083,43211500,T1A63AA,HP,T1A63AA,HP Master Keyed Cable Lock 10mm,Each,1,41.00,26.65,0.35,"Options/Upgrade Standard, Power Laptops"
+1084,43211500,L3L45AV,HP,L3L45AV,8 GB 2133 DDR4 (1D),Each,1,123.00,79.95,0.35,Options/Upgrade Ultralight Laptop 820
+1085,43211500,L3M18AV,HP,L3M18AV,16 GB 2133 DDR4 (2D),Each,1,515.00,334.75,0.35,Options/Upgrade Ultralight Laptop 820
+1086,43211500,L3L49AV,HP,L3L49AV,180 GB M2 SATA-3 SED OPAL2 MLC SSD,Each,1,250.00,162.50,0.35,Options/Upgrade Ultralight Laptop 820
+1087,43211500,M7S15AV,HP,M7S15AV,240 GB M2 SATA-3 MLC SSD,Each,1,485.00,315.25,0.35,Options/Upgrade Ultralight Laptop 820
+1088,43211500,N4P36AV,HP,N4P36AV,256 GB PCIe NVMe SSD,Each,1,510.00,331.50,0.35,Options/Upgrade Ultralight Laptop 820
+1089,43211500,L9U53AV,HP,L9U53AV,Integrated HD Webcam,Each,1,20.00,13.00,0.35,Options/Upgrade Ultralight Laptop 820
+1090,43211500,L3L39AV,HP,L3L39AV,"12.5"" LED HD SVA Anti-Glare enabled for Webcam (1366x768)",Each,1,178.00,115.70,0.35,Options/Upgrade Ultralight Laptop 820
+1091,43211500,M2K50AV,HP,M2K50AV,Integrated Fingerprint Reader,Each,1,7.00,4.55,0.35,"Options/Upgrade Standard, Power Laptops 640"
+1092,43211500,L8X75AV,HP,L8X75AV,Integrated HD Webcam,Each,1,10.00,6.50,0.35,"Options/Upgrade Standard, Power Laptops 640"
+1093,43211500,L8U82AV,HP,L8U82AV,14 LED HD SVA Anti-Glare enabled for Webcam flat (1366x768),Each,1,72.00,46.80,0.35,"Options/Upgrade Standard, Power Laptops 640"
+1094,43211500,D9Y32AA#ABA,HP,D9Y32AA#ABA,HP UltraSlim Docking Station,Each,1,220.00,143.00,0.35,"Options/Upgrade Standard, Power Laptops 640"
+1095,43211500,L8Z30AV,HP,L8Z30AV,1TB 5400RPM 640,Each,1,174.00,113.10,0.35,"Options/Upgrade Standard, Power Laptops 640"
+1096,43211500,L8Z39AV,HP,L8Z39AV,180 GB M2 SATA-3 SED OPAL2 MLC SSD,Each,1,214.00,139.10,0.35,"Options/Upgrade Standard, Power Laptops 640"
+1097,43211500,L8Z96AV,HP,L8Z96AV,Blu-ray ROM DVD+/-RW SuperMulti DL Drive,Each,1,119.00,77.35,0.35,"Options/Upgrade Standard, Power Laptops 640"
+1098,43211500,T5D77AV,HP,T5D77AV,240 GB M2 SATA-3 MLC SSD,Each,1,341.00,221.65,0.35,"Options/Upgrade Standard, Power Laptops 640"
+1099,43211500,E7U21AA,HP,E7U21AA,HP CA06XL Long Life Battery,Each,1,146.00,94.90,0.35,"Options/Upgrade Standard, Power Laptops 640"
+1100,43211500,H2L63AA,HP,H2L63AA,HP Comfort Grip Wireless Mobile Mouse,Each,1,31.00,20.15,0.35,"Options/Upgrade Standard, Power Laptops 640"
+1101,43211500,M3X50AV,HP,M3X50AV,16 GB 2133 DDR4 (2D),Each,1,287.00,186.55,0.35,"Options/Upgrade Standard, Power Laptops 650"
+1102,43211500,L8U71AV,HP,L8U71AV,"15.6"" LED HD SVA Anti-Glare enabled for WWAN enabled for Webcam flat",Each,1,78.00,50.70,0.35,"Options/Upgrade Standard, Power Laptops 650"
+1103,43211500,L8X77AV,HP,L8X77AV,Integrated HD Webcam,Each,1,10.00,6.50,35%,"Options/Upgrade Standard, Power Laptops 650"
+1104,43211500,L9Q39AV,HP,L9Q39AV,180 GB M2 SATA-3 SED OPAL2 MLC SSD,Each,1,214.00,139.10,35%,"Options/Upgrade Standard, Power Laptops 650"
+1105,43211500,T5D78AV,HP,T5D78AV,240 GB M2 SATA-3 MLC SSD,Each,1,341.00,221.65,35%,"Options/Upgrade Standard, Power Laptops 650"
+1106,43211500,L9Q44AV,HP,L9Q44AV,512 GB M2 SATA-3 TLC SSD,Each,1,486.00,315.90,35%,"Options/Upgrade Standard, Power Laptops 650"
+1107,43211500,L9Q53AV,HP,L9Q53AV,Blu-ray ROM DVD+/-RW SuperMulti DL Drive,Each,1,119.00,77.35,35%,"Options/Upgrade Standard, Power Laptops 650"
+1108,43211500,M6W14AV,HP,M6W14AV,512GB Z Turbo Drive PCIe Solid State Drive,Each,1,524.00,340.60,35%,Options/Upgrade Mobile Workstation Studio
+1109,43211500,P2D08AV,HP,P2D08AV,1TB Z Turbo Drive PCIe Solid State Drive,Each,1,839.00,545.35,35%,Options/Upgrade Mobile Workstation Studio
+1110,43211500,M6V92AV,HP,M6V92AV,15.6 inch LED FHD UWVA Anti-Glare enabled for Webcam (1920x1080),Each,1,320.00,208.00,35%,Options/Upgrade Mobile Workstation Studio
+1111,43211500,M6W04AV,HP,M6W04AV,32GB (2x16GB) 2133 DDR4,Each,1,840.00,546.00,35%,Options/Upgrade Mobile Workstation Studio
+1112,43211500,M6W23AV,HP,M6W23AV,Fingerprint Reader,Each,1,27.00,17.55,35%,Options/Upgrade Mobile Workstation Studio
+1113,43211500,P5Q58AA#ABA,HP,P5Q58AA#ABA,HP ZBook 150W TB3 Dock,Each,1,314.00,204.10,35%,Options/Upgrade Mobile Workstation Studio
+1114,43211500,P5Q61AA#ABA,HP,P5Q61AA#ABA,HP ZBook 200W TB3 Dock,Each,1,335.00,217.75,35%,Options/Upgrade Mobile Workstation Studio
+1115,43211500,M6V97AV,HP,M6V97AV,WEBCAM Integrated 720p HD,Each,1,34.00,22.10,35%,Options/Upgrade Mobile Workstation Studio
+1116,43211500,A936061,HP,A936061,USB Numeric Keypad,Each,1,21.00,13.65,35%,Options/Upgrade Mobile Workstation Studio
+1117,43211500,M9R83AV,HP,M9R83AV,WEBCAM Integrated 720p HD,Each,1,21.00,13.65,35%,Options/Upgrade Mobile Workstation Laptop 15
+1118,43211500,M9R78AV,HP,M9R78AV,15.6 inch LED FHD UWVA Anti-Glare enabled for Webcam slim (1920x1080),Each,1,210.00,136.50,35%,Options/Upgrade Mobile Workstation Laptop 15
+1119,43211500,M9R72AV,HP,M9R72AV,NVIDIA Quadro M2000M Graphics,Each,1,378.00,245.70,35%,Options/Upgrade Mobile Workstation Laptop 15
+1120,43211500,M9R91AV,HP,M9R91AV,32GB (2x16GB) 2133MHz DDR4,Each,1,504.00,327.60,35%,Options/Upgrade Mobile Workstation Laptop 15
+1121,43211500,M9R93AV,HP,M9R93AV,64GB (4x16GB) 2133MHz DDR4,Each,1,"1,008.00",655.20,35%,Options/Upgrade Mobile Workstation Laptop 15
+1122,43211500,T9T62AV,HP,T9T62AV,512GB SATA-3 Self Encrypted OPAL2 MLC Solid State Drive,Each,1,419.00,272.35,35%,Options/Upgrade Mobile Workstation Laptop 15
+1123,43211500,T0P65AV,HP,T0P65AV,1TB Z Turbo Drive PCIe Solid State Drive,Each,1,839.00,545.35,35%,Options/Upgrade Mobile Workstation Laptop 15
+1124,43211500,P5Q58AA,HP,P5Q58AA,HP ZBook 150W TB3 Dock,Each,1,314.00,204.10,35%,Options/Upgrade Mobile Workstation Laptop 15
+1125,43211500,P5Q61AA#ABA,HP,P5Q61AA#ABA,HP ZBook 200W TB3 Dock,Each,1,335.00,217.75,35%,Options/Upgrade Mobile Workstation Laptop 15
+1126,43211500,M9M10AV,HP,M9M10AV,WEBCAM Integrated 720p HD 17,Each,1,21.00,13.65,35%,Options/Upgrade Mobile Workstation Laptop 17
+1127,43211500,M9M07AV,HP,M9M07AV,17.3 LED HD+ SVA AG f/CAM flat 17,Each,1,158.00,102.70,35%,Options/Upgrade Mobile Workstation Laptop 17
+1128,43211500,M9M16AV,HP,M9M16AV,16GB (2x8GB) 2133 DDR4,Each,1,231.00,150.15,35%,Options/Upgrade Mobile Workstation Laptop 17
+1129,43211500,M9M38AV,HP,M9M38AV,1TB 7200RPM 17,Each,1,147.00,95.55,35%,Options/Upgrade Mobile Workstation Laptop 17
+1130,43211500,M9M28AV,HP,M9M28AV,256GB SATA-3 Self Encrypted OPAL2 Solid State Drive,Each,1,262.00,170.30,35%,Options/Upgrade Mobile Workstation Laptop 17
+1131,43211500,M9M30AV,HP,M9M30AV,512GB Z Turbo Drive PCIe Solid State Drive,Each,1,524.00,340.60,35%,Options/Upgrade Mobile Workstation Laptop 17
+1132,43211500,M9M04AV,HP,M9M04AV,NVIDIA Quadro M5000M Graphics,Each,1,"1,679.00","1,091.35",35%,Options/Upgrade Mobile Workstation Laptop 17
+1133,43211500,M9M18AV,HP,M9M18AV,32GB (2x16GB) 2133MHz DDR4,Each,1,504.00,327.60,35%,Options/Upgrade Mobile Workstation Laptop 17
+1134,43211500,M9M20AV,HP,M9M20AV,64GB (4x16GB) 2133MHz DDR4,Each,1,"1,008.00",655.20,35%,Options/Upgrade Mobile Workstation Laptop 17
+2000,43211500,U7860E,HP,U7860E,"4 Year Warranty, Next Business Day, On-Site",Each,1,220.00,176.00,20%,"Service Options/Upgrades Standard, Power,Ultralight"
+2001,43211500,U7861E,HP,U7861E,"5 Year Warranty, Next Business Day, On-Site",Each,1,314.00,251.20,20%,"Service Options/Upgrades Standard, Power,Ultralight"
+2002,43211500,UF633E,HP,UF633E,"4 Year Warranty, Next Business Day, On-Site",Each,1,136.00,108.80,20%,Service Options/Upgrades Mobile Workstation Laptop
+2003,43211500,UF635E,HP,UF635E,"5 Year Warranty, Next Business Day, On-Site",Each,1,272.00,217.60,20%,Service Options/Upgrades Mobile Workstation Laptop
+2004,43211500,UG841E,HP,UG841E,HP 4y NextBusDay Onsite/DMR NB,Each,1,167.00,133.60,20%,Service Options/Upgrades Mobile Workstation Laptop
