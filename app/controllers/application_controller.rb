@@ -6,4 +6,25 @@ class ApplicationController < ActionController::Base
   end
 end
 require 'spree/base_controller'
-require 'controller_extensions'
+
+Spree::UserSessionsController.class_eval do
+  skip_before_action :authorized_user
+  def authorized_user
+    raise 'why'
+    redirect_to spree_login_path unless spree_current_user
+  end
+end
+
+Spree::UserRegistrationsController.class_eval do
+  skip_before_action :authorized_user
+  def authorized_user
+    redirect_to spree_login_path unless spree_current_user
+  end
+end
+
+Spree::UserPasswordsController.class_eval do
+  skip_before_action :authorized_user, only: :new
+  def authorized_user
+    redirect_to spree_login_path unless spree_current_user
+  end
+end
