@@ -27,7 +27,17 @@ module Spree
 
     def compare
       if session[:compare]
-        @products = [Product.friendly.find(session[:compare].first)]
+        @properties = []
+        @products = session[:compare].map do |product_id|
+          Product.friendly.find(product_id)
+        end
+        @products.each do |p|
+          p.product_properties.each do |pp|
+            @properties.push(pp.property.presentation)
+          end
+        end
+        @properties.uniq!
+        @properties.sort_by! &:downcase
       else
         @products = []
       end
@@ -36,12 +46,22 @@ module Spree
     def add_to_compare
       session[:compare] ||= []
       session[:compare] << params.permit(:id)[:id]
-      redirect_to '/compare'
+      flash[:success] = 'Item added to compare list.'
+      redirect_to :back
     end
 
     def clear_compare
-      session[:compare] = []
-      redirect_to root_url
+      if params[:id]
+        session[:compare].delete(params[:id])
+        flash[:success] = 'Item removed from compare list.'
+        if session[:compare].length < 2
+          return redirect_to root_url
+        end
+      else
+        session[:compare] = []
+        flash[:success] = 'All items removed from compare list.'
+      end
+      redirect_to :back
     end
 
     private

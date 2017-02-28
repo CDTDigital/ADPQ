@@ -151,10 +151,16 @@ abbr.required,
   border-radius: 0;
 }
 
+.compare-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
 .table {
   width: 99%;
   max-width: 99%;
   margin-bottom: 20px;
+  font-size: 1.15em;
 }
 
 input,
@@ -321,4 +327,94 @@ label {
 .list-group-item:last-child {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+.panel-footer {
+  background-color: transparent;
+  border-top: none;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 60px;
+}
+
+tr.line-item {
+  border: 1px solid #ddd;
+
+  td {
+    border-right: 1px solid #ddd;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.clear-compare-single-item-btn,
+.add-to-compare-btn {
+  margin-bottom: 10px;
+  padding: 2px;
+}
+
+.compare-btn {
+  font-size: .75em;
+  padding: 5px 2px;
+  display: block;
+
+  @media screen and (min-width: 460px) {
+    font-size: 1em;
+    padding: 6px 12px;
+  }
+
+  @media screen and (min-width: 992px) {
+    font-size: .75em;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 1em;
+  }
+
+}
+
+.compare-add-to-cart {
+  padding: 6px 2px;
+}
+
+.product-details-add-to-compare-btn {
+  margin-top: 1em;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+.compare-panel {
+  padding: 4px;
+}
+
+.title {
+  h1 {
+    display: inline-block;
+  }
+}
+
+#content > table > tbody > tr > td {
+  border-right: 1px solid #ddd;
+}
+
+li {
+  list-style: none;
+}
+
+.compare-continue-shopping-btn {
+  float: none;
+  margin-bottom: 1em;
+  position: initial;
+  top: 0;
+  display: block;
+
+  @media screen and (min-width: 461px) {
+    float: right;
+    position: relative;
+    top: 23px;
+  }
 }
