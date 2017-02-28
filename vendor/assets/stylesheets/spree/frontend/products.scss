@@ -4,6 +4,10 @@
   a {
     color: $dark-gray;
     font-weight: bold;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   .panel {
@@ -17,8 +21,17 @@
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
     height: 60px;
-  }
 
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+#inside-product-cart-form > div > div.product-details-add-to-compare-btn > a {
+  display: block;
 }
 
 #offers {
