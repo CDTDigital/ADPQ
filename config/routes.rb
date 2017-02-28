@@ -21,5 +21,6 @@ Rails.application.routes.draw do
     get '/delete_compare', :to => 'products#clear_compare'
     post '/compare/:id', :to => 'products#add_to_compare'
     delete '/compare', :to => 'products#clear_compare'
+    delete '/compare/:id', to: 'products#clear_compare'
   end
 end

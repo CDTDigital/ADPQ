@@ -155,6 +155,7 @@ abbr.required,
   width: 99%;
   max-width: 99%;
   margin-bottom: 20px;
+  font-size: 1.15em;
 }
 
 input,
@@ -321,4 +322,48 @@ label {
 .list-group-item:last-child {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+.panel-footer {
+  background-color: transparent;
+  border-top: none;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 60px;
+}
+
+tr.line-item {
+  border: 1px solid #ddd;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.clear-compare-single-item-btn,
+.add-to-compare-btn {
+  margin-bottom: 10px;
+}
+
+.add-to-compare-btn {
+
+}
+
+.product-details-add-to-compare-btn {
+  margin-top: 1em;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+.title {
+  h1 {
+    display: inline-block;
+  }
+}
+
+#content > table > tbody > tr > td {
+  border-right: 1px solid #ddd;
 }
