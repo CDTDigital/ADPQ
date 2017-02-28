@@ -52,11 +52,10 @@ module Spree
     def clear_compare
       if params[:id]
         session[:compare].delete(params[:id])
-        return redirect_to compare_url
       else
         session[:compare] = []
       end
-      redirect_to root_url
+      redirect_to :back
     end
 
     private
