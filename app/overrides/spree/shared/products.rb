@@ -20,15 +20,15 @@ products_html =
             </div>
             <div class="text-center add-to-compare-btn">
               <% if (session[:compare] && session[:compare].include?(product.id.to_s)) %>
-                <%= link_to "/compare/#{product.id}", method: :delete, class: "btn btn-default" do %>
+                <%= link_to "/compare/#{product.id}", method: :delete, class: "btn btn-default compare-btn" do %>
                   <span class="glyphicon glyphicon-remove"></span> Remove from Compare
                 <% end %>
               <% elsif (session[:compare] && session[:compare].length > 3) %>
-                <%= link_to "javascript:void()", class: "btn btn-default", disabled: "disabled", title: "Reached the limit of items in compare" do %>
+                <%= link_to "javascript:void()", class: "btn btn-default compare-btn", disabled: "disabled", title: "Reached the limit of items in compare" do %>
                   <span class="glyphicon glyphicon-plus"></span> Add to Compare
                 <% end %>
               <% else %>
-                <%= link_to "/compare/#{product.id}", method: :post, class: "btn btn-default" do %>
+                <%= link_to "/compare/#{product.id}", method: :post, class: "btn btn-default compare-btn" do %>
                   <span class="glyphicon glyphicon-plus"></span> Add to Compare
                 <% end %>
               <% end %>

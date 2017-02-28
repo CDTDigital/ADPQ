@@ -54,6 +54,9 @@ module Spree
       if params[:id]
         session[:compare].delete(params[:id])
         flash[:success] = 'Item removed from compare list.'
+        if session[:compare].length < 2
+          return redirect_to root_url
+        end
       else
         session[:compare] = []
         flash[:success] = 'All items removed from compare list.'

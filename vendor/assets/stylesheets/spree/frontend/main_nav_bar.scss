@@ -69,12 +69,6 @@
 
   }
 
-  @media screen and (min-width: 990px) {
-    form {
-      width: 78%;
-    }
-  }
-
   #clear-compare-icon {
     color: $dark;
   }
@@ -83,7 +77,12 @@
     background-color: transparent;
     color: white;
   }
-
 }
 
+#main-nav-compare-link-section {
+  float: none;
 
+  @media screen and (min-width: 992px) {
+    float: right;
+  }
+}

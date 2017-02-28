@@ -2,7 +2,7 @@
 compare_link = "
 
   <% if session[:compare] && session[:compare].length > 1 %>
-    <div class='form-group pull-right'>
+    <div class='form-group' id='main-nav-compare-link-section'>
       <label for='compare-link' class='compare-text' id='compare-text'>
         <%= session[:compare].length %>/4 items in compare list
       </label>
@@ -12,7 +12,7 @@ compare_link = "
       <% end %>
     </div>
     <% elsif !session[:compare] || session[:compare].length == 0 %>
-      <div class='form-group pull-right' data-toggle='tooltip', title='Two items needed to compare'>
+     <div class='form-group' id='main-nav-compare-link-section' data-toggle='tooltip', title='Two items needed to compare'>
       <label for='compare-link' class='compare-text' id='compare-text'>
         0/4 items in compare list
       </label>
@@ -22,7 +22,7 @@ compare_link = "
       <% end %>
     </div>
     <% elsif session[:compare] && session[:compare].length == 1 %>
-      <div class='form-group pull-right' data-toggle='tooltip', title='Two items needed to compare'>
+      <div class='form-group' id='main-nav-compare-link-section' data-toggle='tooltip', title='Two items needed to compare'>
         <label for='compare-link' class='compare-text' id='compare-text'>
           <%= session[:compare].length %>/4 items in compare list
         </label>
