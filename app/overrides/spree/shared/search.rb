@@ -16,13 +16,13 @@ compare_link = "
       <label for='compare-link' class='compare-text' id='compare-text'>
         0/4 items in compare list
       </label>
-      <%= link_to 'Go to Compare Page', 'javascript:void(0)', id: 'compare-link', class: 'btn btn-success btn-sm', disabled: 'disabled', data_toggle:'tooltip', title:'Two items needed to compare' %>
+      <%= link_to 'Go to Compare Page', 'javascript:void(0)', id: 'compare-link', class: 'btn btn-success btn-sm', disabled: 'disabled', data_toggle:'tooltip', title:'At least two items needed to compare' %>
       <%= link_to 'javascript:void(0)', class: 'btn btn-default btn-sm', disabled: 'disabled' do %>
         <span id='clear-compare-icon' class='glyphicon glyphicon-remove'></span> Clear Compare List
       <% end %>
     </div>
     <% elsif session[:compare] && session[:compare].length == 1 %>
-      <div class='form-group' id='main-nav-compare-link-section' data-toggle='tooltip', title='Two items needed to compare'>
+      <div class='form-group' id='main-nav-compare-link-section' data-toggle='tooltip', title='At least two items needed to compare'>
         <label for='compare-link' class='compare-text' id='compare-text'>
           <%= session[:compare].length %>/4 items in compare list
         </label>
