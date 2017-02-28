@@ -41,6 +41,7 @@
                                   <div class="add-to-cart">
                                     <br/>
                                     <div class="input-group compare-input-group">
+                                      <%= hidden_field_tag "variant_id", product.master.id %>
                                       <%= number_field_tag :quantity, 1, class: 'title form-control', min: 1 %>
                                       <span class="input-group-btn">
                                         <%= button_tag class: 'btn btn-success compare-add-to-cart', id: 'add-to-cart-button', type: :submit do %>
