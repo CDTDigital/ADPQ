@@ -24,7 +24,7 @@ products_html =
                   <span class="glyphicon glyphicon-remove"></span> Remove from Compare
                 <% end %>
               <% elsif (session[:compare] && session[:compare].length > 3) %>
-                <%= link_to "javascript:void()", class: "btn btn-default compare-btn", disabled: "disabled", title: "Reached the limit of items in compare" do %>
+                <%= link_to "javascript:void(0)", class: "btn btn-default compare-btn", disabled: "disabled", title: "Reached the limit of items in compare" do %>
                   <span class="glyphicon glyphicon-plus"></span> Add to Compare
                 <% end %>
               <% else %>

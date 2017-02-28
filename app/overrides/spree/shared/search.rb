@@ -16,8 +16,8 @@ compare_link = "
       <label for='compare-link' class='compare-text' id='compare-text'>
         0/4 items in compare list
       </label>
-      <%= link_to 'Go to Compare Page', 'javascript:void()', id: 'compare-link', class: 'btn btn-success btn-sm', disabled: 'disabled', data_toggle:'tooltip', title:'Two items needed to compare' %>
-      <%= link_to 'javascript:void()', class: 'btn btn-default btn-sm', disabled: 'disabled' do %>
+      <%= link_to 'Go to Compare Page', 'javascript:void(0)', id: 'compare-link', class: 'btn btn-success btn-sm', disabled: 'disabled', data_toggle:'tooltip', title:'Two items needed to compare' %>
+      <%= link_to 'javascript:void(0)', class: 'btn btn-default btn-sm', disabled: 'disabled' do %>
         <span id='clear-compare-icon' class='glyphicon glyphicon-remove'></span> Clear Compare List
       <% end %>
     </div>
@@ -26,7 +26,7 @@ compare_link = "
         <label for='compare-link' class='compare-text' id='compare-text'>
           <%= session[:compare].length %>/4 items in compare list
         </label>
-        <%= link_to 'Go to Compare Page', 'javascript:void()', id: 'compare-link', class: 'btn btn-success btn-sm', disabled: 'disabled'%>
+        <%= link_to 'Go to Compare Page', 'javascript:void(0)', id: 'compare-link', class: 'btn btn-success btn-sm', disabled: 'disabled'%>
         <%= link_to '/compare', method: :delete, class: 'btn btn-default btn-sm' do %>
           <span id='clear-compare-icon' class='glyphicon glyphicon-remove'></span> Clear Compare List
         <% end %>
