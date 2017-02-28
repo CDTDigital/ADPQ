@@ -46,14 +46,17 @@ module Spree
     def add_to_compare
       session[:compare] ||= []
       session[:compare] << params.permit(:id)[:id]
+      flash[:success] = 'Item added to compare list.'
       redirect_to :back
     end
 
     def clear_compare
       if params[:id]
         session[:compare].delete(params[:id])
+        flash[:success] = 'Item removed from compare list.'
       else
         session[:compare] = []
+        flash[:success] = 'All items removed from compare list.'
       end
       redirect_to :back
     end
