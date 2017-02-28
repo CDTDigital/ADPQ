@@ -1,7 +1,12 @@
 require 'csv'
 
 Dir['./doc/*.csv'].each do |filename|
-  data = CSV.read(filename)
+  begin
+    data = CSV.read(filename)
+  rescue CSV::MalformedCSVError
+    puts "filename: #{filename}"
+    raise
+  end
 
   headings = data.first
   properties = headings.map do |heading|
