@@ -1,0 +1,18 @@
+Contract Line Item Number (CLIN) ,UNSPSC Code (Version 11) ,Manufacturer Part Number (OEM) ,Manufacturer (OEM) ,SKU # / Item # ,New Item Description ,Unit of Measure ,Quantity in Unit of Measure (if Applicable ) ,List Price/MSRP ,Contract Unit Price ,Contract Discount ,Category 
+100c,43211900,"210-AIIJ , 806-2763",DELL,"210-AIIJ , 806-2763","P1917s 19"" Standard Monitor",EACH,1, 249.99 , 169.99 ,32%,"19 inch Standard
+MONITOR"
+101b,43211900,858-BBCU,DELL,858-BBCU,"P2016 19.5"" WideScreen
+Monitor",EACH,1, 189.99 , 129.20 ,32%,"19 inch WideScreen
+MONITOR"
+102a,43211900,TD2220,VIEWSONIC,TD2220,"22"" Touchscreen Monitor",EACH,1, 445.00 , 302.60 ,32%,"22 inch Touchscreen
+MONITOR"
+103b,43211900,"210-AIIC, 806-2763",DELL,"210-AIIC, 806-2763","P2217 22"" Widescreen Monitor",EACH,1, 219.99 , 149.59 ,32%,"22 inch Widescreen
+MONITOR"
+104c,43211900,"320-9794, 806-2763",DELL,"210-AIIM, 806-2763","P2417H 24"" Widescreen
+Monitor",EACH,1, 299.99 , 203.99 ,32%,"24 inch Widescreen
+MONITOR"
+105b,43211900,VG2847SMH,VIEWSONIC,VG2847SMH,"28"" Widescreen Monitor",EACH,1, 552.00 , 375.36 ,32%,"28 inch Widescreen
+MONITOR"
+106d,43211900,"210-AJGT, 810-6396",DELL,"210-AJGT, 810-6396","UP3017 30"" Widescreen
+Monitor",EACH,1," 1,399.99 ", 951.99 ,32%,"30 inch Widescreen
+MONITOR"
