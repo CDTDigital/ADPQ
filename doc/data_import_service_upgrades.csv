@@ -1,0 +1,22 @@
+Contract Line Item Number (CLIN) ,Manufacturer Part Number (OEM #) ,Manufacturer (OEM) ,SKU # / Item # ,Item Description ,Unit of Measure ,Quantity in Unit of Measure (If Applicable) ,List Price/MSRP ,Contract Unit Price ,Contract Discount ,Category 
+2000b ,"997-8533, 997-8536 ",DELL ,"997-8533, 997-8536 ",4 Year Basic Hardware Service with 4 Year NBD on-site ,EACH ,1, 188.00 , 101.52 ,46%,Power Desktop Service O/U 
+2001b ,"997-8538, 997-8533 ",DELL ,"997-8538, 997-8533 ",5 Year Basic Hardware Service with NBD on-site ,EACH ,1, 228.00 , 123.12 ,46%,Power Desktop Service O/U 
+2002b ,984-0092 ,DELL ,984-0092 ,"Keep Your Hard Drive, 3 Years ",EACH ,1, 20.00 , 10.80 ,46%,Standard Desktop Service O/U 
+2003a ,981-3953 ,DELL ,981-3953 ,"Keep Your Hard Drive, 4 Years ",EACH ,1, 25.00 , 13.50 ,46%,Standard Desktop Service O/U 
+2004a ,980-7554 ,DELL ,980-7554 ,"Keep Your Hard Drive, 5 Years ",EACH ,1, 30.00 , 16.20 ,46%,Standard Desktop Service O/U 
+2005a ,"983-7873, 986-4872 ",DELL ,"983-7873, 986-4872 ",Upgrade 4 Year Warranty Exchange Replacement ,EACH ,1, 39.00 , 21.06 ,46%,Monitor Service O/U 
+2006a ,983-1324 ,DELL ,983-1324 ,Upgrade 5 Year Warranty Exchange Replacement ,EACH ,1, 49.00 , 26.46 ,46%,Monitor Service O/U 
+2007b ,"997-7166, 997-7163 ",DELL ,"997-7166, 997-7163 ",4 Year Basic Hardware Service with 4 Year NBD Limited Onsite Service After Remote Diagnosis ,RE)EACH ,1, 372.00 , 200.88 ,46%,Workstation Options Upgrades 
+,,,,CONFIGURATION (HARDWA ,,,,,,
+2008b ,"997-7163, 997-7168 ",DELL ,"997-7163, 997-7168 ",5 Year Basic Hardware Service with 5 Year NBD Limited Onsite Service After Remote Diagnosis ,EACH ,1, 472.00 , 254.88 ,46%,Workstation Options Upgrades 
+2009a ,984-1772 ,DELL ,984-1772 ,"Keep Your Hard Drive, 3 Years ",EACH ,1, 20.00 , 10.80 ,46%,Workstation Options Upgrades 
+2010a ,981-5573 ,DELL ,981-5573 ,"Keep Your Hard Drive, 4 Years ",EACH ,1, 25.00 , 13.50 ,46%,Workstation Options Upgrades 
+2011a ,980-9194 ,DELL ,980-9194 ,"Keep Your Hard Drive, 5 Years ",EACH ,1, 30.00 , 16.20 ,46%,Workstation Options Upgrades 
+2012c ,"803-8591, 803-8583 ",DELL ,"803-8591, 803-8583 ",4 Year Basic Hardware Service with NBD on-site ,EACH ,1, 178.00 , 96.12 ,46%,Standard Desktop Service O/U 
+2013c ,"803-8583, 803-8593 ",DELL ,"803-8583, 803-8593 ",5 Year Basic Hardware Service with 4 Year NBD on-site ,EACH ,1, 208.00 , 112.32 ,46%,Standard Desktop Service O/U 
+2014a ,A6047259 ,DELL ,A6047259 ,VL 1 Year Silverchoice Renewal for Z-Class (same as 4 year Basic) ,EACH ,1, 49.00 , 26.46 ,46%,Thin Client Service O/U 
+2015a ,A6047260 ,DELL ,A6047260 ,(2) VL 1 Year Silverchoice Renewal for Z-Class (same as a 5 year basic - but order quantity of 2) ,EACH ,1, 49.00 , 26.46 ,46%,Thin Client Service O/U 
+2016c ,"997-6870, 997-6873 ",DELL ,"997-6870, 997-6873 ",4 Year Hardware Service with Onsite/In-Home Service After Remote Diagnosis ,EACH ,1, 322.00 , 173.88 ,46%,All In One Service O/U 
+2017d ,"997-6870, 997-6875 ",DELL ,"997-6870, 997-6875 ",5 Year Hardware Service with Onsite/In-Home Service After Remote Diagnosis ,EACH ,1, 342.00 , 184.68 ,46%,All In One Service O/U 
+2018,"997-6870, 997-6873 ",DELL ,"997-6870, 997-6873 ",4 Year Basic Hardware Service with 4 Year NBD on-site ,EACH ,1, 322.00 , 173.88 ,46%,Power Desktop Service O/U 7040 
+2019,"997-6870, 997-6875 ",DELL ,"997-6870, 997-6875 ",5 Year Basic Hardware Service with 5 Year NBD on-site ,EACH ,1, 342.00 , 184.68 ,46%,Power Desktop Service O/U 7040 

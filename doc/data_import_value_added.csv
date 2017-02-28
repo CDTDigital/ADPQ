@@ -1,0 +1,10 @@
+Contract Line Item Number (CLIN) ,Manufacturer Part Number (OEM #) ,Manufacturer (OEM) ,SKU # / Item # ,Item Description ,Unit of Measure ,Quantity in Unit of Measure (If Applicable) ,List Price/MSRP ,Contract Unit Price ,Contract Discount ,Category 
+3000a ,TIG-INS-CPU ,TIG ,TIG-INS-CPU ,Installation Services ,EACH ,1,40.00,30.80,23%,VAS Standard Desktop 
+3001a ,TIG-ATG-CPU ,TIG ,TIG-ATG-CPU ,Asset Tagging Services - Customer Provided Tags ,EACH ,1,10.00,7.70,23%,VAS Standard Desktop 
+3002,TIG-AIN-CPU ,TIG ,TIG-AIN-CPU ,Asset Information via Internet ,EACH ,1,,,23%,VAS Standard Desktop 
+3003a ,TIG-IMG-CPU ,TIG ,TIG-IMG-CPU ,Imaging ,EACH ,1,27.00,20.79,23%,VAS Standard Desktop 
+3004,TIG-SWC-CPU ,TIG ,TIG-SWC-CPU ,Self-Warranty Certification ,EACH ,1,,,23%,VAS Standard Desktop 
+3005,TIG-DIS-CPU ,TIG ,TIG-DIS-CPU ,Take-Back Services ,EACH ,1,10.00,7.70,23%,VAS Standard Desktop 
+Non-Core* ,TIG-DLG-CPU ,TIG ,TIG-DLG-CPU ,Deployments & Logistics Services ,HOUR ,1,46.00,35.42,23%,VAS Standard Desktop 
+3007a ,TIG-EMG-CPU ,TIG ,TIG-EMG-CPU ,Emergency Services ( 4 hour response) ,HOUR ,1,58.00,44.66,23%,VAS Standard Desktop 
+3008,"365-1245, 365-1401 ",DELL ,"365-1245, 365-1401 ",Absolute Computrace Complete 3YR License ,EACH ,1,174.95,134.71,23%,VAS Standard Desktop 

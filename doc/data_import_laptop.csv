@@ -1,0 +1,345 @@
+Contract Line Item Number (CLIN) ,UNSPSC Code (Version 11) ,Manufacturer Part Number (OEM) ,Manufacturer (OEM) ,SKU # / Item # ,New Item Description ,Unit of Measure ,Quantity in Unit of Measure (if Applicable ) ,List Price/MSRP ,Contract Unit Price ,Contract Discount ,Category 
+100d,43211500, 210-AFTZ,DELL, 210-AFTZ,"Standard - Dell Latitude E5470 - i5-6200U, 2.3GHz, 4GB DDR4- 2133MHz 1DIMM, Windows 10 Pro 64-bit (Windows 7 Compatible), 500GB SATA II 7200RPM, Intel Integrated Graphics Card, 14.0"" HD EACH Widescreen, Integrated Wireless, Bluetooth, 4-Cell Battery, 3 -Year NBD Onsite Warranty",EACH,1,"1,624.09",730.80,4 55%,Standard Laptop Config 
+100e,43211500,210-AFUD ,DELL,210-AFUD ,"Standard - Dell Latitude E5570 - i5-6300U, 2.4GHz, 4GB DDR4-
+2133MHz 1DIMM, Windows 10 Pro 64-bit (Windows 7 Compatible),
+500GB SATA II 7200RPM, Intel Integrated Graphics Card, 15.6"" HD EACH Widescreen, Integrated Wireless, Bluetooth, 4-Cell Battery, 3 -Year
+NBD Onsite Warranty",EACH,1,"1,664.09",748.80,4 55%,Standard Laptop Config 
+200d,43211500,210-AFTZP ,DELL,210-AFTZP ,"Power - Dell Latitude E5470 - i5-6200U, 2.3GHz, 8GB DDR4-
+2133MHz 2DIMM, Windows 10 Pro 64-bit (Windows 7 Compatible),
+500GB SATA II 7200RPM, Intel Integrated Graphics Card, 14.0"" HD EACH Widescreen, Integrated Wireless, Bluetooth, 4-Cell Battery, 3 -Year
+NBD Onsite Warranty",EACH,1,"1,699.09",764.50,9 55%,Power Laptop Config 
+300d,43211500,210-AFTT ,DELL,210-AFTT ,"Ultralight - Dell Latitude E7270 - i5-6200U, 2.3GHz, 4GB DDR4-
+2133MHz 1DIMM, Windows 10 Pro 64-bit (Windows 7 Compatible),
+128GB SATA III Solid State HD, Intel Integrated Graphics Card, 12.5"" EACH HD Widescreen Integrated Wireless, Bluetooth, 4-Cell Battery, 3-Year
+NDB Onsite Warranty",EACH,1,"1,947.80",876.51,55%,Ultralight Laptop Config 
+300e,43211500,210-AFQD ,DELL,210-AFQD ,"Ultralight - Dell Latitude E7470 - i5-6200U, 2.3GHz, 4GB DDR4-
+2133MHz 1DIMM, Windows 10 Pro 64-bit (Windows 7 Compatible),
+128GB SATA III Solid State HD, Intel Integrated Graphics Card, 14"" EACH HD Widescreen Integrated Wireless, Bluetooth, 4-Cell Battery, 3-Year
+NDB Onsite Warranty",EACH,1,"1,920.23",864.10,55%,Ultralight Laptop Config 
+400d,43211500,210-AFXM ,DELL,210-AFXM ,"Mobile Workstation - Dell Mobile Precision 7510 - i7-6820HQ 2.7GHz
+Quad Core, 16GB DDR4 2133MHz 2DIMMS, Windows 10 Pro 64-bit
+(Windows 7 Compatible), 500GB SATA II 7200RPM, AMD FireProTM EACH W5170M w/2GB GDDR5, 15.6"" HD Widescreen, Integrated Wireless,
+Bluetooth. 6-cell battery. 3-Year NBD Onsite Warranty",EACH,1,"2,230.06","1,003.53",55%,Mobile Workstation Config 
+1005b,43211500, 451-BBUV,DELL, 451-BBUV,6 Cell (91 Whr) Long Life Cycle Lithium Polymer battery ,EACH,1,212.86,138.36,35%,Options/Upgrades Mobile Workstation 
+1007,43211500, 313-7362,DELL, 313-7362,USB Powered External Speakers ,EACH,1,19.99,12.99,35%,Options/Upgrades All Laptops 
+1008c,43211500, 429-AAUX,DELL, 429-AAUX,USB External DVD+/-RW Drive ,EACH,1,59.99,38.99,35%,Options/Upgrades Standard and Ultralight Laptop 
+1009c,43211500," 379-BCFY, 391-B",DELL," 379-BCFY, 391-B","Intel® CoreTM i7-6600U (Dual Core, 2.6GHz, 4M cache, 15W) vPro ",EACH,1,500.00,"3,250.00",35%,Options/Upgrades Power Laptop 
+1010a,43211500, NA,DELL, NA,Add Integrated Microphone (INCLUDED IN BASE) ,EACH,1,-,-,35%,Options/Upgrades Power Laptop 
+1011a,43211500, NA,DELL, NA,Add Integrated Microphone (INCLUDED IN BASE) ,EACH,1,-,-,35%,Options/Upgrades Standard Laptop 
+1012c,43211500, 346-BBPV,DELL, 346-BBPV,Fingerprint Reader/Smartcard Reader ,EACH,1,30.00,19.50,35%,Options/Upgrades Ultralight Laptop 
+1014b,43211500,"319-BBDT, 320-BBQV, 391-BCFG",DELL,"319-BBDT, 320-BBQV, 391-BCFG",Add Integrated Microphone ,EACH,1,212.86,138.36,35%,Options/Upgrades Mobile Workstation 
+1015a,43211500, NA,DELL, NA,Included in Base ,EACH,1,-,-,35%,Options/Upgrades Mobile Workstation 
+1016c,43211500, 370-ACDE,DELL, 370-ACDE,"Add 4Gb (8GB Total) 2x4GB, 2133MHz DDR4 Memory ",EACH,1,180.00,117.00,35%,Options/Upgrades Ultralight Laptop 
+1017c,43211500,338-BIFC ,DELL,338-BIFC ,"Intel® CoreTM i7-6920HQ (Quad Core 2.90GHz, 3.80GHz Turbo, 8MB EACH 1 $ 741.43 $ 45W, w/Intel HD Graphics 530)",EACH,1,741.43,481.93,35%,Options/Upgrades Mobile Workstation 
+1018b,43211500, 370-ACEB,DELL, 370-ACEB,"Add 16GB (Total 32.0GB), DDR4-2133MHz SDRAM, 4 DIMMS",EACH,1,588.57,382.57,35%,Options/Upgrades Mobile Workstation 
+1020c,43211500," 379-BCFY, 391-B",DELL," 379-BCFY, 391-B","Intel® CoreTM i7-6600U (Dual Core, 2.6GHz, 4M cache, 15W) vPro",EACH,1,500.00,325.00,35%,Options/Upgrades Standard Laptop 
+1021b,43211500, 379-BCFY,DELL, 379-BCFY,"Intel® CoreTM i7-6600U (Dual Core, 2.6GHz, 4M cache, 15W) ",EACH,1,400.00,260.00,35%,Options/Upgrades Ultralight Laptop 
+1022a,43211500, 370-ACDF,DELL, 370-ACDF,"Add 8GB (16GB Total), DDR4,2133MHZ",EACH,1,330.00,214.50,35%,Options/Upgrades Power Laptop 
+1023b,43211500, 391-BCFM,DELL, 391-BCFM,Add Integrated Webcam,EACH,1,30.00,19.50,35%,Options/Upgrades Ultralight Laptop 
+1024a,43211500, 319-BBCW,DELL, 319-BBCW,Add Integrated Microphone (Remove Webcam),EACH,1,-,-,35%,Options/Upgrades Ultralight Laptop 
+1026,43211500, 330-9456,DELL, 330-9456,Add USB optical mouse,EACH,1,19.99,12.99,35%,Options/Upgrades All Laptops 
+1027a,43211500, 331-9653,DELL, 331-9653,Add USB keyboard,EACH,1,29.99,19.49,35%,Options/Upgrades All Laptops 
+1028a,43211500, 631-AARN,DELL, 631-AARN,Upgrade to Intel vPro Technology,EACH,1,30.00,19.50,35%,Options/Upgrades Power Laptop 
+1029c,43211500, 346-BBRJ,DELL, 346-BBRJ,Fingerprint Reader/Smartcard Reader,EACH,1,30.00,19.50,35%,Options/Upgrades Power Laptop 
+1030b,43211500, 631-AARD,DELL, 631-AARD,Upgrade Intel vProTM Technology’s Advanced Management Features ,EACH,1,30.00,19.50,35%,Options/Upgrades Ultralight Laptop 
+1031b,43211500,346-BBRE,DELL,346-BBRE,Add fingerprint reader/Smartcard Reader,EACH,1,70.00,45.50,35%,"Options/Upgrades
+Mobile Workstation"
+1032b,43211500,631-AAQU,DELL,631-AAQU,Intel vPro Technology Enabled,EACH,1,27.14,17.64,35%,"Options/Upgrades
+Mobile Workstation"
+1033a,43211500,331-6304,DELL,331-6304,"Docking Station with A/C adapter, supports laptop recharging",EACH,1,219.99,142.99,35%,"Options/Upgrades
+Mobile Workstation"
+1034a,43211500,469-4546,DELL,469-4546,"Dell 90-Watt Auto-Air DC Adapter for Select Dell Systems(Car
+Charger)",EACH,1,99.99,64.99,35%,"Options/Upgrades
+Standard, Power and
+Ultralight Laptop"
+1035a,43211500,570-AALK,DELL,570-AALK,Dell Wireless Mouse-WM126 - Black,EACH,1,19.99,12.99,35%,"Options/Upgrades
+All Laptops"
+1036c,43211500,400-AHCC,DELL,400-AHCC,256GB Solid State Drive,EACH,1,320.00,208.00,35%,"Options/Upgrades
+Ultralight Laptop"
+1038b,43211500,400-AJBG,DELL,400-AJBG,256GB  Solid State Drive,EACH,1,284.29,184.79,35%,"Options/Upgrades
+Mobile Workstation"
+1041b,43211500,400-AJBO,DELL,400-AJBO,500G 7200 OPAL,EACH,1,84.29,54.79,35%,"Options/Upgrades
+Mobile Workstation"
+1043c,43211500,391-BCDP,DELL,391-BCDP,Add Integrated Webcam,EACH,1,30.00,19.50,35%,"Options/Upgrades
+Standard, Power"
+1044b,43211500,331-6307,DELL,331-6307,Dell E-Port Replicator Docking Station with USB 3.0,EACH,1,169.00,109.85,35%,"Options/Upgrades
+Standard, Power and
+Ultralight Laptop"
+1045,81110000,980-5714,DELL,980-5714,"Keep Your Hard Drive, 5 Year",EACH,1,30.00,19.50,35%,"Options/Upgrades
+Mobile Workstation"
+1046,81110000,980-9314,DELL,980-9314,"Keep Your Hard Drive, 5 Year",EACH,1,30.00,19.50,35%,"Options/Upgrades
+Standard, Power and
+Ultralight Laptop"
+1047,81110000,981-2233,DELL,981-2233,"Keep Your Hard Drive, 4 Year",EACH,1,25.00,16.25,35%,"Options/Upgrades
+Mobile Workstation"
+1048,81110000,981-5693,DELL,981-5693,"Keep Your Hard Drive, 4 Year",EACH,1,25.00,16.25,35%,"Standard, Power and
+Ultralight Laptop"
+1049,81110000,983-8332,DELL,983-8332,"Keep Your Hard Drive, 3 Year",EACH,1,20.00,13.00,35%,"Options/Upgrades
+Mobile Workstation"
+1050,81110000,984-1892,DELL,984-1892,"Keep Your Hard Drive, 3 Year",EACH,1,20.00,13.00,35%,"Standard, Power and
+Ultralight Laptop"
+1051b,43211500,A1475677,DELL,A1475677,Targus 16-inch Corporate Traveler Vertical Rolling Laptop Case,EACH,1,52.99,34.44,35%,"Options/Upgrades
+All Laptops"
+1052a,43211500,A5468037,DELL,A5468037,LOGITECH WIRELESS HEADSET H600,EACH,1,69.99,45.49,35%,"Options/Upgrades
+All Laptops"
+1053,43211500,A6107465,DELL,A6107465,Add wireless keyboard,EACH,1,29.99,19.49,35%,"Options/Upgrades
+All Laptops"
+1054c,43211500,460-BBRC,DELL,460-BBRC,Dell Professional Topload Carrying Case - 14”,EACH,1,59.99,38.99,35%,"Options/Upgrades
+All Laptops"
+1055c,43211500,370-ACDE,DELL,370-ACDE,8GB (2x4GB) 2133MHz DDR4 Memory,EACH,1,180.00,117.00,35%,"Options/Upgrades
+Standard Laptop"
+1056b,43211500,"365-0521, 374-4751",DELL,"365-0521, 374-4751",Kensington Combination Lock,EACH,1,39.85,25.90,35%,"Options/Upgrades
+All Laptops"
+1057b,43211500,400-AHCC,DELL,400-AHCC,256GB Solid State Drive,EACH,1,320.00,208.00,35%,"Options/Upgrades
+Power Laptop"
+1059b,43211500,391-BCDN,DELL,391-BCDN,"14"" Touch FHD LCD with camera, WWAN",EACH,1,280.00,182.00,35%,"Options/Upgrades
+Standard Laptop"
+1060b,43211500,"391-BCEV, 451-BBPK",DELL,"391-BCEV, 451-BBPK","12.5” FHD Touch with Corning® Gorilla® Glass NBT (1920 x 10800)
+LCD with camera, WIGI",EACH,1,379.00,246.35,35%,"Options/Upgrades
+Ultralight Laptop"
+1062a,43211500,580-ACKL,DELL,580-ACKL,Backlit Keyboard,EACH,1,50.00,32.50,35%,"Options/Upgrades
+Standard Laptop"
+1063a,43211500,391-BCDH,DELL,391-BCDH,"15"" Touch FHD LCD with Camera, WIGI",EACH,1,280.00,182.00,35%,"Options/Upgrades
+Standard Laptop"
+1064a,43211500,391-BCFN,DELL,391-BCFN,"14"" Touch FHD LCD with Camera, WIGI",EACH,1,480.00,312.00,35%,"Options/Upgrades
+Ultralight Laptop"
+1065a,43211500,379-BCFY,DELL,379-BCFY,"Intel® Core™ i7-6600U (Dual Core, 2.6GHz, 4M cache, 15W)",EACH,1,400.00,260.00,35%,"Options/Upgrades
+Ultralight Laptop"
+1066,43211500,"954-3471,
+421-9983",DELL,"954-3471,
+421-9983","PS4SW,DDPE,ENTERPRISE EDITION,5YR, DDPE Enterprise
+Edition DD",EACH,1,129.00,83.85,35%,"Options/Upgrades
+All Laptops"
+1067a,43211500,370-ACDF,DELL,370-ACDF,"16GB (2x8GB) DDR4,2133MHz",EACH,1,330.00,214.50,35%,"Options/Upgrades
+All Laptops"
+1069a,43211500,555-BCMT,DELL,555-BCMT,"Intel® Dual-Band Wireless-AC 8260 Wi-Fi + BT 4.1 Wireless Card
+(2x2)",EACH,1,25.00,16.25,35%,"Options/Upgrades
+All Laptops"
+1070,43211500,460-BBNE,DELL,460-BBNE,DELL Premier Backpack,EACH,1,99.99,64.99,35%,"Options/Upgrades
+All Laptops"
+1071a,43211500,331-9053,DELL,331-9053,DELL AC Adapter,EACH,1,139.99,90.99,35%,"Options/Upgrades
+All Laptops"
+1072a,43211500,346-BBPV,DELL,346-BBPV,Smart Card Reader,EACH,1,30.00,19.50,35%,"Options/Upgrades
+Ultralight Laptop"
+1073a,43211500,631-AARN,DELL,631-AARN,Upgrade to Intel vPro Technology,EACH,1,30.00,19.50,35%,"Options/Upgrades
+Standard Laptop"
+1074a,43211500,346-BBRJ,DELL,346-BBRJ,Dual Pointing palmrest With Smart Card and Fingerprint Reader,EACH,1,30.00,19.50,35%,"Options/Upgrades
+Standard Laptop"
+1075,43211500,332-2270,DELL,332-2270,Dell Adapter Mini Displayport to VGA,EACH,1,34.99,22.74,35%,"Options/Upgrades
+All Laptops"
+1076,43211500,A7639742,DELL,A7639742,Displayport to Displayport 6ft Cable M/M,EACH,1,15.99,10.39,35%,"Options/Upgrades
+All Laptops"
+1077,43211500,451-BBKV,DELL,451-BBKV,Dell Portable Power Companion (18000mAh),EACH,1,139.99,90.99,35%,"Options/Upgrades
+All Laptops"
+1078a,43211500,400-AHHX,DELL,400-AHHX,128GB SSD,EACH,1,180.00,117.00,35%,"Standard and Power
+Laptops"
+1079a,43211500,370-ACDD,DELL,370-ACDD,8GB (1x16GB) 2133MHz DDR4 Memory,EACH,1,180.00,117.00,35%,"Standard and Power
+Laptops"
+1080,43211500,"319-BBDS, 320-BBQV, 391
+BCFG",DELL,"319-BBDS, 320-BBQV, 391
+BCFG",Add Integrated Webcam,EACH,1,227.14,147.64,35%,"Options/Upgrades
+Mobile Workstation"
+1081,43211500,400-AHHV,DELL,400-AHHV,M.2 512GB SATA Class 20 Solid State Drive,EACH,1,580.00,377.00,35%,"Options/Upgrades
+All Laptops"
+1082,43211500,"[421-9983][954-3463][391-
+BCDQ]",DELL,"[421-9983][954-3463][391-
+BCDQ]",DDPE Enterprise Edition License + ProSupport for Software 3 Year,EACH,1,204.00,132.60,35%,"Options/Upgrades
+All Laptops"
+1083,43211500,[452-BBLQ],DELL,[452-BBLQ],"E-Port Plus, dock adds dual digital display and legacy port support,
+USB 3.0",EACH,1,219.00,142.35,35%,"Options/Upgrades
+Standard Laptop"
+1084,43211500,338-BHOZ,DELL,338-BHOZ,"AMD Radeon™ R7 M370, for I7-6820H No Type C (Vpro Capable)",EACH,1,129.00,83.85,35%,"Options/Upgrades
+Standard Laptop"
+1085,43211500,450-AAYU,DELL,450-AAYU,90 Watt AC Adaptor,EACH,1,5.00,3.25,35%,"Options/Upgrades
+Standard Laptop"
+1086,43211500,346-BBSG,DELL,346-BBSG,Dual Pointing palmrest With Smart Card and Fingerprint Reader,EACH,1,30.00,19.50,35%,"Options/Upgrades
+Standard Laptop"
+1087,43211500,631-AARO,DELL,631-AARO,Intel vPro™ Technology’s Advanced Management Features,EACH,1,30.00,19.50,35%,"Options/Upgrades
+Standard Laptop"
+1088,43211500,391-BCDL,DELL,391-BCDL,"15.6"" FHD (1920 x 1080) Anti Glare LCD, Camera and Microphone,
+WWAN Capable",EACH,1,110.00,71.50,35%,"Options/Upgrades
+Standard Laptop"
+1089,43211500,338-BHLO,DELL,338-BHLO,"AMD Radeon™ R7 M360, for I7-6600U",EACH,1,129.00,83.85,35%,"Options/Upgrades
+Standard Laptop"
+1090,43211500,379-BCGD,DELL,379-BCGD,"I7-6820HQ Intel® Core™ i7-6820HQ (Quad Core, 2.7GHz, 8M cache,",EACH,1,460.00,299.00,35%,"Options/Upgrades
+Standard Laptop"
+1091,43211500,631-AARQ,DELL,631-AARQ,"INTEL VPRO - ME IN,",EACH,1,30.00,19.50,35%,"Options/Upgrades
+Standard Laptop"
+1092,43211500,391-BCFO,DELL,391-BCFO,"14.0” FHD (1920 x 1080) Anti Glare LCD, Camera and Mic,
+WLAN/WWAN Capable",EACH,1,110.00,71.50,35%,"Options/Upgrades
+Ultralight Laptop"
+1093,43211500,631-AARG,DELL,631-AARG,Intel vPro™ Technology’s Advanced Management Features,EACH,1,30.00,19.50,35%,"Options/Upgrades
+Ultralight Laptop"
+1094,43211500,346-BBUY,DELL,346-BBUY,"Smart Card, Contactless Smart Card and Fingerprint Reader for 82
+Key, Dual Point Keyboard",EACH,1,30.00,19.50,35%,"Options/Upgrades
+Ultralight Laptop"
+1095,43211500,583-BCUS,DELL,583-BCUS,82 Key Internal Backlight English Keyboard,EACH,1,50.00,32.50,35%,"Options/Upgrades
+Ultralight Laptop"
+1096,43211500,492-BBFM,DELL,492-BBFM,Dell Adapter - Mini DisplayPort to VGA,EACH,1,37.49,24.37,35%,"Options/Upgrades
+Ultralight Laptop"
+1097,43211500,391-BCFB,DELL,391-BCFB,"12.5” FHD (1920 x 1080) Anti Glare LCD with Camera and mic, WLAN",EACH,1,110.00,71.50,35%,"Options/Upgrades
+Ultralight Laptop"
+1098,43211500,379-BCFX,DELL,379-BCFX,"Intel® Core™ i5-6300U (Dual Core, 2.4GHz, 3M cache, 15W)",EACH,1,220.00,143.00,35%,"Options/Upgrades
+Ultralight Laptop"
+1099,43211500,631-AARD,DELL,631-AARD,Intel vPro™ Technology’s Advanced Management Features,EACH,1,30.00,19.50,35%,"Options/Upgrades
+Ultralight Laptop"
+1100,43211500,583-BCUH,DELL,583-BCUH,82 Key Internal Backlight English Keyboard,EACH,1,50.00,32.50,35%,"Options/Upgrades
+Ultralight Laptop"
+1101,43211500,555-BCMV,DELL,555-BCMV,Intel® Tri-Band Wireless-AC 18260 WiGig + Wi-Fi + BT4.1 Wireless C,EACH,1,25.00,16.25,35%,"Options/Upgrades
+Ultralight Laptop"
+1102,43211500,"490-BCPK, 490-BCQJ",DELL,"490-BCPK, 490-BCQJ",Nvidia® Quadro® M2000M w/4GB GDDR5,EACH,1,614.29,399.29,35%,"Options/Upgrades
+Mobile Workstation"
+1103,43211500,400-AFGV,DELL,400-AFGV,512GB SSD,EACH,1,498.57,324.07,35%,"Options/Upgrades
+Mobile Workstation"
+1104,43211500,338-BIFC,DELL,338-BIFC,"Intel Core i7-6920HQ (quad Core 2.90 Ghz, 3.80GHz Turbo, 8B 45W",w    EACH,1,741.43,481.93,35%,"Options/Upgrades
+Mobile Workstation"
+1105,43211500,"319-BBDS, 320-BBQV, 391
+BCFF",DELL,"319-BBDS, 320-BBQV, 391
+BCFF","15.6"" UltraSharp™ FHD IPS (1920x1080) Wide View Anti-Glare LED-b",EACH,1,270.00,175.50,35%,"Options/Upgrades
+Mobile Workstation"
+1106,43211500,370-ACSV,DELL,370-ACSV,"32GB (2x16GB) 2133MHz DDR4 SDRAM, Non-ECC",EACH,1,588.57,382.57,35%,"Options/Upgrades
+Mobile Workstation"
+1107,43211500,580-ACLF,DELL,580-ACLF,"Internal Dual Pointing Backlit Keyboard, English",EACH,1,50.00,32.50,35%,"Options/Upgrades
+Mobile Workstation"
+1108,43211500,338-BHRI,DELL,338-BHRI,Smart card Thunderbolt,EACH,1,42.86,27.86,35%,"Options/Upgrades
+Mobile Workstation"
+1109,43211500,401-AAPS,DELL,401-AAPS,Secondary drive 1TB 2.5 inch 7200 rpm SATA Hard Drive,EACH,1,198.57,129.07,35%,"Options/Upgrades
+Mobile Workstation"
+2000b,81110000,"997-1022,997-1024, 935-
+8283",DELL,"997-1022,997-1024, 935-
+8283",4 Year Basic Hardware Service with 4 Year NBD Onsite Service,EACH,1,577.66,398.59,31%,"Service Options/Upgrades
+Mobile Workstation"
+2001b,81110000,"997-1022,997-1025, 933-
+9854",DELL,"997-1022,997-1025, 933-
+9854",5 Year Basic Hardware Service with 5 Year NBD Onsite Service,EACH,1,823.23,568.03,31%,"Service Options/Upgrades
+Mobile Workstation"
+2002b,81110000,"997-8317, 997-8328, 997-
+8334, 935-8283",DELL,"997-8317, 997-8328, 997-
+8334, 935-8283",4 Year Basic Hardware Service with NBD Onsite Service,EACH,1,475.66,328.21,31%,"Service Options/Upgrades
+Power Laptop"
+2003b,81110000,"997-8317, 997-8328, 997-
+8335,933-9854",DELL,"997-8317, 997-8328, 997-
+8335,933-9854",5 Year Basic Hardware Service with  NBD Onsite Service,EACH,1,588.23,405.88,31%,"Service Options/Upgrades
+Power Laptop"
+2004d,81110000,"804-2167, 804-2169, 935-
+8283",DELL,"804-2167, 804-2169, 935-
+8283","4 Year Hardware Service with In-Home/Onsite Service After Remote
+Diagnosis",EACH,1,516.66,356.50,31%,"Service Options/Upgrades
+Ultralight Laptop"
+2005d,81110000,"804-2167, 804-2170,933-
+9854",DELL,"804-2167, 804-2170,933-
+9854","5 Year Hardware Service with In-Home/Onsite Service After Remote
+Diagnosis",EACH,1,619.23,427.27,31%,"Service Options/Upgrades
+Ultralight Laptop"
+2006d,81110000,"997-8317, 997-8328, 997-
+8334, 935-8283",DELL,"997-8317, 997-8328, 997-
+8334, 935-8283","4 Years Hardware Service with In-Home/Onsite Service After Remote
+Diagnosis",EACH,1,475.66,328.21,31%,"Service Options/Upgrades
+Standard Laptop"
+2007d,81110000,"997-8317, 997-8328, 997-
+8335,933-9854",DELL,"997-8317, 997-8328, 997-
+8335,933-9854","5 Years Hardware Service with In-Home/Onsite Service After Remote
+Diagnosis",EACH,1,588.23,405.88,31%,"Service Options/Upgrades
+Standard Laptop"
+2008b,81110000,"804-2238, 804-2240,935-
+8283",DELL,"804-2238, 804-2240,935-
+8283","Ultralight 14"" 4 Year Hardware Service with Onsite Service After
+Remote Diagnosis",EACH,1,475.66,328.21,31%,"Service Options/Upgrades
+Ultralight Laptop"
+2009b,81110000,"804-2238, 804-2241,933-
+9854",DELL,"804-2238, 804-2241,933-
+9854","Ultralight 14"" 5 Year Hardware Service with Onsite Service After
+Remote Diagnosis",EACH,1,588.23,405.88,31%,"Service Options/Upgrades
+Ultralight Laptop"
+2010,81110000,988-5542,DELL,988-5542,2 Years Extended Battery Service for Years 2 and 3 of System Life,EACH,1,89.00,61.41,31%,"Service Options/Upgrades
+All Laptops"
+2011,81110000,"997-8380, 997-8381, 997-
+8382, 997-8383, 997-8317,
+997-8366",DELL,"997-8380, 997-8381, 997-
+8382, 997-8383, 997-8317,
+997-8366",3 Years ProSupport Plus with Next Business Day Onsite Service,EACH,1,541.00,351.65,35%,"Service Options/Upgrades
+Standard Laptop"
+2012,81110000,"998-0538, 998-0547, 998-
+0548,998-0549,998-0550",DELL,"998-0538, 998,0547, 998-
+0548,998-0549,998-0550","Ultralight 12"" 3 Year ProSupport Plus with Next Business Day Onsite S",EACH,1,612.00,397.80,35%,"Service Options/Upgrades
+Ultralight Laptop"
+2013,81110000,"804-2238, 804-2244",DELL,"804-2238, 804-2244","Ultralight 14"" 3 Year Prosupport warranty",EACH,1,427.00,277.55,35%,"Service Options/Upgrades
+Ultralight Laptop"
+2014,81110000,"804-2238, 804-2256, 804-
+2257, 804-2258, 804-2259",DELL,"804-2238, 804-2256, 804-
+2257, 804-2258, 804-2259","Ultralight 14"" 3 Year ProSupport Plus with Next Business Day Onsite
+Service",EACH,1,541.00,351.65,35%,"Service Options/Upgrades
+Ultralight Laptop"
+2015,81110000,"804-2238, 804-2264, 804-
+2265, 804-2266, 804-2267",DELL,"804-2238, 804-2264, 804-
+2265, 804-2266, 804-2267","Ultralight 14"" 4 Year ProSupport Plus with Next Business Day Onsite
+Service",EACH,1,702.00,456.30,35%,"Service Options/Upgrades
+Ultralight Laptop"
+3000a,81110000,"365-1245,365-1401",DELL,"365-1245,365-1401",Computrace 3 Year,EACH,1,174.95,134.71,23%,"Value Added Services
+All Laptops"
+3001,81110000,TIG-AIN-NBK,TIG,TIG-AIN-NBK,Asset Information via Internet,EACH,1, -, -,23%,"Value Added Services
+All Laptops"
+3002,81110000,TIG-ATG-NBK,TIG,TIG-ATG-NBK,Asset Tagging Services - Customer Provided Tags,EACH,1,10.00,7.70,23%,"Value Added Services
+All Laptops"
+3003,81110000,TIG-DIS-NBK,TIG,TIG-DIS-NBK,Take-Back Services,EACH,1,10.00,7.70,23%,"Value Added Services
+All Laptops"
+*Non-Core,81110000,TIG-DLG-NBK,TIG,TIG-DLG-NBK,Deployments & Logistics Services,EACH,1,46.00,35.42,23%,"Value Added Services
+All Laptops"
+3005,81110000,TIG-EMG-NBK,TIG,TIG-EMG-NBK,Emergency Services ( 4 hour response),EACH,1,58.00,44.66,23%,"Value Added Services
+All Laptops"
+3006,81110000,TIG-IMG-NBK,TIG,TIG-IMG-NBK,Imaging,EACH,1,27.00,20.79,23%,"Value Added Services
+All Laptops"
+3007,81110000,TIG-INS-NBK,TIG,TIG-INS-NBK,Installation Services,EACH,1,40.00,30.80,23%,"Value Added Services
+All Laptops"
+3008,81110000,TIG-SWC-NBK,TIG,TIG-SWC-NBK,Self-Warranty Certification,EACH,1, -, -,23%,"Value Added Services
+All Laptops"
+101,43211500,W8E24UP,HP,W8E24UP,"HP IDS UMA HM76 noWWAN 640 G2 BNBPC, Win 7 Professional 64, Intel
+Core i5-6200 Dual Core, No Webcam, 14 LED HD SVA AG, 4GB 1600MHz
+2133 DDR4, 500GB 7200RPM, TP 640 G1, 3 Cell 55 WHr, No Finger Print Reader, DVD+/-RW SM DL UB, MDC v.92 Modem, Intel 6235 abgn 2x2 WW, Bluetooth 4.0, No WWAN Module, 3/3/0 Warranty, NO vPro AMT supported Feature, eStar IOPT Module, 65W Hardware Kit, Core i5-G6 Label, MS Win7
+Logo BLU Label, HP 3y NextBusDayOnsite Notebook Only SVC",Each,,"1,325.00",689.00,48%,Core Standard Laptop
+202,43211500,W8E25UP,HP,W8E25UP,"Power Laptop 640 G2, Win 7 Pro 64 US, UMA i5-6200U, No Webcam, 14 inch
+LED HD SVA Anti-Glare flat (1366x768), 8GB (2x4GB) 2133 DDR4, 500GB
+7200RPM, DVD+/-RW SuperMulti DL, Near Field Communication, Intel 8260 ac
+2x2 +Bluetooth 4.2 LE WW, No WWAN, No Fingerprint Reader, 3 Cell 48 WHr
+Long, Life, 65 Watt Smart nPFC AC Adapter, C5 1.0m Power Cord US, 3/3/0
+Warranty US, NO vPro AMT supported Feature, SGX Permanent Disable IOPT, Touchpad US, Country Localization US, eStar Enable IOPT, 3 year Battery Warranty Card, Core i5 G6 Label, HP 3 year Next business day Onsite
+Notebook Only Service",Each,1,"1,395.00",725.40,48%,Core Power Laptop
+203,43211500,X1W81UP,HP,X1W81UP,"Power Laptop 640 G2 i7, HP IDS UMA i7-6600U fWWAN 640 G2 BNBPC, Win
+7 Professional 64 640, No Webcam 640, 14 LED HD SVA AG flat 640, 8GB (2x4GB) 2133 DDR4, 500GB 7200RPM 640, DVD+/-RW SM DL 640, Near Field Communication 640, Intel 8260 ac 2x2 +BT 4.2 LE WW 640, No WWAN
+640, No Fingerprint Reader 640, 3 Cell 48 WHr Long Life 640, 65 Watt Smart nPFC AC Adapter 640, C5 1.0m Power Cord 640, 3/3/0 Warranty 640, AMT Enabled Module 640, TP 640, Country Localization 640, eStar Enable IOPT, 3 year Battery Warranty Card, Intel Core i7 vPro G6 an Label, HP 3y NextBusDayOnsite Notebook Only",Each,1,"1,715.00",891.80,48%,Core Power Laptop
+204,43211500,X1D03UP,HP,X1D03UP,"HP ProBook 650G2 i5, Win 7 Pro 64, UMA i5-6300U, No Webcam, 15.6 inch
+LED HD SVA Anti-Glare flat (1366x768), 4GB (1x4GB) 2133 DDR4, 500GB
+7200RPM, DVD+/-RW SuperMulti DL, No Serial Port, No Near Field
+Communication, Intel 7265 ac 2x2 nvP WW, No Fingerprint Reader, 3 Cell 48
+WHr Long Life, 65 Watt Smart nPFC AC Adapter, C5 1.0m Power Cord US,
+3/3/0 Warranty US, No vPro AMT Supported, SGX Permanent Disable IOPT, Dual Point Backlit US, Country Localization US, eStar Enable IOPT, 3 year Battery Warranty Card, Core i5 G6 Label",Each,1,"1,850.00",962.00,48%,Core Power Laptop
+205,43211500,X1W80UP,HP,X1W80UP,"HP IDS UMA i7-6600U fWWAN 650 G2 BNBPC, Win 7 Professional 64 650, No Webcam 650, 15.6 LED HD SVA AG flat 650, 8GB (2x4GB) 2133 DDR4,
+500GB 7200RPM 650, DVD+/-RW SM DL 650, No Serial Port 650, No Near
+Field Communication 650, Intel 8260 ac 2x2 +BT 4.2 LE WW 650, No WWAN
+650, Fingerprint Reader 650, 3 Cell 48 WHr Long Life 650, 65 Watt Smart nPFC AC Adapter 650, C5 1.0m Power Cord 650, 3/3/0 Warranty 650, AMT Enabled Module 650, TP 650, Country Localization 650, eStar Enable IOPT, 3 year Battery Warranty Card, Intel Core i7 vPro G6 an Label, HP 3y NextBusDayOnsite Notebook Only",Each,1,"2,250.00","1,170.00",48%,Core Power Laptop
+301-B,43211500,L6N36UP,HP,L6N36UP,"HP IDS UMA 810 G3 BNBPC, Win 10 Pro 64 w/DG Win7 64, Intel Core i5-
+5300U Dual Core, Webcam Integrated 720p HD, 11.6 LED HD UWVA AG, 4GB
+1600MHz DDR3L 1DM, 256GB M2 SATA-3 SSD, touchpad Backlit, No Optical
+Disc Drive, 6 Cell 44 WHr Long Life,  MDC v.92 Modem, Intel 7265AN abgn
+2x2 +Bluetooth 4.0 LE MOW, 3/3/3 Warranty, AMT enabled, 45W Hardware Kit, eStar PCID Module, Touch PCID Module, Core i5 vPro-14 BLU Label, MS Win7
+Logo BLU Label, HP 3y NextBusDayOnsite Notebook Only SVC",Each,1,"3,595.00","1,869.40",48%,Core Ultralight Laptop
+302,43211500,W8E26UP,HP,W8E26UP,"Powerbook 820 G3 I5,  UMA i5-6300U, Win 7 Pro 64 US, No Webcam, 12.5 inch LED HD SVA Anti-Glare (1366x768), 4GB (1x4GB) 2133 DDR4, 128GB M2 SATA-3 Three Layer Cell Solid State Drive, No Near Field Communication, Intel 8260 ac 2x2 +Bluetooth 4.2 LE WW, No WWAN, Fingerprint Reader, 3
+Cell 44 WHr Long Life, 45 Watt Smart nPFC AC Adapter, C5 1.8m Power Cord US, 3/3/0 Warranty US, AMT Enabled, Dual Point US, Country Localization US, eStar Enable IOPT, 3 year Battery Warranty Card, Core i5 vPro G6 Label , HP
+3year NBD Onsite NB Service Only",Each,1,"1,698.00",882.96,48%,Core Ultralight Laptop
+302,43211500,W8E26UP,HP,W8E26UP,"Powerbook 820 G3 I5,  UMA i5-6300U, Win 7 Pro 64 US, No Webcam, 12.5 inch LED HD SVA Anti-Glare (1366x768), 4GB (1x4GB) 2133 DDR4, 128GB M2 SATA-3 Three Layer Cell Solid State Drive, No Near Field Communication, Intel 8260 ac 2x2 +Bluetooth 4.2 LE WW, No WWAN, Fingerprint Reader, 3
+Cell 44 WHr Long Life, 45 Watt Smart nPFC AC Adapter, C5 1.8m Power Cord US, 3/3/0 Warranty US, AMT Enabled, Dual Point US, Country Localization US, eStar Enable IOPT, 3 year Battery Warranty Card, Core i5 vPro G6 Label , HP
+3year NBD Onsite NB Service Only",Each,1,"1,698.00",882.96,48%,Core Ultralight Laptop
+303,43211500,W8E27UP,HP,W8E27UP,"Powerbook 820 G3 i7, HP IDS UMA i7-6600U 820 G3 Base NB PC, Microsoft Windows 7 Professional 64 US, No Webcam, 12.5 inch LED HD SVA Anti- Glare (1366x768), 8 GB 2133 DDR4 (1D), 128GB M2 SATA-3 Three Layer Cell Solid State Drive, No Near Field Communication, Intel 8260 ac 2x2 +Bluetooth
+4.2 LE WW
+No WWAN, Fingerprint Reader, 3 Cell 44 WHr Long Life, 45 Watt Smart nPFC AC Adapter, C5 1.8m Power Cord US, 3/3/0 Warranty US, AMT Enabled, Dual Point US, Country Localization US, eStar Enable IOPT, 3 year Battery Warranty Card, Core i7 vPro G6 Label, HP 3year NBD Onsite NB Service Only",Each,1,"2,475.00","1,287.00",48%,Core Ultralight Laptop
+401,43211500,X1U91UP,HP,X1U91UP,"ZBook15 Studio Mobile Workstation Z15 G3, HP IDS DSC i7-6700HQ Studio
+G3 Base NB PC, Windows 10 Pro 64 w/Downgrade Facilitation Win 7 64 US, Win 10 Driver DVD, NVIDIA Quadro M1000M Graphics, No Webcam, 15.6 inch LED FHD UWVA Anti-Glare (1920x1080), 16GB (2x8GB) 2133 DDR4, 256GB
+Z Turbo Drive PCIe Solid State Drive, Intel 8260 ac 2x2 non vPro +Bluetooth
+4.2 WW, No Fingerprint Reader, 4 Cell 64 WHr Long Life, 150 Watt Smart PFC Slim AC Adapter, C5 1.0m Power Cord US, 3/3/3 Warranty US, NO vPro AMT supported Module, M.2 Carrier Cage, SGX Permanent Disable IOPT, Clickpad Backlit US
+Country Localization US, 3 year Battery Warranty Card, eStar Enable IOPT,
+LBL Core i7 G6 Label",Each,1,"2,985.00","1,552.20",48%,Core Mobile Workstation Laptop
+402,43211500,Y2P60UP,HP,Y2P60UP,"HP IDS i7-6820HQ 15 G3 Base NB PC, Windows 10 Pro 64 w/Downgrade Facilitation Win 7 64 US, Win 10 Driver DVD, NVIDIA Quadro M1000M 2GB GDDR5 Graphics, No Webcam, 15.6 inch LED FHD UWVA Anti-Glare slim (1920x1080), 16GB (2x8GB) 2133 DDR4, 256GB Z Turbo Drive PCIe Solid State Drive, WLAN I 8260 ac 2x2 +BT 4.2 Combo, No WWAN, No Fingerprint Reader, 9 Cell 90 WHr Long Life, 150 Watt Smart PFC Slim AC Adapter, C5
+1.0m Power Cord US, 3/3/3 Warranty US, AMT Enabled, Hard Drive Carrier Cage, Dual Point Backlit US, Country Localization US, 3 year Battery Warranty Card, eStar Enable IOPT, LBL Core i7 vPro G6 Label",each,1,"3,075.00","1,599.00",48%,Core Mobile Workstation Laptop
+403,43211500,Y0C86UP,HP,Y0C86UP,"Zbook 17 Mobile Workstation, HP IDS i7-6700HQ 17 G3 Base NB PC, Windows 10 Pro 64 US, NVIDIA Quadro M1000M 2GB GDDR5 Graphics, No Webcam, 17.3 inch LED HD+ SVA Anti-Glare flat (1600x900), 16GB (2x8GB)
+2133MHz DDR4 , 500GB 7200RPM, Intel 8260 ac 2x2 non vPro +Bluetooth 4.2
+WW, No WWAN, No Fingerprint Reader, 6 Cell 96 WHr Long Life, 200 Watt Smart PFC Slim AC Adapter, C13 1.8m Power Cord US, 3/3/3 Warranty US, No vPro AMT Supported, 2nd Hard Drive Carrier Cage, SGX Permanent Disable IOPT, Dual Point Backlit US, Country Localization US, 3 year Battery Warranty Card, eStar Enable IOPT, LBL Core i7 G6 Label",Each,1,"3,727.00","1,938.04",48%,Core Mobile Workstation Laptop
