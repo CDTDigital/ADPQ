@@ -74,9 +74,11 @@ module Spree
         items = @orders.map {|x| x.line_items }.flatten.map{|item| [item.product] * item.quantity}.flatten
         properties = Property.where("presentation ilike '%manufacturer%oem%'").where("not presentation ilike '%part%'").all
         items.each do |item|
-          manufacturer = item.product_properties.where(property_id: properties.map(&:id)).first.value
-          @totals[manufacturer] ||= ::Money.new(0.0, @orders.first.currency)
-          @totals[manufacturer] += ::Money.new(item.price*100, @orders.first.currency)
+          manufacturer = item.product_properties.where(property_id: properties.map(&:id)).first.try(:value)
+          if manufacturer
+            @totals[manufacturer] ||= ::Money.new(0.0, @orders.first.currency)
+            @totals[manufacturer] += ::Money.new(item.price*100, @orders.first.currency)
+          end
         end
       end
       
