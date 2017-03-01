@@ -18,6 +18,11 @@ task :import_data => :environment do
       p.save!
       p
     end
+    price_index = nil
+    headings.each_with_index do |value, index|
+      price_index = index if value.downcase =~ /contract.*unit\s*price/
+    end
+    raise "#{headings.inspect}, #{price_index.inspect}" unless price_index.is_a?(Numeric)
 
     description_index = nil
     headings.each_with_index do |value, index|
@@ -38,8 +43,10 @@ task :import_data => :environment do
 
     products = []
     data.each_with_index do |row, index|
-      begin 
-        product = Spree::Product.create(name: row[description_index], description: row[description_index], price: 0, available_on: Date.today, shipping_category: Spree::ShippingCategory.first, sku: row[sku_index].to_s)
+      begin
+        price = row[price_index].gsub(/[^0-9.]+/, '').try(:to_f)
+        price = 0.0 unless price && price > 0.0
+        product = Spree::Product.create(name: row[description_index], description: row[description_index], price: price, available_on: Date.today, shipping_category: Spree::ShippingCategory.first, sku: row[sku_index].to_s)
         product.taxons << Spree::Taxon.find_or_create_by(name: row[category_index], taxonomy: Spree::Taxonomy.find_or_create_by(name: 'Main'))
         products << product
 
