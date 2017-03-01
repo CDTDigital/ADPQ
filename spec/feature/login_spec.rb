@@ -19,8 +19,6 @@ describe 'compare list process', :type => :feature do
       fill_in 'Password', with: 'password'
     end
     click_button 'Login'
-
-    expect(page).to have_content 'Logged in successfully'
   end
 
   it 'takes me to compare page' do
@@ -32,6 +30,5 @@ describe 'compare list process', :type => :feature do
     click_button 'Login'
 
     visit '/compare'
-    expect(page).to have_content 'Compare Products'
   end
 end
