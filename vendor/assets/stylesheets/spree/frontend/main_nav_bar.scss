@@ -58,13 +58,8 @@
 
     button {
       top: 0;
-      left: -1px;
+      left: -4px;
       float: none;
-    }
-
-    form {
-      width: 85%;
-      margin: 1em auto;
     }
 
   }
@@ -82,7 +77,13 @@
 #main-nav-compare-link-section {
   float: none;
 
+  li {
+    display: inline-block;
+    float: left;
+  }
+
   @media screen and (min-width: 992px) {
     float: right;
   }
 }
+

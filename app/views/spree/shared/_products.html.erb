@@ -1,0 +1,61 @@
+<% content_for :head do %>
+    <% if products.respond_to?(:total_pages) %>
+        <%= rel_next_prev_link_tags products %>
+    <% end %>
+<% end %>
+
+<div data-hook="products_search_results_heading">
+  <% if products.empty? %>
+      <div data-hook="products_search_results_heading_no_results_found">
+        <%= Spree.t(:no_products_found) %>
+      </div>
+  <% elsif params.key?(:keywords) %>
+      <div data-hook="products_search_results_heading_results_found">
+        <h6 class="search-results-title"><%= Spree.t(:search_results, keywords: h(params[:keywords])) %></h6>
+      </div>
+  <% end %>
+</div>
+
+<% if products.any? %>
+    <% products.each do |product| %>
+        <% url = spree.product_path(product, taxon_id: @taxon.try(:id)) %>
+        <div id="product_<%= product.id %>" class="col-md-3 col-sm-6 col-xs-6 product-list-item" data-hook="products_list_item" itemscope itemtype="https://schema.org/Product">
+          <div class="panel panel-default">
+            <% cache(@taxon.present? ? [I18n.locale, current_currency, @taxon, product] : cache_key_for_product(product)) do %>
+                <div class="panel-body text-center product-body">
+                  <%= link_to url, itemprop: "url" do %>
+                      <%= small_image(product, itemprop: "image") %><br/>
+                      <span itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                  <span class="price selling lead" itemprop="price"><%= display_price(product) %></span>
+                </span>
+                      <span class="product-info-link">
+                      <%= content_tag(:span, truncate(product.name, length: 50), class: "info", itemprop: "name", title: product.name) %>
+                        </span>
+                  <% end %>
+                </div>
+                <div class="panel-footer">
+                </div>
+                <div class="text-center add-to-compare-btn">
+                  <% if (session[:compare] && session[:compare].include?(product.id.to_s)) %>
+                      <%= link_to "/compare/#{product.id}", method: :delete, class: "btn btn-default compare-btn" do %>
+                          <span class="glyphicon glyphicon-remove"></span> Remove from Compare
+                      <% end %>
+                  <% elsif (session[:compare] && session[:compare].length > 3) %>
+                      <%= link_to "javascript:void(0)", class: "btn btn-default compare-btn", disabled: "disabled", title: "Compare list has reached the maximum item limit" do %>
+                          <span class="glyphicon glyphicon-plus"></span> Add to Compare
+                      <% end %>
+                  <% else %>
+                      <%= link_to "/compare/#{product.id}", method: :post, class: "btn btn-default compare-btn" do %>
+                          <span class="glyphicon glyphicon-plus"></span> Add to Compare
+                      <% end %>
+                  <% end %>
+                </div>
+            <% end %>
+          </div>
+        </div>
+    <% end %>
+<% end %>
+
+<% if products.respond_to?(:total_pages) %>
+    <%= paginate products, theme: 'twitter-bootstrap-3' %>
+<% end %>

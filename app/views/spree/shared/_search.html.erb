@@ -1,0 +1,73 @@
+<% @taxons = @taxon && @taxon.parent ? @taxon.parent.children : Spree::Taxon.roots %>
+
+<%= form_tag spree.products_path, method: :get, class: "navbar-form" do %>
+    <div class="form-group">
+      <label for="taxon">Department</label>
+      <% cache(cache_key_for_taxons) do %>
+          <%= select_tag :taxon,
+                         options_for_select([[Spree.t(:all_departments), '']] +
+                                                @taxons.map { |t| [t.name, t.id] },
+                                            @taxon ? @taxon.id : params[:taxon]), 'aria-label' => 'Taxon', class: "form-control", selected: '' %>
+      <% end %>
+    </div>
+    <div class="form-group">
+      <label for="keywords">Search</label>
+      <%= search_field_tag :keywords, params[:keywords], placeholder: Spree.t(:search), class: "form-control" %>
+      <button type="submit" class="btn btn-success" title="search"><span class="glyphicon glyphicon-search"></span>
+      </button>
+    </div>
+
+    <% if session[:compare] && session[:compare].length > 1 %>
+        <div class='form-group group' id='main-nav-compare-link-section'>
+          <ul>
+            <li>
+              <label for='compare-link' class='compare-text' id='compare-text'>
+                <%= session[:compare].length %>/4 items in compare list
+              </label>
+              <%= link_to 'Go to Compare Page', '/compare', id: 'compare-link', class: 'btn btn-success btn-sm' %>
+            </li>
+            <li>
+              <label for='compare-link-clear' class='compare-text hide-text'>Clear Compare List</label>
+              <%= link_to '/compare', method: :delete, id: 'compare-link-clear', class: 'btn btn-default btn-sm' do %>
+                  <span id='clear-compare-icon' class='glyphicon glyphicon-remove'></span> Clear Compare List
+              <% end %>
+            </li>
+          </ul>
+        </div>
+    <% elsif !session[:compare] || session[:compare].length == 0 %>
+        <div class='form-group group' id='main-nav-compare-link-section' data-toggle='tooltip' , title='Two items needed to compare'>
+          <ul>
+            <li>
+              <label for='compare-link' class='compare-text' id='compare-text'>
+                0/4 items in compare list
+              </label>
+              <%= link_to 'Go to Compare Page', 'javascript:void(0)', id: 'compare-link', class: 'btn btn-success btn-sm', disabled: 'disabled', data_toggle: 'tooltip', title: 'At least two items needed to compare' %>
+            </li>
+            <li>
+              <label for='compare-link-clear' class='compare-text hide-text'>Clear Compare List</label>
+              <%= link_to 'javascript:void(0)', class: 'btn btn-default btn-sm', id: 'compare-link-clear', disabled: 'disabled' do %>
+                  <span id='clear-compare-icon' class='glyphicon glyphicon-remove'></span> Clear Compare List
+              <% end %>
+            </li>
+          </ul>
+        </div>
+    <% elsif session[:compare] && session[:compare].length == 1 %>
+        <div class='form-group group' id='main-nav-compare-link-section' data-toggle='tooltip' , title='At least two items needed to compare'>
+          <ul>
+            <li>
+              <label for='compare-link' class='compare-text' id='compare-text'>
+                <%= session[:compare].length %>/4 items in compare list
+              </label>
+              <%= link_to 'Go to Compare Page', 'javascript:void(0)', id: 'compare-link', class: 'btn btn-success btn-sm', disabled: 'disabled' %>
+            </li>
+            <li>
+              <label for='compare-link-clear' class='compare-text hide-text'>Clear Compare List</label>
+              <%= link_to '/compare', method: :delete, id: 'compare-link-clear', class: 'btn btn-default btn-sm' do %>
+                  <span id='clear-compare-icon' class='glyphicon glyphicon-remove'></span> Clear Compare List
+              <% end %>
+            </li>
+          </ul>
+        </div>
+    <% end %>
+
+<% end %>

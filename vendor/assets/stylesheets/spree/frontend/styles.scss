@@ -334,7 +334,8 @@ label {
   border-top: none;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
-  height: 60px;
+  height: 50px;
+  padding: 10px 0;
 }
 
 tr.line-item {
@@ -427,4 +428,25 @@ li {
     position: relative;
     top: 23px;
   }
+}
+
+noscript {
+  color: #feffff;
+}
+
+.compare-btn {
+  span.glyphicon {
+    display: block;
+
+    @media screen and (min-width: 350px) {
+      display: inline;
+    }
+
+  }
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }

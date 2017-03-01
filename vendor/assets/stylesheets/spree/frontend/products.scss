@@ -20,7 +20,7 @@
     border-top: none;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
-    height: 60px;
+    height: 70px;
 
     a {
       &:hover {
@@ -28,6 +28,19 @@
       }
     }
   }
+}
+
+.product-body {
+  height: 200px;
+}
+
+span.product-info-link {
+  display: block;
+  text-align: left;
+}
+
+img:hover a {
+  text-decoration: underline;
 }
 
 #inside-product-cart-form > div > div.product-details-add-to-compare-btn > a {
