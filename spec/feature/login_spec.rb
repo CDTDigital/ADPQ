@@ -8,8 +8,6 @@ describe 'compare list process', :type => :feature do
     product = Spree::Product.create(name: 'Test Product', shipping_category: Spree::ShippingCategory.first, available_on: Date.today, price: 20.00, sku: 'test-123')
 
     product.taxons << Spree::Taxon.create(name: 'test', taxonomy: Spree::Taxonomy.create(name: 'Main'))
-
-    product.save!
   end
 
   it 'signs me in' do
@@ -19,6 +17,8 @@ describe 'compare list process', :type => :feature do
       fill_in 'Password', with: 'password'
     end
     click_button 'Login'
+
+    expect(page).to have_content 'Logged in successfully'
   end
 
   it 'takes me to compare page' do
@@ -30,5 +30,6 @@ describe 'compare list process', :type => :feature do
     click_button 'Login'
 
     visit '/compare'
+    expect(page).to have_content 'Compare Products'
   end
 end
