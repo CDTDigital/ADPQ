@@ -1,0 +1,25 @@
+<% content_for :page_title do %>
+  <%= link_to Spree.t(:reports), spree.admin_reports_url %> /
+  Orders by Manufacturer/Vendor
+<% end %>
+
+<div class="well">
+  <%= render partial: 'spree/admin/shared/report_order_criteria' %>
+</div>
+
+<table class="table table-bordered admin-report" data-hook="sales_total">
+  <thead>
+    <tr>
+      <th>Manufacturer/Vendor</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @totals.each do |key, row| %>
+      <tr>
+        <td><%= key %></td>
+        <td><%= Spree::Money.new(row, { currency: 'USD'}) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

@@ -22,5 +22,15 @@ Rails.application.routes.draw do
     post '/compare/:id', :to => 'products#add_to_compare'
     delete '/compare', :to => 'products#clear_compare'
     delete '/compare/:id', to: 'products#clear_compare'
+    namespace :admin, path: Spree.admin_path do
+    resources :reports, only: [:index] do
+      collection do
+        get :sales_total
+        get :by_manufacturer
+        post :sales_total
+        post :by_manufacturer
+      end
+    end
   end
+end
 end
