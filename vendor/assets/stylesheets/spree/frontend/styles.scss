@@ -405,6 +405,16 @@ li {
   list-style: none;
 }
 
+#existing-customer {
+  ul {
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+  }
+}
+
 .compare-continue-shopping-btn {
   float: none;
   margin-bottom: 1em;

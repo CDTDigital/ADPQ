@@ -2,8 +2,10 @@ require 'rails_helper'
 
 describe 'the signin process', :type => :feature do
   before :each do
-    Spree::User.create(email: 'user@example.com', password: 'password')
+    Spree::User.create(email: 'user@example.com', password: 'password', password_confirmation: 'password')
   end
+
+  debugger
 
   it 'signs me in' do
     visit '/login'
