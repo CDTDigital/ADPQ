@@ -118,16 +118,18 @@ We also leveraged a 508 testing tool from another customer called Sniffybara [(h
 
 h. Created or used a design style guide and/or a pattern library;
 
-We leveraged our own Agile Six style sheet and guide which is based on the USDS Design Standards.
+We created a style guide based on USWDS here: http://orderit.agile6.com/style_guide/buttons_iconography
 
 i. Performed usability tests with people;
 
 
-
 For the sake of this effort we used and abbreviated HCD approach based on our standard approach which is outlined here ( [http://www.agile6.com/documents/8](http://www.agile6.com/documents/8)).  We enlisted family members and employees who were not members of the development team.
 
-1. Hear Phase: We collected a sample pool of nine users (volunteers) who had no roles in our project.  We performed a usability study workshop where we had open discussions about the app and what kind of their expectations as documented in our Empathy Map (LINK HERE).  The workshop and map focused on what the user sees, hears, thinks, says and does.  Then we used this information to consider the &quot;pains and gains&quot; involved in engagement with such apps in order to maximize the value to the end user in the design.
-2. Create Phase:  After listing to our users we created 4 user personas (LINK HERE), which we felt reflected a fair segmentation of our users.   We then chose 4 users to represent these profiles during prototyping, design and user testing (we acknowledge that this pool is small and intentionally abbreviated for this prototype).  With these personas and empathy map in hand we met as a team to whiteboard the application flow (a very simple journey map) (LINK HERE). Based on our this experience we were ready to build our prototype.  Sketches (LINK HERE) came first and then wireframes (LINK HERE) both with iterations and review from our four users.  The final delivery of this phase was the prototype located here (LINK HERE).
+Recordings of User Testing Sessions can be found here (INSERT LINK)
+
+
+1. Hear Phase: We collected a sample pool of nine users (volunteers) who had no roles in our project.  We performed a usability study workshop where we had open discussions about the app and what kind of their expectations as documented in our Empathy Map (INSERT LINK).  The workshop and map focused on what the user sees, hears, thinks, says and does.  Then we used this information to consider the &quot;pains and gains&quot; involved in engagement with such apps in order to maximize the value to the end user in the design.
+2. Create Phase:  After listing to our users we created 4 user personas (INSERT LINK), which we felt reflected a fair segmentation of our users.   We then chose 3 users to represent these profiles during prototyping, design and user testing (we acknowledge that this pool is small and intentionally abbreviated for this prototype).  With these personas and empathy map in hand we met as a team to whiteboard the application flow (a very simple journey map) (INSERT LINK). Based on our this experience we were ready to build our prototype.  Sketches (INSERT LINK) came first and then wireframes (INSERT LINK) both with iterations and review from our four users.  The final delivery of this phase was the prototype located here (INSERT LINK).
 3. Deliver Phase - If we were to proceed with this application, we would enter our 3rd phase of HCD which would include frequently adding new features in similar fashion (expose to small subset of users, analyze, slowly roll out). We never stop soliciting feedback from users, never stop improving the User Experience and we update journey maps with the users as they grow.
 
 j. Used an iterative approach, where feedback informed subsequent work or versions of the prototype;
@@ -221,9 +223,7 @@ s. Provided sufficient documentation to install and run their prototype on anoth
 
 t. Prototype and underlying platforms used to create and run the prototype are openly licensed and free of charge.
 
- Our entire software stack is open source and provided free of charge. All licenses are documented in associated LICENSE.md.
-
-[![CircleCI](https://circleci.com/gh/agilesix/ADPQ.svg?style=shield)](https://circleci.com/gh/agilesix/ADPQ)
+ Our entire software stack is open source and provided free of charge. 
 
 
 
