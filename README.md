@@ -36,22 +36,23 @@ We think of HCD as being in 3 repeating phases (read more here: [Agile Six's Hum
 3. Deliver – Launch as soon as a minimum feature set is reached and continue to iterate over time as the demands of your users change.
 
 See our System Overview Here for to for a graphic view of the technologies
-[System Overview](../blob/master/ADPQ/artifacts/SystemOverview.pdf)
+[System Overview](../artifacts/SystemOverview.pdf)
 
 Front end systems:
 
-Open source language: Javascript - [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-Open source UI Framework: Bootstrap - [http://getbootstrap.com/](http://getbootstrap.com/)
-Open source Javascript library: jQuery - [https://jquery.com/](https://jquery.com/)
+* Open source language: Javascript - [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* Open source UI Framework: Bootstrap - [http://getbootstrap.com/](http://getbootstrap.com/)
+* Open source Javascript library: jQuery - [https://jquery.com/](https://jquery.com/)
 
 Back end system:
-Open source language: Ruby - [https://www.ruby-lang.org/en/](https://www.ruby-lang.org/en/)
+* Open source language: Ruby - [https://www.ruby-lang.org/en/](https://www.ruby-lang.org/en/)
+
 Libraries:
-  Open source Web application framework: Rails - [http://rubyonrails.org/](http://rubyonrails.org/)
-  Open source store application: Spree - [https://spreecommerce.com/](https://spreecommerce.com/)
-  Open source API documentation: Swagger - [http://swagger.io/](http://swagger.io/)
-  Open source Container system: LXC - [https://linuxcontainers.org/](https://linuxcontainers.org/)
-  Open Source Continous Integration: CircleCI - [https://circleci.com/](https://circleci.com/)
+  * Open source Web application framework: Rails - [http://rubyonrails.org/](http://rubyonrails.org/)
+  * Open source store application: Spree - [https://spreecommerce.com/](https://spreecommerce.com/)
+  * Open source API documentation: Swagger - [http://swagger.io/](http://swagger.io/)
+  * Open source Container system: LXC - [https://linuxcontainers.org/](https://linuxcontainers.org/)
+  * Open Source Continous Integration: CircleCI - [https://circleci.com/](https://circleci.com/)
 
 **How we handled the specific RFI Requirements**
 
@@ -68,12 +69,12 @@ B. Team Agile Six was cross-functional and included (see our website www.agile6.
     Katherine Rasmussen -  Visual Designer, Usability Tester
     Edward Teeple - Security Engineer
 
-C.Agile Six included end-users from the inception of our prototype (see tests here  https://drive.google.com/drive/folders/0Bx_pTPgzhPf7Q2xocnpSMWF5Tzg?usp=sharing). 
+C. Agile Six included end-users from the inception of our prototype (see tests here  https://drive.google.com/drive/folders/0Bx_pTPgzhPf7Q2xocnpSMWF5Tzg?usp=sharing). 
 
 Our approach was as follows:
 
 1. Hear Phase: We collected a sample pool of nine users (volunteers) who had no roles in our project.  We performed a usability study workshop where we had open discussions about the app and their expectations as documented in our Empathy Map.  The workshop and map focused on what the user sees, hears, thinks, says and does.  Then we used this information to consider the pains and gains involved in engagement with such apps in order to maximize the value to the end user in the design.
-2. Create Phase:  After listing to our users we created user personas [Personas](ADPQ/artifacts/Front End Design/Personas.pdf), which we felt reflected a fair segmentation of our users.   We then chose 3 users to represent these profiles during prototyping, design and user testing (we acknowledge that this pool is small and intentionally abbreviated for this prototype).  With these personas and empathy map in hand, we met as a team to whiteboard the application flow [Sketch](ADPQ/artifacts/Front End Design/sketch_design.JPG). Based on this experience we were ready to build our prototype.  Sketches came first and then wireframes [AdminUser Wireframe](ADPQ/artifacts/Front End Design/AdminUser.pdf) [UI Options](ADPQ/artifacts/Front End Design/Comparison_selections_UI_Chosen_Options.pdf) [Mobile View](ADPQ/artifacts/Front End Design/Product_Comparison_mobile_sidescroll_indication.jpg) [Other UI Options] (ADPQ/artifacts/Front End Design/Comparison_selections_UIoptions.pdf).  
+2. Create Phase:  After listing to our users we created user personas [Personas](ADPQ/artifacts/Front End Design/Personas.pdf), which we felt reflected a fair segmentation of our users.   We then chose 3 users to represent these profiles during prototyping, design and user testing (we acknowledge that this pool is small and intentionally abbreviated for this prototype).  With these personas and empathy map in hand, we met as a team to whiteboard the application flow [Sketch](ADPQ/artifacts/Front End Design/sketch_design.JPG). Based on this experience we were ready to build our prototype.  Sketches came first and then wireframes [AdminUser Wireframe](ADPQ/artifacts/Front End Design/AdminUser.pdf) [UI Options](ADPQ/artifacts/Front End Design/Comparison_selections_UI_Chosen_Options.pdf) [Mobile View](ADPQ/artifacts/Front End Design/Product_Comparison_mobile_sidescroll_indication.jpg) [Other UI Options](ADPQ/artifacts/Front End Design/Comparison_selections_UIoptions.pdf).  
 3. Deliver Phase - If we were to proceed with this application, we would enter our 3rd phase of HCD which would include frequently adding new features in similar fashion (expose to small subset of users, analyze, slowly roll out). We never stop soliciting feedback from users, never stop improving the User Experience and we update journey maps with the users as they evolve.  
 
 Future Backlog - The following link shows the trello board we used as both a product and sprint backlog:  https://trello.com/b/9KZxufUT/adpq-prototype
@@ -82,8 +83,8 @@ D. Agile Six used 4 user design techniques
 
 1. Personas - [Personas](ADPQ/artifacts/Front End Design/Personas.pdf)
 2. Empathy Map - [EmpathyMap](ADPQ/artifacts/Front End Design/empathy_map.pptx)
-3. User Tests https://drive.google.com/drive/folders/0Bx_pTPgzhPf7Q2xocnpSMWF5Tzg?usp=sharing
-4. Mock ups & Wireframes - [AdminUser Wireframe](ADPQ/artifacts/Front End Design/AdminUser.pdf) | [UI Options](ADPQ/artifacts/Front End Design/Comparison_selections_UI_Chosen_Options.pdf) | [Mobile View](ADPQ/artifacts/Front End Design/Product_Comparison_mobile_sidescroll_indication.jpg) | [Other UI Options] (ADPQ/artifacts/Front End Design/Comparison_selections_UIoptions.pdf)
+3. User Tests [User Testing Sessions](https://drive.google.com/drive/folders/0Bx_pTPgzhPf7Q2xocnpSMWF5Tzg?usp=sharin)
+4. Mock ups & Wireframes - [AdminUser Wireframe](ADPQ/artifacts/Front End Design/AdminUser.pdf) | [UI Options](ADPQ/artifacts/Front End Design/Comparison_selections_UI_Chosen_Options.pdf) | [Mobile View](ADPQ/artifacts/Front End Design/Product_Comparison_mobile_sidescroll_indication.jpg) | [Other UI Options](ADPQ/artifacts/Front End Design/Comparison_selections_UIoptions.pdf)
 
 E. We used only one repository located at [https://github.com/agilesix/ADPQ](https://github.com/agilesix/ADPQ) where all code and artifacts are stored and all code commits documented.
 
@@ -111,9 +112,9 @@ L. Our solution is comprised entirely of modern open source technologies, includ
 - PostgreSQL 9.6.2 as a relational DBMS
 - NewRelic RPM 3.18.1 as a Application Performance Monitoring Framework
 
-M. We deployed the prototype on Heroku, a PaaS provider. Heroku integrates with GitHub, allowing for easy automated deployment. 
+M. We deployed the prototype on [Heroku][https://heroku.com], a PaaS provider. Heroku integrates with GitHub, allowing for easy automated deployment. 
 
-Hosting and Deployment: [Heroku](https://www.heroku.com/)
+Hosting and Deployment: [Deployment to Heroku](https://github.com/agilesix/ADPQ/wiki/Deployment-to-Heroku)
 
 N. We developed automated unit tests for our code using [Rspec](http://rspec.info/)
 
@@ -123,7 +124,7 @@ Sample report here: [Sample Report](https://117-81989727-gh.circle-artifacts.com
 
 p. Setup or used configuration management;
 
-This was managed via GitHub [https://github.com/agilesix/ADPQ/]
+This was managed via GitHub https://github.com/agilesix/ADPQ/
 
 Q. We used New Relic for Continous Monitoring, Error Collection & Alerting
 [New Relic](https://newrelic.com/)
