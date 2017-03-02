@@ -115,9 +115,7 @@ M. We deployed the prototype on Heroku, a PaaS provider. Heroku integrates with 
 
 Hosting and Deployment: Heroku - [https://www.heroku.com/](https://www.heroku.com/)
 
-n. Developed automated unit tests for their code;
-
-(LINK TO REPORTS HERE)
+N. We developed automated unit tests for our code using [Rspec](http://rspec.info/)
 
 o. Setup or used a continuous integration system to automate the running of tests and continuously deployed:
 (LINK TO REPORTS HERE)
