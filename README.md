@@ -81,7 +81,7 @@ f. Used Swagger to document the RESTful API, and provided a link to the Swagger 
 (LINK HERE)
 
 g. Section 508 and WCAG 2.0 - We followed WCAG 2.0 as well as [http://www.ca.gov/Accessibility](http://www.ca.gov/Accessibility) 508 Plan
-We also leveraged Sniffybara [(https://github.com/department-of-veterans-affairs/sniffybara](https://github.com/department-of-veterans-affairs/sniffybara)), a Ruby gem that adds automatic 508 accessibility compliance checks into your Capybara specs. Report screenshot can be found here [508 Screen](ADPQ/artifacts/ADPQ_508.png). 
+We also leveraged Sniffybara [(https://github.com/department-of-veterans-affairs/sniffybara](https://github.com/department-of-veterans-affairs/sniffybara)), a Ruby gem that adds automatic 508 accessibility compliance checks into your Capybara specs. Report screenshot can be found here ADPQ/artifacts/ADPQ_508.png. 
 
 h. Created or used a design style guide-  We created and followed a style guide based on USWDS here: http://orderit.agile6.com/style_guide/buttons_iconography
 
