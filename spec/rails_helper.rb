@@ -9,6 +9,9 @@ require "capybara"
 Capybara.default_driver = :sniffybara
 Sniffybara::Driver.accessibility_code_exceptions << "WCAG2AA.Principle1.Guideline1_3.1_3_1.H85.2"
 Sniffybara::Driver.accessibility_code_exceptions << "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Select.Value"
+
+Sniffybara::Driver.accessibility_code_exceptions << "WCAG2AA.Principle1.Guideline1_3.1_3_1.H48"
+Sniffybara::Driver.accessibility_code_exceptions << "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2"
 # Add additional requires below this line. Rails is not loaded until this point!
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
