@@ -29,14 +29,14 @@ Our application architecture and infrastructure were anchored by a number of key
 
 **Our approach to Human-Centered Design (HCD):**
 
-We think of HCD as being in 3 repeating phases (read more here: [Agile Six's Human Centered Design Presentation](http://www.agile6.com/documents/8))
+We think of HCD as being in 3 repeating phases (read more here: [Agile Six's Human Centered Design Presentation](https://www.agile6.com/documents/8))
 
 1. Hear – Listen to your users in as many ways as possible
 2. Create – Build prototypes and MVPs based on user input
 3. Deliver – Launch as soon as a minimum feature set is reached and continue to iterate over time as the demands of your users change.
 
 See our System Overview Here for to for a graphic view of the technologies
-[System Overview](../blob/master/artifacts/SystemOverview.pdf)
+[System Overview](../master/artifacts/SystemOverview.pdf)
 
 Front end systems:
 
@@ -55,7 +55,6 @@ Libraries:
   * Open Source Continous Integration: CircleCI - [https://circleci.com/](https://circleci.com/)
 
 **How we handled the specific RFI Requirements**
-
 
 A. Team Agile Six was lead by Product Owner/Manager Robert Rasmussen who had complete responsibility for the product as well as the team.  Mr. Rasmussen is a certified Product Owner, Scrum Master, Project Manager and Scrum Coach (CSPO, CSM, PMP, CSP, PSPO2, PSM).
 
@@ -81,17 +80,17 @@ Future Backlog - The following link shows the trello board we used as both a pro
 
 D. Agile Six used 4 user design techniques
 
-1. Personas - [Personas](ADPQ/artifacts/Front End Design/Personas.pdf)
-2. Empathy Map - [EmpathyMap](ADPQ/artifacts/Front End Design/empathy_map.pptx)
+1. Personas - [Personas](../master/artifacts/Front End Design/Personas.pdf)
+2. Empathy Map - [EmpathyMap](../master/artifacts/Front End Design/empathy_map.pptx)
 3. User Tests [User Testing Sessions](https://drive.google.com/drive/folders/0Bx_pTPgzhPf7Q2xocnpSMWF5Tzg?usp=sharin)
-4. Mock ups & Wireframes - [AdminUser Wireframe](ADPQ/artifacts/Front End Design/AdminUser.pdf) | [UI Options](ADPQ/artifacts/Front End Design/Comparison_selections_UI_Chosen_Options.pdf) | [Mobile View](ADPQ/artifacts/Front End Design/Product_Comparison_mobile_sidescroll_indication.jpg) | [Other UI Options](ADPQ/artifacts/Front End Design/Comparison_selections_UIoptions.pdf)
+4. Mock ups & Wireframes - [AdminUser Wireframe](../master/artifacts/Front End Design/AdminUser.pdf) | [UI Options](../master/artifacts/Front End Design/Comparison_selections_UI_Chosen_Options.pdf) | [Mobile View](../master/artifacts/Front End Design/Product_Comparison_mobile_sidescroll_indication.jpg) | [Other UI Options](../master/artifacts/Front End Design/Comparison_selections_UIoptions.pdf)
 
 E. We used only one repository located at [https://github.com/agilesix/ADPQ](https://github.com/agilesix/ADPQ) where all code and artifacts are stored and all code commits documented.
 
 F. We believe that the requirement for swagger documentation of a REST API is grounded in an assumption that the solution would use a single page app/RESTful web service architecture. However, we did not see a requirement for such an architecture in the request. We believe the most efficient solution for delivering the stated requirements is to leverage an off-the-shelf component such as Spree. As a result our solution is not based on single page app/RESTful web service architecture, but on a rails MVC architecture. Nevertheless, we have documented a subset of the Spree RESTful API in order to demonstrate our understanding of how to use Swagger to document RESTful APIs
 http://orderit.agile6.com/api-docs
 
-G. We followed WCAG 2.0 as well as [http://www.ca.gov/Accessibility](http://www.ca.gov/Accessibility). We also leveraged [Sniffybara](https://github.com/department-of-veterans-affairs/sniffybara), a Ruby gem that adds automatic 508 accessibility compliance checks into your Capybara specs. Report screenshot can be found here [508 Report](ADPQ/artifacts/ADPQ_508.png). 
+G. We followed WCAG 2.0 as well as [http://www.ca.gov/Accessibility](http://www.ca.gov/Accessibility). We also leveraged [Sniffybara](https://github.com/department-of-veterans-affairs/sniffybara), a Ruby gem that adds automatic 508 accessibility compliance checks into your Capybara specs. Report screenshot can be found here [508 Report](../master/artifacts/ADPQ_508.png). 
 
 H. We created and followed a style guide based on USWDS here: [OrderIT Style Guide](http://orderit.agile6.com/style_guide)
 
