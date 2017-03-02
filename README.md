@@ -81,7 +81,7 @@ Future Backlog - The following link shows the trello board we used as both a pro
 D. Agile Six used 4 user design techniques
 
 1. Personas - [Personas](../master/artifacts/Front End Design/Personas.pdf)
-2. Empathy Map - [EmpathyMap](../master/artifacts/Front End Design/empathy_map.pptx)
+2. Empathy Map - [EmpathyMap](../master/artifacts/Front End Design/empathy_map.jpg)
 3. User Tests [User Testing Sessions](https://drive.google.com/drive/folders/0Bx_pTPgzhPf7Q2xocnpSMWF5Tzg?usp=sharin)
 4. Mock ups & Wireframes - [AdminUser Wireframe](../master/artifacts/Front End Design/AdminUser.pdf) | [UI Options](../master/artifacts/Front End Design/Comparison_selections_UI_Chosen_Options.pdf) | [Mobile View](../master/artifacts/Front End Design/Product_Comparison_mobile_sidescroll_indication.jpg) | [Other UI Options](../master/artifacts/Front End Design/Comparison_selections_UIoptions.pdf)
 
