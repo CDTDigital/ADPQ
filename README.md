@@ -71,9 +71,8 @@ d.  (3) user-centric design techniques and/or tools;
 
 1. Personas - [Personas](ADPQ/artifacts/Front End Design/Personas.pdf)
 2. Empathy Map - [EmpathyMap](ADPQ/artifacts/Front End Design/empathy_map.pptx)
-3. User Experience Maps - [Personas](ADPQ/artifacts/Front End Design/Personas.pdf)
-4. User Tests https://drive.google.com/drive/folders/0Bx_pTPgzhPf7Q2xocnpSMWF5Tzg?usp=sharing
-5. Mocks & Wireframes - [AdminUser Wireframe](ADPQ/artifacts/Front End Design/AdminUser.pdf) | [UI Options](ADPQ/artifacts/Front End Design/Comparison_selections_UI_Chosen_Options.pdf) | [Mobile View](ADPQ/artifacts/Front End Design/Product_Comparison_mobile_sidescroll_indication.jpg) | [Other UI Options] (ADPQ/artifacts/Front End Design/Comparison_selections_UIoptions.pdf)
+3. User Tests https://drive.google.com/drive/folders/0Bx_pTPgzhPf7Q2xocnpSMWF5Tzg?usp=sharing
+4. Mocks & Wireframes - [AdminUser Wireframe](ADPQ/artifacts/Front End Design/AdminUser.pdf) | [UI Options](ADPQ/artifacts/Front End Design/Comparison_selections_UI_Chosen_Options.pdf) | [Mobile View](ADPQ/artifacts/Front End Design/Product_Comparison_mobile_sidescroll_indication.jpg) | [Other UI Options] (ADPQ/artifacts/Front End Design/Comparison_selections_UIoptions.pdf)
 
 
 e. Used GitHub to document code commits - We used only one repository located at [https://github.com/agilesix/ADPQ](https://github.com/agilesix/ADPQ) where all code and artifacts are stored and all code commits documented.
