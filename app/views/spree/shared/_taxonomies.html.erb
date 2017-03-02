@@ -1,17 +1,9 @@
-<% max_level = Spree::Config[:max_level_in_taxons_menu] || 1 %>
-
 <nav id="taxonomies" class="sidebar-item" data-hook>
-  <% Spree::Taxonomy.all.each do |taxonomy| %>
-    <h4 class='taxonomy-root'><%= Spree.t(:shop_by_taxonomy, taxonomy: taxonomy.name) %></h4>
-    <div class="list-group">
-    <% Spree::Taxon.all.each do |taxon| %>
-      
-    <% cache [I18n.locale, taxonomy, max_level, taxon] do %>
-  
+  <% taxonomy = Spree::Taxonomy.first %>
+  <h4 class='taxonomy-root'><%= Spree.t(:shop_by_taxonomy, taxonomy: taxonomy.name) %></h4>
+  <div class="list-group">
+    <% Spree::Taxon.all.each do |taxon| %>  
       <%= link_to(taxon.name, seo_url(taxon), class: 'list-group-item') %>
     <% end %>
-    
-    <% end %>
-</div>
-  <% end %>
+  </div>
 </nav>
