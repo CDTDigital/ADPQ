@@ -33,8 +33,8 @@ We think of HCD as being in 3 repeating phases (read more here: [http://www.agil
 2. Create – Build prototypes and MVPs based on user input
 3. Deliver – Launch as soon as a minimum feature set is reached and continue to iterate over time as the demands of your users change.
 
-See our System Overview Here for to for a graphic view of the technologies 
-[System Overview](ADPQ/artifacts/SystemOverview.pdf)
+See our System Overview Here for to for a graphic view of the technologies
+[System Overview](../blob/master/ADPQ/artifacts/SystemOverview.pdf)
 
 Front end systems:
 
@@ -53,7 +53,7 @@ Libraries:
 
 **How we handled the specific RFI Requirements**
 
- A. Assigned one (1) leader and gave that person authority and responsibility - Team Agile Six was lead by Product Owner/Manager Robert Rasmussen who had complete responsibility for the product as well as the team.  Mr. Rasmussen is a certified Product Owner, Scrum Master, Project Manager and Scrum Coach (CSPO, CSM, PMP, CSP, PSPO2, PSM).
+a. Assigned one (1) leader and gave that person authority and responsibility - Team Agile Six was lead by Product Owner/Manager Robert Rasmussen who had complete responsibility for the product as well as the team.  Mr. Rasmussen is a certified Product Owner, Scrum Master, Project Manager and Scrum Coach (CSPO, CSM, PMP, CSP, PSPO2, PSM).
 
 b. Assembled a multidisciplinary and collaborative team that includes, at a minimum, five (5) of the labor categories - Team Agile Six was cross-functional and included (see our website www.agile6.com for profiles):
 
@@ -108,7 +108,7 @@ l. Used at least five (5) modern and open-source technologies - Our solution is 
 
 m. Deployed the prototype on an Infrastructure as a Service (IaaS) - We deployed the prototype on Heroku, a PaaS provider. Heroku integrates with GitHub, allowing for easy automated deployment. 
 
-Hosting and Deployment: Heroku - [https://www.heroku.com/](https://www.heroku.com/)
+Hosting and Deployment: [Heroku](https://www.heroku.com/)
 
 n. Developed automated unit tests for their code;
 
@@ -121,8 +121,8 @@ p. Setup or used configuration management;
 
 This was managed via GitHub https://github.com/agilesix/ADPQ/
 
-q. Setup or used continuous monitoring -Continous Monitoring, Error collection &amp; Alerting: New Relic -
-[https://newrelic.com/](https://newrelic.com/)
+q. Setup or used continuous monitoring -Continous Monitoring, Error collection &amp; Alerting: [New Relic](https://newrelic.com/)
+
 
 r. Deployed their software in an open source container:
 
@@ -130,7 +130,7 @@ Open source Container system: LXC - [https://linuxcontainers.org/](https://linux
 
 s. Provided sufficient documentation to install and run their prototype on another machine; and
 
-Instructions can be found here:  [Setup_Process](ADPQ/setup_config_instructions)
+Instructions can be found here:  [Setup Instructions](https://github.com/agilesix/ADPQ/wiki/Setup-Instructions)
 
 t. Prototype and underlying platforms used to create and run the prototype are openly licensed and free of charge.
 
