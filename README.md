@@ -90,7 +90,7 @@ d. Used at least a minimum of three (3) user-centric design techniques and/or to
 2. Empathy Map - [EmpathyMap](ADPQ/artifacts/Front End Design/empathy_map.pptx)
 3. User Experience Maps - [Personas](ADPQ/artifacts/Front End Design/Personas.pdf)
 4. User Tests https://drive.google.com/drive/folders/0Bx_pTPgzhPf7Q2xocnpSMWF5Tzg?usp=sharing
-5. Mocks & Wireframes - [AdminUser Wireframe](ADPQ/artifacts/Front End Design/AdminUser.pdf) [UI Options](ADPQ/artifacts/Front End Design/Comparison_selections_UI_Chosen_Options.pdf) [Mobile View](ADPQ/artifacts/Front End Design/Product_Comparison_mobile_sidescroll_indication.jpg) [Other UI Options] (ADPQ/artifacts/Front End Design/Comparison_selections_UIoptions.pdf)
+5. Mocks & Wireframes - [AdminUser Wireframe](ADPQ/artifacts/Front End Design/AdminUser.pdf) | [UI Options](ADPQ/artifacts/Front End Design/Comparison_selections_UI_Chosen_Options.pdf) | [Mobile View](ADPQ/artifacts/Front End Design/Product_Comparison_mobile_sidescroll_indication.jpg) | [Other UI Options] (ADPQ/artifacts/Front End Design/Comparison_selections_UIoptions.pdf)
 
 
 e. Used GitHub to document code commits;
