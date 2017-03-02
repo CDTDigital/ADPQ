@@ -334,7 +334,8 @@ label {
   border-top: none;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
-  height: 60px;
+  height: 50px;
+  padding: 10px 0;
 }
 
 tr.line-item {
@@ -405,6 +406,16 @@ li {
   list-style: none;
 }
 
+#existing-customer {
+  ul {
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+  }
+}
+
 .compare-continue-shopping-btn {
   float: none;
   margin-bottom: 1em;
@@ -416,5 +427,40 @@ li {
     float: right;
     position: relative;
     top: 23px;
+  }
+}
+
+noscript {
+  color: #feffff;
+}
+
+.compare-btn {
+  span.glyphicon {
+    display: block;
+
+    @media screen and (min-width: 350px) {
+      display: inline;
+    }
+
+  }
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#compare-table {
+  td {
+    text-align: center;
+  }
+
+  th {
+    text-align: left;
+
+    @media screen and (min-width: 350px) {
+      text-align: center;
+    }
   }
 }

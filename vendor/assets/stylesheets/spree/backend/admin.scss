@@ -526,3 +526,65 @@ body > header > nav > div > div > div.col-sm-9.col-md-10 > div > ul > li > a > i
     background-clip: padding-box;
   }
 }
+
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span,
+.pagination > .active > span:hover,
+.pagination > .active > span:focus {
+  z-index: 3;
+  color: white;
+  background-color: $gold;
+  border-color: $gold;
+  cursor: default;
+}
+
+input:focus, input.usa-input-focus,
+input[type="text"]:focus,
+input[type="text"].usa-input-focus,
+input[type="email"]:focus,
+input[type="email"].usa-input-focus,
+input[type="password"]:focus,
+input[type="password"].usa-input-focus,
+input[type="url"]:focus,
+input[type="url"].usa-input-focus,
+input[type="tel"]:focus,
+input[type="tel"].usa-input-focus,
+input[type="number"]:focus,
+input[type="number"].usa-input-focus,
+input[type="search"]:focus,
+input[type="search"].usa-input-focus,
+input[type="file"]:focus,
+input[type="file"].usa-input-focus,
+input[type="date"]:focus,
+input[type="date"].usa-input-focus,
+input[type="datetime-local"]:focus,
+input[type="datetime-local"].usa-input-focus,
+input[type="month"]:focus,
+input[type="month"].usa-input-focus,
+input[type="time"]:focus,
+input[type="time"].usa-input-focus,
+input[type="week"]:focus,
+input[type="week"].usa-input-focus,
+textarea:focus,
+textarea.usa-input-focus,
+select:focus,
+select.usa-input-focus {
+  box-shadow: 0 0 3px $gold, 0 0 7px $gold;
+}
+
+input.form-control:active,
+input.form-control:focus {
+  border-color: $dark-gold;
+  box-shadow: none;
+}
+
+.select2-drop-above,
+.select2-dropdown-open.select2-drop-above
+.select2-choice,
+.select2-dropdown-open .select2-choice,
+.select2-drop.select2-drop-above.select2-drop-active,
+.select2-drop.select2-drop-active {
+  border-color: $gold;
+}

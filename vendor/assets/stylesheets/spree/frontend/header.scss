@@ -26,6 +26,10 @@
 
   span {
     color: $gold;
+
+    &.glyphicon.glyphicon-search {
+      color: $dark;
+    }
   }
 }
 
