@@ -77,10 +77,11 @@ d.  (3) user-centric design techniques and/or tools;
 
 e. Used GitHub to document code commits - We used only one repository located at [https://github.com/agilesix/ADPQ](https://github.com/agilesix/ADPQ) where all code and artifacts are stored and all code commits documented.
 
-f. Used Swagger to document the RESTful API, and provided a link to the Swagger API; We used the open source tool RSWAG ( [https://github.com/domaindrivendev/rswag](https://github.com/domaindrivendev/rswag)) Seamlessly adds a Swagger to Rails-based API  (NEED SWAGGER OUTPUT)
+f. Used Swagger to document the RESTful API, and provided a link to the Swagger API; We used the open source tool RSWAG. We believe that specific AC around providing swagger documentation of a REST API is grounded in an assumption that the solution would use a single page app/RESTful web service architecture. However, we did not see a requirement for such an architecture in the requirements. We believe the most efficient solution for delivering the stated requirements is to leverage an off-the-shelf component such as Spree. As a result our solution is not based on single page app/RESTful web service architecture, but on a rails MVC architecture. Nevertheless, we have documented a subset of the Spree RESTful API in order to demonstrate our understanding of how to use Swagger to document RESTful APIs
+(LINK HERE)
 
-g. Section 508 and WCAG 2.0 - We followed WCAG 2.0 as wella [http://www.ca.gov/Accessibility](http://www.ca.gov/Accessibility) 508 Plan
-We also leveraged a 508 testing tool from another customer called Sniffybara [(https://github.com/department-of-veterans-affairs/sniffybara](https://github.com/department-of-veterans-affairs/sniffybara)), a Ruby gem that adds automatic 508 accessibility compliance checks into your Capybara specs  
+g. Section 508 and WCAG 2.0 - We followed WCAG 2.0 as well as [http://www.ca.gov/Accessibility](http://www.ca.gov/Accessibility) 508 Plan
+We also leveraged Sniffybara [(https://github.com/department-of-veterans-affairs/sniffybara](https://github.com/department-of-veterans-affairs/sniffybara)), a Ruby gem that adds automatic 508 accessibility compliance checks into your Capybara specs  
 
 h. Created or used a design style guide-  We created and followed a style guide based on USWDS here: http://orderit.agile6.com/style_guide/buttons_iconography
 
@@ -117,6 +118,8 @@ o. Setup or used a continuous integration system to automate the running of test
 (LINK TO REPORTS HERE)
 
 p. Setup or used configuration management;
+
+This was managed via GitHub https://github.com/agilesix/ADPQ/
 
 q. Setup or used continuous monitoring -Continous Monitoring, Error collection &amp; Alerting: New Relic -
 [https://newrelic.com/](https://newrelic.com/)
