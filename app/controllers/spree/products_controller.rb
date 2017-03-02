@@ -45,8 +45,12 @@ module Spree
 
     def add_to_compare
       session[:compare] ||= []
-      session[:compare] << params.permit(:id)[:id]
-      flash[:success] = 'Item added to compare list.'
+      if session[:compare].length == 4
+        flash[:error] = 'Your compare list is full. Please remove items from your compare list.'
+      else
+        session[:compare] << params.permit(:id)[:id]
+        flash[:success] = 'Item added to compare list.'
+      end
       redirect_to :back
     end
 
