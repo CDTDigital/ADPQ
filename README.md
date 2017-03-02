@@ -99,8 +99,8 @@ d. Used at least a minimum of three (3) &quot;user-centric design&quot; techniqu
 1. Personas - [Personas](ADPQ/artifacts/Front End Design/Personas.pdf)
 2. Empathy Map - [EmpathyMap](ADPQ/artifacts/Front End Design/empathy_map.pptx)
 3. User Experience Maps - [Personas](ADPQ/artifacts/Front End Design/Personas.pdf)
-4. User Tests (Scripts Videos)
-5. Prototyping
+4. User Tests https://drive.google.com/drive/folders/0Bx_pTPgzhPf7Q2xocnpSMWF5Tzg?usp=sharing
+5. Prototyping 
 
 e. Used GitHub to document code commits;
 
