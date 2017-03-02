@@ -1,5 +1,6 @@
 link_to_cart = '
 <% if spree_current_user %>
+  <li><p class="user"><span class="glyphicon glyphicon-user"></span> <%= spree_current_user.email %></p></li>
   <li id="link-to-cart" data-hook>
   <noscript>
   <%= link_to Spree.t(:cart), "/cart" %>
@@ -7,7 +8,7 @@ link_to_cart = '
     &nbsp;
   </li>
   <script>Spree.fetch_cart()</script>
-  <li><%= link_to spree.account_path  do %><span class="glyphicon glyphicon-user"></span> <%= spree_current_user.email %><% end %></li>
+  <li><%= link_to spree.account_path  do %>My Orders<% end %></li>
   <% if spree_current_user.spree_roles.find {|r| r.name == "admin"} %>
     <li><%= link_to "Admin", "/admin" %><li>
   <% end %>
