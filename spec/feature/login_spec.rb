@@ -8,6 +8,8 @@ describe 'compare list process', :type => :feature do
     product = Spree::Product.create(name: 'Test Product', shipping_category: Spree::ShippingCategory.first, available_on: Date.today, price: 20.00, sku: 'test-123')
 
     product.taxons << Spree::Taxon.create(name: 'test', taxonomy: Spree::Taxonomy.create(name: 'Main'))
+
+    Spree::Store.create(seo_title: 'OrderIT')
   end
 
   it 'signs me in' do
