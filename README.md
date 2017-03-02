@@ -2,11 +2,13 @@ ADPQ project
 
 **How we approached the Prototype:**
 
-Agile Six is a small firm founded in response to the US Digital Services.  Our entire business plan (e.g. staffing, strategy &amp; approach) reinforces the USDS digital service plays (playbook.cio.gov).  Therefore, we plan to invest often in competitions like ADPQ and have won a few (i.e. as subs on GSA 18F and DHS Flash).  However, we have learned to minimize the investments required in order to be able to compete with larger firms.   For this effort, we intentionally limited our investment to 200 total man hours.  We hope that the State will view our input with this context as evidence of how agile we can be, meeting demanding budget constraints, while still respecting the values and techniques of the USDS Playbook.
+Agile Six is a small firm founded in response to the US Digital Services.  Our entire business plan (e.g. staffing, strategy &amp; approach) reinforces the USDS digital service plays (playbook.cio.gov).  Therefore, we plan to invest often in competitions like ADPQ and have won a few (i.e. as subs on GSA 18F and DHS Flash).  However, we have learned to minimize the investments required in order to be able to compete with larger firms.   For this effort, we intentionally limited our investment to 200 total man hours.  We hope that the State will view our input with this context as evidence of how agile we can be, meeting demanding budget constraints, while still respecting the values and techniques of the USDS Playbook.  
 
-The team (described under item b below) conducted a one-week infrastructure/architecture &quot;runway&quot; sprint, where we defined and proofed the core architecture of the site as well as settled upon a number of toolsets and processes, including those we would leverage for CI, CM, Deployment, Version Control, and general communication within the team.  (This &quot;runway&quot; sprint is a small-scale adaptation of the &quot;Architecture Runway&quot; concept within Scaled Agile.) The runway sprint was followed by a one week feature development sprint in which the feature-based user stories of the application were implemented and tested by the team, including usability testing by our focus user group. Finally, the team held a short &quot;iteration&quot; sprint to implement feedback from our usability tests within the first sprint.
+We completed the propotype (MVP) on 3/1/17 and started our first round of user testing.   At this point the prototype is quite raw but we believe demonstrates all of the requirements requested by the RFI.  To demonstrate our undertanding of the process moving forward, we have captured several enhancments, bugs and potential improvements in our product backlog (INSERT LINK HERE)
 
-The team organized its work using a Trello backlog and scrum board. We also set up a Slack Channel to facilitate quick communication among team members, as well as Google Hangouts to facilitate screen sharing and videoconferencing. We leveraged Google Drive as a collaborative document repository, and GitHub as a version control repository.
+The team (described under item b below) conducted a one-week infrastructure/architecture sprint, where we defined and proofed the core architecture of the site as well as settled upon a number of toolsets and processes, including those we would leverage for CI, CM, Deployment, Version Control, and general communication within the team.  (This sprint is a small-scale adaptation of the Architecture Runway construct within Scaled Agile.) The runway sprint was followed by a one week feature development sprint in which the feature-based user stories of the application were implemented and tested by the team, including usability testing by our focus user group. Finally, the team held a short final sprint to implement some feedback from our usability tests within the first sprint.  
+
+The team organized its work using a Trello backlog and scrum board (INSERT LINK HERE). We also set up a Slack Channel to facilitate quick communication among team members, as well as Google Hangouts to facilitate screen sharing and videoconferencing. We leveraged Google Drive as a collaborative document repository, and GitHub as a version control repository.
 
 Assumptions:
 
@@ -94,10 +96,10 @@ Team Agile Six included end-users from the inception of our prototype (see item 
 
 d. Used at least a minimum of three (3) &quot;user-centric design&quot; techniques and/or tools;
 
-1. Personas - DESCRIPTIONS &amp; LINKS
-2. Empathy Map
-3. User Experience Maps
-4. User Tests (Scripts &amp; Videos)
+1. Personas - [Personas](ADPQ/artifacts/Front End Design/Personas.pdf)
+2. Empathy Map - [EmpathyMap](ADPQ/artifacts/Front End Design/empathy_map.pptx)
+3. User Experience Maps - [Personas](ADPQ/artifacts/Front End Design/Personas.pdf)
+4. User Tests (Scripts Videos)
 5. Prototyping
 
 e. Used GitHub to document code commits;
