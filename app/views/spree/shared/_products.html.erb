@@ -49,7 +49,20 @@
                           <span class="glyphicon glyphicon-plus"></span> Add to Compare
                       <% end %>
                   <% end %>
-
+                  <%= form_for :order, url: populate_orders_path do |f| %>
+                      <% if product.can_supply? %>
+                          <div class="add-to-cart">
+                            <br/>
+                            <div class="input-group home-add-to-cart">
+                              <%= hidden_field_tag "variant_id", product.master.id %>
+                              <%= hidden_field_tag :quantity, 1, min: 1 %>
+                                <%= button_tag class: 'btn btn-success home-add-to-cart', id: 'add-to-cart-button', type: :submit do %>
+                                  <span class="glyphicon glyphicon-shopping-cart"></span> <%= Spree.t(:add_to_cart) %>
+                              <% end %>
+                            </div>
+                          </div>
+                      <% end %>
+                  <% end %>
                 </div>
             <% end %>
           </div>
