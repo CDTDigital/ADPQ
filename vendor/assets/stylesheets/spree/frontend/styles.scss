@@ -450,3 +450,17 @@ noscript {
   display: table;
   clear: both;
 }
+
+#compare-table {
+  td {
+    text-align: center;
+  }
+
+  th {
+    text-align: left;
+
+    @media screen and (min-width: 350px) {
+      text-align: center;
+    }
+  }
+}
