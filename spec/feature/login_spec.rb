@@ -18,7 +18,6 @@ describe 'compare list process', :type => :feature do
       fill_in 'Email', with: 'user@example.com'
       fill_in 'Password', with: 'password'
     end
-    save_and_open_page
     click_button 'Login'
 
     expect(page).to have_content 'Logged in successfully'
