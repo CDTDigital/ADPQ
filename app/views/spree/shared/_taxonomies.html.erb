@@ -1,7 +1,7 @@
 <nav id="taxonomies" class="sidebar-item" data-hook>
   <% taxonomy = Spree::Taxonomy.first %>
-  <h4 class='taxonomy-root'><%= Spree.t(:shop_by_taxonomy, taxonomy: taxonomy.name) %></h4>
-  <div class="list-group">
+  <div class='taxonomy-root'><%= Spree.t(:shop_by_taxonomy, taxonomy: taxonomy.name) %></div>
+  <div class="taxonomy-list list-group">
     <% Spree::Taxon.all.each do |taxon| %>  
       <%= link_to(taxon.name, seo_url(taxon), class: 'list-group-item') %>
     <% end %>
