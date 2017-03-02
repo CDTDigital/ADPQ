@@ -27,7 +27,7 @@
   "paths": {
     "/products": {
       "get": {
-        "summary": "Retrieves a blog",
+        "summary": "Retrieves a list of products",
         "tags": [
           "Products"
         ],
