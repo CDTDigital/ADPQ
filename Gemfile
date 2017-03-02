@@ -60,3 +60,5 @@ gem 'newrelic_rpm'
 gem 'spree', '~> 3.2.0.rc1'
 gem 'spree_auth_devise', '~> 3.2.0.beta'
 gem 'spree_gateway', '~> 3.2.0.beta'
+
+gem 'simplecov', :require => false, :group => :test
