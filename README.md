@@ -36,7 +36,7 @@ We think of HCD as being in 3 repeating phases (read more here: [Agile Six's Hum
 3. Deliver – Launch as soon as a minimum feature set is reached and continue to iterate over time as the demands of your users change.
 
 See our System Overview Here for to for a graphic view of the technologies
-[System Overview](../artifacts/SystemOverview.pdf)
+[System Overview](../blob/master/artifacts/SystemOverview.pdf)
 
 Front end systems:
 
@@ -112,7 +112,7 @@ L. Our solution is comprised entirely of modern open source technologies, includ
 - PostgreSQL 9.6.2 as a relational DBMS
 - NewRelic RPM 3.18.1 as a Application Performance Monitoring Framework
 
-M. We deployed the prototype on [Heroku][https://heroku.com], a PaaS provider. Heroku integrates with GitHub, allowing for easy automated deployment. 
+M. We deployed the prototype on [Heroku](https://heroku.com), a PaaS provider. Heroku integrates with GitHub, allowing for easy automated deployment. 
 
 Hosting and Deployment: [Deployment to Heroku](https://github.com/agilesix/ADPQ/wiki/Deployment-to-Heroku)
 
