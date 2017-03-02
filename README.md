@@ -8,6 +8,8 @@ The team (described under item b below) conducted a one-week Runway Sprint (infr
 
 The team organized its work using a Trello  board. We also set up a Slack Channel to facilitate quick communication among team members, as well as Google Hangouts to facilitate screen sharing and videoconferencing. We leveraged Google Drive as a collaborative document repository, and GitHub as a version control repository.
 
+The prototype is located here http://orderit.agile6.com.
+
 Assumptions:
 
 - --There were no acceptance criteria around payment methods that the system should support, so the team went with the assumption that credit card payment would be acceptable. Because this is an MVP prototype, and for security reasons, we did not elect to integrate an actual credit card processing engine into the application, however.
@@ -53,25 +55,30 @@ Libraries:
 
 **How we handled the specific RFI Requirements**
 
- A. Team Agile Six was lead by Product Owner/Manager Robert Rasmussen who had complete responsibility for the product as well as the team.  Mr. Rasmussen is a certified Product Owner, Scrum Master, Project Manager and Scrum Coach (CSPO, CSM, PMP, CSP, PSPO2, PSM).
+
+A. Team Agile Six was lead by Product Owner/Manager Robert Rasmussen who had complete responsibility for the product as well as the team.  Mr. Rasmussen is a certified Product Owner, Scrum Master, Project Manager and Scrum Coach (CSPO, CSM, PMP, CSP, PSPO2, PSM).
 
 B. Team Agile Six was cross-functional and included (see our website www.agile6.com for profiles):
 
-Robert Rasmussen - Product Manager, Agile Coach
-Ernie Ramirez - Agile Coach, Content Writer
-Brian Derfer - Technical Architect
-Aurora Hay - Front End Web Developer
-Justin George - Technical Architect, DevOps Engineer & Back-end Web Developer
-Katherine Rasmussen -  Visual Designer, Usability Tester
-Edward Teeple - Security Engineer
+    Robert Rasmussen - Product Manager, Agile Coach
+    Ernie Ramirez - Agile Coach, Content Writer
+    Brian Derfer - Technical Architect
+    Aurora Hay - Front End Web Developer
+    Justin George - Technical Architect, DevOps Engineer & Back-end Web Developer
+    Katherine Rasmussen -  Visual Designer, Usability Tester
+    Edward Teeple - Security Engineer
 
-C.Agile Six included end-users from the inception of our prototype (see tests here  https://drive.google.com/drive/folders/0Bx_pTPgzhPf7Q2xocnpSMWF5Tzg?usp=sharing). Our approach was as follows:
+C.Agile Six included end-users from the inception of our prototype (see tests here  https://drive.google.com/drive/folders/0Bx_pTPgzhPf7Q2xocnpSMWF5Tzg?usp=sharing). 
 
-1. Hear Phase: We collected a sample pool of nine users (volunteers) who had no roles in our project.  We performed a usability study workshop where we had open discussions about the app and what kind of their expectations as documented in our Empathy Map (INSERT LINK).  The workshop and map focused on what the user sees, hears, thinks, says and does.  Then we used this information to consider the pains and gains involved in engagement with such apps in order to maximize the value to the end user in the design.
-2. Create Phase:  After listing to our users we created 4 user personas [Personas](ADPQ/artifacts/Front End Design/Personas.pdf), which we felt reflected a fair segmentation of our users.   We then chose 3 users to represent these profiles during prototyping, design and user testing (we acknowledge that this pool is small and intentionally abbreviated for this prototype).  With these personas and empathy map in hand we met as a team to whiteboard the application flow [Sketch](ADPQ/artifacts/Front End Design/sketch_design.JPG). Based on this experience we were ready to build our prototype.  Sketches came first and then wireframes [AdminUser Wireframe](ADPQ/artifacts/Front End Design/AdminUser.pdf) [UI Options](ADPQ/artifacts/Front End Design/Comparison_selections_UI_Chosen_Options.pdf) [Mobile View](ADPQ/artifacts/Front End Design/Product_Comparison_mobile_sidescroll_indication.jpg) [Other UI Options] (ADPQ/artifacts/Front End Design/Comparison_selections_UIoptions.pdf).  The final delivery of this phase was the prototype located here http://orderit.agile6.com.
-3. Deliver Phase - If we were to proceed with this application, we would enter our 3rd phase of HCD which would include frequently adding new features in similar fashion (expose to small subset of users, analyze, slowly roll out). We never stop soliciting feedback from users, never stop improving the User Experience and we update journey maps with the users as they grow.  The following link shows the trello board we used as both a product and sprint backlog:  https://trello.com/b/9KZxufUT/adpq-prototype
+Our approach was as follows:
 
-d. Agile Six used 4 user design techniques
+1. Hear Phase: We collected a sample pool of nine users (volunteers) who had no roles in our project.  We performed a usability study workshop where we had open discussions about the app and their expectations as documented in our Empathy Map.  The workshop and map focused on what the user sees, hears, thinks, says and does.  Then we used this information to consider the pains and gains involved in engagement with such apps in order to maximize the value to the end user in the design.
+2. Create Phase:  After listing to our users we created user personas [Personas](ADPQ/artifacts/Front End Design/Personas.pdf), which we felt reflected a fair segmentation of our users.   We then chose 3 users to represent these profiles during prototyping, design and user testing (we acknowledge that this pool is small and intentionally abbreviated for this prototype).  With these personas and empathy map in hand, we met as a team to whiteboard the application flow [Sketch](ADPQ/artifacts/Front End Design/sketch_design.JPG). Based on this experience we were ready to build our prototype.  Sketches came first and then wireframes [AdminUser Wireframe](ADPQ/artifacts/Front End Design/AdminUser.pdf) [UI Options](ADPQ/artifacts/Front End Design/Comparison_selections_UI_Chosen_Options.pdf) [Mobile View](ADPQ/artifacts/Front End Design/Product_Comparison_mobile_sidescroll_indication.jpg) [Other UI Options] (ADPQ/artifacts/Front End Design/Comparison_selections_UIoptions.pdf).  
+3. Deliver Phase - If we were to proceed with this application, we would enter our 3rd phase of HCD which would include frequently adding new features in similar fashion (expose to small subset of users, analyze, slowly roll out). We never stop soliciting feedback from users, never stop improving the User Experience and we update journey maps with the users as they evolve.  
+
+Future Backlog - The following link shows the trello board we used as both a product and sprint backlog:  https://trello.com/b/9KZxufUT/adpq-prototype
+
+D. Agile Six used 4 user design techniques
 
 1. Personas - [Personas](ADPQ/artifacts/Front End Design/Personas.pdf)
 2. Empathy Map - [EmpathyMap](ADPQ/artifacts/Front End Design/empathy_map.pptx)
@@ -80,16 +87,16 @@ d. Agile Six used 4 user design techniques
 
 E. We used only one repository located at [https://github.com/agilesix/ADPQ](https://github.com/agilesix/ADPQ) where all code and artifacts are stored and all code commits documented.
 
-F.We used the open source tool RSWAG. We believe that specific AC around providing swagger documentation of a REST API is grounded in an assumption that the solution would use a single page app/RESTful web service architecture. However, we did not see a requirement for such an architecture in the requirements. We believe the most efficient solution for delivering the stated requirements is to leverage an off-the-shelf component such as Spree. As a result our solution is not based on single page app/RESTful web service architecture, but on a rails MVC architecture. Nevertheless, we have documented a subset of the Spree RESTful API in order to demonstrate our understanding of how to use Swagger to document RESTful APIs
+F. We believe that the requirment for swagger documentation of a REST API is grounded in an assumption that the solution would use a single page app/RESTful web service architecture. However, we did not see a requirement for such an architecture in the request. We believe the most efficient solution for delivering the stated requirements is to leverage an off-the-shelf component such as Spree. As a result our solution is not based on single page app/RESTful web service architecture, but on a rails MVC architecture. Nevertheless, we have documented a subset of the Spree RESTful API in order to demonstrate our understanding of how to use Swagger to document RESTful APIs
 http://orderit.agile6.com/api-docs
 
-G.We followed WCAG 2.0 as well as [http://www.ca.gov/Accessibility](http://www.ca.gov/Accessibility) We also leveraged Sniffybara [(https://github.com/department-of-veterans-affairs/sniffybara](https://github.com/department-of-veterans-affairs/sniffybara)), a Ruby gem that adds automatic 508 accessibility compliance checks into your Capybara specs. Report screenshot can be found here [508 Report] (ADPQ/artifacts/ADPQ_508.png). 
+G. We followed WCAG 2.0 as well as [http://www.ca.gov/Accessibility](http://www.ca.gov/Accessibility). We also leveraged Sniffybara [(https://github.com/department-of-veterans-affairs/sniffybara](https://github.com/department-of-veterans-affairs/sniffybara)), a Ruby gem that adds automatic 508 accessibility compliance checks into your Capybara specs. Report screenshot can be found here [508 Report] (ADPQ/artifacts/ADPQ_508.png). 
 
 H. We created and followed a style guide based on USWDS here: http://orderit.agile6.com/style_guide/buttons_iconography
 
 I. Recordings of User Testing Sessions can be found here https://drive.google.com/drive/folders/0Bx_pTPgzhPf7Q2xocnpSMWF5Tzg?usp=sharin
 
-J. We believe strongly in frequent iterations based on user feedback.  Therefore, we focus on getting an MVP in the hands of users ASAP (usually within 30 days).  In the case of this prototype we had very limited time and budget.  Therefore we performed only one post production iteration based one user test session. User feedback that was not prioritized for our iteration was put into the prioritized product backlog for use in future releases and can be found here: https://trello.com/b/9KZxufUT/adpq-prototype
+J. We believe strongly in frequent iterations based on user feedback.  Therefore, we focus on getting an MVP in the hands of users ASAP (usually within 30 days).  In the case of this prototype we had very limited time and budget.  Therefore we performed only one post production iteration based one user test sessions. User feedback that was not prioritized for our iteration was put into the prioritized product backlog for use in future releases and can be found here: https://trello.com/b/9KZxufUT/adpq-prototype
 
 K. The user-facing features of our prototype, including both the UI elements provided by SpreeCommerce, as well as our own UI implementations, leverage Bootstrap's grid system and employ responsive techniques, resulting in an excellent user experience regardless of the kind or size of device used. Our team utilized a mobile-first approach on the custom features we implemented, creating initial designs to work on phones and small mobile devices, then progressively enhancing this design for larger devices. We chose SpreeCommerce understanding that any choice of a third-party open source component entails trade-off decisions. In this case, Spree's admin functionality did not support responsive design, but the team felt that administrative functions would not typically be performed on mobile devices, and hence determined that the advantages gained by leveraging a pre-built component outweighed this disadvantage.
 
