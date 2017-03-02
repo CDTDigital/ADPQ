@@ -21,6 +21,10 @@
   }
 }
 
+.cart-item-description {
+  max-width: 600px;
+}
+
 #content > div > h1 {
   font-weight: bold;
 }
@@ -55,4 +59,21 @@
 #line_items td.cart-item-quantity {
   min-width: 100px;
 }
+
+@media screen and (max-width: 767px) {
+  .table-responsive > .table > thead > tr > th,
+  .table-responsive > .table > thead > tr > td,
+  .table-responsive > .table > tbody > tr > th,
+  .table-responsive > .table > tbody > tr > td,
+  .table-responsive > .table > tfoot > tr > th,
+  .table-responsive > .table > tfoot > tr > td {
+    white-space: normal;
+  }
+
+  .table-responsive {
+    border: none;
+  }
+
+}
+
 
