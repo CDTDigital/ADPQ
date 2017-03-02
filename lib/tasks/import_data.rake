@@ -44,7 +44,7 @@ task :import_data => :environment do
     products = []
     data.each_with_index do |row, index|
       begin
-        price = row[price_index].gsub(/[^0-9.]+/, '').try(:to_f)
+        price = row[price_index].to_s.gsub(/[^0-9.]+/, '').try(:to_f)
         price = 0.0 unless price && price > 0.0
         product = Spree::Product.create(name: row[description_index], description: row[description_index], price: price, available_on: Date.today, shipping_category: Spree::ShippingCategory.first, sku: row[sku_index].to_s)
         product.taxons << Spree::Taxon.find_or_create_by(name: row[category_index], taxonomy: Spree::Taxonomy.find_or_create_by(name: 'Main'))
