@@ -9,7 +9,7 @@ describe 'compare list process', :type => :feature do
 
     product.taxons << Spree::Taxon.create(name: 'test', taxonomy: Spree::Taxonomy.create(name: 'Main'))
 
-    Spree::Store.create(seo_title: 'OrderIT')
+    Spree::Store.create(seo_title: 'OrderIT', name: 'OrderIT')
   end
 
   it 'signs me in' do
@@ -18,6 +18,7 @@ describe 'compare list process', :type => :feature do
       fill_in 'Email', with: 'user@example.com'
       fill_in 'Password', with: 'password'
     end
+    save_and_open_page
     click_button 'Login'
 
     expect(page).to have_content 'Logged in successfully'
