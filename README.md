@@ -117,7 +117,7 @@ Hosting and Deployment: Heroku - [https://www.heroku.com/](https://www.heroku.co
 
 N. We developed automated unit tests for our code using [Rspec](http://rspec.info/)
 
-o. We used [CircleCI](https://circleci.com/) for continous integration and our builds can be found here: https://circleci.com/gh/agilesix/ADPQ
+o. We used [CircleCI](https://circleci.com/) for continous integration and our builds can be found here: https://circleci.com/gh/agilesix/ADPQ  Sample report here: https://117-81989727-gh.circle-artifacts.com/0/tmp/circle-artifacts.pAi5FCN/coverage/index.html#_AllFiles.  Every time we do a checkin, reports are produced under the corresponding build.
 
 p. Setup or used configuration management;
 
