@@ -117,14 +117,13 @@ Hosting and Deployment: Heroku - [https://www.heroku.com/](https://www.heroku.co
 
 N. We developed automated unit tests for our code using [Rspec](http://rspec.info/)
 
-o. Setup or used a continuous integration system to automate the running of tests and continuously deployed:
-(LINK TO REPORTS HERE)
+o. We used [CircleCI](https://circleci.com/) for continous integration and our builds can be found here: https://circleci.com/gh/agilesix/ADPQ
 
 p. Setup or used configuration management;
 
 This was managed via GitHub https://github.com/agilesix/ADPQ/
 
-Q. We used New Relic for Continous Monitoring, Error collection & Alerting
+Q. We used New Relic for Continous Monitoring, Error Collection & Alerting
 [https://newrelic.com/](https://newrelic.com/)
 
 R. We deployed to the LXC open source container system: [https://linuxcontainers.org/](https://linuxcontainers.org/)
