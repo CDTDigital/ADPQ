@@ -193,16 +193,6 @@ Open source Container system: LXC - [https://linuxcontainers.org/](https://linux
 
 s. Provided sufficient documentation to install and run their prototype on another machine; and
 
-
-
-t. Prototype and underlying platforms used to create and run the prototype are openly licensed and free of charge.
-
- Our entire software stack is open source and provided free of charge. All licenses are documented in associated LICENSE.md.
-
-[![CircleCI](https://circleci.com/gh/agilesix/ADPQ.svg?style=shield)](https://circleci.com/gh/agilesix/ADPQ)
-
-= Setup
-
 1. Ensure that you have Ruby installed and functional ( https://www.ruby-lang.org/en/ )
 
 2. Install Bundler ( `gem install bundler` )
@@ -224,4 +214,13 @@ t. Prototype and underlying platforms used to create and run the prototype are o
 10. Run the application (`bundle exec rails s`)
 
 11. Visit http://localhost:3000/ and you should see the application running if the steps were completed successfully
+
+
+t. Prototype and underlying platforms used to create and run the prototype are openly licensed and free of charge.
+
+ Our entire software stack is open source and provided free of charge. All licenses are documented in associated LICENSE.md.
+
+[![CircleCI](https://circleci.com/gh/agilesix/ADPQ.svg?style=shield)](https://circleci.com/gh/agilesix/ADPQ)
+
+
 
