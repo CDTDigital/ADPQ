@@ -1,0 +1,201 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "API V1",
+    "version": "v1"
+  },
+  "basePath": "/api/v1",
+  "definitions": {
+    "product": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "price": {
+          "type": "integer"
+        }
+      }
+    }
+  },
+  "paths": {
+    "/products": {
+      "get": {
+        "summary": "Retrieves a blog",
+        "tags": [
+          "Products"
+        ],
+        "produces": [
+          "application/json",
+          "application/xml"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "product found",
+            "examples": {
+              "application/json": {
+                "first": {
+                  "products": [
+                    {
+                      "id": 278,
+                      "name": "4 Year Hardware Service with In-Home/Onsite Service After Remote\nDiagnosis",
+                      "description": "4 Year Hardware Service with In-Home/Onsite Service After Remote\nDiagnosis",
+                      "price": "356.5",
+                      "display_price": "$356.50",
+                      "available_on": "2017-03-01T00:00:00.000Z",
+                      "slug": "4-year-hardware-service-with-in-home-onsite-service-after-remote-diagnosis",
+                      "meta_description": null,
+                      "meta_keywords": null,
+                      "shipping_category_id": 1,
+                      "taxon_ids": [
+                        63
+                      ],
+                      "total_on_hand": 0,
+                      "master": {
+                        "id": 278,
+                        "name": "4 Year Hardware Service with In-Home/Onsite Service After Remote\nDiagnosis",
+                        "sku": "804-2167, 804-2169, 935-\n8283",
+                        "price": "356.5",
+                        "weight": "0.0",
+                        "height": null,
+                        "width": null,
+                        "depth": null,
+                        "is_master": true,
+                        "slug": "4-year-hardware-service-with-in-home-onsite-service-after-remote-diagnosis",
+                        "description": "4 Year Hardware Service with In-Home/Onsite Service After Remote\nDiagnosis",
+                        "track_inventory": true,
+                        "option_values": [
+
+                        ],
+                        "images": [
+
+                        ],
+                        "display_price": "$356.50",
+                        "options_text": "",
+                        "in_stock": false,
+                        "is_backorderable": true,
+                        "is_orderable": true,
+                        "total_on_hand": 0,
+                        "is_destroyed": false
+                      },
+                      "variants": [
+
+                      ],
+                      "option_types": [
+
+                      ],
+                      "product_properties": [
+                        {
+                          "id": 2468,
+                          "product_id": 278,
+                          "property_id": 1,
+                          "value": "2004d",
+                          "property_name": "Contract Line Item Number (CLIN) "
+                        },
+                        {
+                          "id": 2469,
+                          "product_id": 278,
+                          "property_id": 18,
+                          "value": "81110000",
+                          "property_name": "UNSPSC Code (Version 11) "
+                        },
+                        {
+                          "id": 2470,
+                          "product_id": 278,
+                          "property_id": 19,
+                          "value": "804-2167, 804-2169, 935-\n8283",
+                          "property_name": "Manufacturer Part Number (OEM) "
+                        },
+                        {
+                          "id": 2471,
+                          "product_id": 278,
+                          "property_id": 3,
+                          "value": "DELL",
+                          "property_name": "Manufacturer (OEM) "
+                        },
+                        {
+                          "id": 2472,
+                          "product_id": 278,
+                          "property_id": 4,
+                          "value": "EACH",
+                          "property_name": "Unit of Measure "
+                        },
+                        {
+                          "id": 2473,
+                          "product_id": 278,
+                          "property_id": 20,
+                          "value": "1",
+                          "property_name": "Quantity in Unit of Measure (if Applicable ) "
+                        },
+                        {
+                          "id": 2474,
+                          "product_id": 278,
+                          "property_id": 6,
+                          "value": "516.66",
+                          "property_name": "List Price/MSRP "
+                        },
+                        {
+                          "id": 2475,
+                          "product_id": 278,
+                          "property_id": 7,
+                          "value": "356.50",
+                          "property_name": "Contract Unit Price "
+                        },
+                        {
+                          "id": 2476,
+                          "product_id": 278,
+                          "property_id": 8,
+                          "value": "31%",
+                          "property_name": "Contract Discount "
+                        }
+                      ],
+                      "classifications": [
+                        {
+                          "taxon_id": 63,
+                          "position": 1,
+                          "taxon": {
+                            "id": 63,
+                            "name": "Service Options/Upgrades\nUltralight Laptop",
+                            "pretty_name": "Service Options/Upgrades\nUltralight Laptop",
+                            "permalink": "service-options-slash-upgrades-ultralight-laptop",
+                            "parent_id": null,
+                            "taxonomy_id": 1,
+                            "meta_title": null,
+                            "meta_description": null,
+                            "taxons": [
+
+                            ]
+                          }
+                        }
+                      ],
+                      "has_variants": false
+                    }
+                  ]
+                }
+              }
+            },
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/product"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
