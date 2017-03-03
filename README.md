@@ -75,7 +75,7 @@ https://orderit.agile6.com/api-docs
 
 G. We followed WCAG 2.0 as well as [http://www.ca.gov/Accessibility](http://www.ca.gov/Accessibility). We also leveraged [Sniffybara](https://github.com/department-of-veterans-affairs/sniffybara), a Ruby gem that adds automatic 508 accessibility compliance checks into your Capybara specs. Report screenshot can be found here [508 Report](../master/artifacts/ADPQ_508.png). 
 
-H. We created and followed a style guide based on USWDS here: [OrderIT Style Guide](http://orderit.agile6.com/style_guide)
+H. We created and followed a style guide based on USWDS here: [OrderIT Style Guide](https://orderit.agile6.com/style_guide)
 
 I. Recordings of User Testing Sessions can be found here: [User Testing Sessions](https://drive.google.com/drive/folders/0Bx_pTPgzhPf7Q2xocnpSMWF5Tzg?usp=sharin)
 
