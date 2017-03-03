@@ -1,6 +1,6 @@
 #ADPQ project
 
-**How we approached the Prototype:**
+## How we approached the Prototype:
 
 Agile Six is a small firm founded in response to the US Digital Services. Therefore, we plan to invest often in competitions like ADPQ and have won a few (i.e. as subs on GSA 18F and DHS Flash).  However, we have learned to minimize investments required in order to be able to compete with large firms.   For this effort, we intentionally limited our investment to 200 total man hours.  We hope that the State will view our input with this context as evidence of how agile we can be, meeting demanding budget constraints, while still respecting the values and techniques of the USDS Playbook. Looking forward, we have captured several bugs and potential improvements in our product backlog viewable at https://trello.com/b/9KZxufUT/adpq-prototype
 
@@ -31,28 +31,25 @@ Our application architecture and infrastructure were anchored by a number of key
 See our System Overview Here for to for a graphic view of the technologies
 [System Overview](../master/artifacts/SystemOverview.pdf)
 
-Front end systems:
-
+**Front end systems:**
 * Open source language: Javascript - [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * Open source UI Framework: Bootstrap - [http://getbootstrap.com/](http://getbootstrap.com/)
 * Open source Javascript library: jQuery - [https://github.com/jquery/jquery](https://github.com/jquery/jquery)
 
-Back end systems:
-
+**Back end systems:**
 * Open source language: Ruby - [https://github.com/ruby/ruby](https://github.com/ruby/ruby)
 * Open source web application framework: Rails - [https://github.com/rails/rails](https://github.com/rails/rails)
 * Open source web server: Puma - [https://github.com/puma/puma](https://github.com/puma/puma)
 * Open source DBMS: PostgreSQL - [https://git.postgresql.org/gitweb/](https://git.postgresql.org/gitweb/)
 
-Libraries:
-
+**Libraries:**
 * Open source store application: SpreeCommerce - [https://spreecommerce.com/](https://spreecommerce.com/)
 * Open source application performance monitoring: NewRelic - [https://github.com/newrelic/rpm](https://github.com/newrelic/rpm)
 * Open source API documentation: Swagger - [http://swagger.io/](http://swagger.io/)
 * Open source Container system: LXC - [https://linuxcontainers.org/](https://linuxcontainers.org/)
 * Open Source Continous Integration: CircleCI - [https://circleci.com/](https://circleci.com/)
 
-**Our approach to Human-Centered Design (HCD):**
+## Our approach to Human-Centered Design (HCD):
 
 We think of HCD as being in 3 repeating phases (read more here: [Agile Six's Human Centered Design Presentation](https://www.agile6.com/documents/8))
 
@@ -60,7 +57,7 @@ We think of HCD as being in 3 repeating phases (read more here: [Agile Six's Hum
 2. Create – Build prototypes and MVPs based on user input
 3. Deliver – Launch as soon as a minimum feature set is reached and continue to iterate over time as the demands of your users change.
 
-**How we handled the specific RFI Requirements**
+## How we handled the specific RFI Requirements
 
 A. Team Agile Six was lead by Product Owner/Manager Robert Rasmussen who had complete responsibility for the product as well as the team.  Mr. Rasmussen is a certified Product Owner, Scrum Master, Project Manager and Scrum Coach (CSPO, CSM, PMP, CSP, PSPO2, PSM).
 
