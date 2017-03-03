@@ -12,14 +12,14 @@ The prototype is located here http://orderit.agile6.com.
 
 Assumptions:
 
-- --There were no acceptance criteria around payment methods that the system should support, so the team went with the assumption that credit card payment would be acceptable. Because this is an MVP prototype, and for security reasons, we did not elect to integrate an actual credit card processing engine into the application, however.
-- --The team took a mobile-first approach to design. Because this was an MVP prototype with a necessarily limited budget, we were necessarily limited in the amount of progressive enhancement for larger screen sizes that we were able to accomplish. 
+- There were no acceptance criteria around payment methods that the system should support, so the team went with the assumption that credit card payment would be acceptable. Because this is an MVP prototype, and for security reasons, we did not elect to integrate an actual credit card processing engine into the application, however.
+- The team took a mobile-first approach to design. Because this was an MVP prototype with a necessarily limited budget, we were necessarily limited in the amount of progressive enhancement for larger screen sizes that we were able to accomplish. 
 
 ## Technology Stack
 
 Our application architecture and infrastructure were anchored by a number of key principles that overlap and align with the US Digital Service Playbook. These include
 
-**Principle 1: Leverage a modern, open source technology stack**. Using a modern technology stack supported by a thriving open source community mitigates a number of technical risks, including reduced security vulnerabilities, increased availability of technical resources familiar with the technologies, alignment with modern devices and usage scenarios, and the ability to leverage a large ecosystem of pre-built components based on these toolsets. Our technology stack is comprised entirely of open source frameworks and components, including Ruby on Rails, JQuery, Bootstrap, Puma, PostgreSQL, Capybara, Sniffybara, and NewRelic (see diagram below).
+**Principle 1: Leverage a modern, open source technology stack**. Using a modern technology stack supported by a thriving open source community mitigates a number of technical risks, including reduced security vulnerabilities, increased availability of technical resources familiar with the technologies, alignment with modern devices and usage scenarios, and the ability to leverage a large ecosystem of pre-built components based on these toolsets. Our technology stack is comprised entirely of open source frameworks and components, including Ruby on Rails, JQuery, Bootstrap, Puma, PostgreSQL, Capybara, Sniffybara, and NewRelic (see System Overview below).
 
 **Principle 2: Leverage pre-built components**. In our view, it always makes sense to weigh the cost of building features from scratch against leveraging a suitable COTS and Open-Source components available. In this case, we decided to leverage the open-source SpreeCommerce platform as the basis for the OrderIT MVP application.
 
@@ -27,13 +27,6 @@ Our application architecture and infrastructure were anchored by a number of key
 
 **Principle 4: Leverage Automated Processes**. As the codebase for an application or system grows, it it essential to have an automated build, test, deployment, and monitoring infrastructure in place. Automated processes allow the team to focus on forward-looking feature development, and not on basic maintenance, testing, and infrastructure tasks. For OrderIT our team leverages the open source Capybara and Sniffybara testing frameworks for automated testing, CircleCI for continuous integration and automated builds, Heroku for automated deployments, and NewRelic for performance monitoring.
 
-**Our approach to Human-Centered Design (HCD):**
-
-We think of HCD as being in 3 repeating phases (read more here: [Agile Six's Human Centered Design Presentation](https://www.agile6.com/documents/8))
-
-1. Hear – Listen to your users in as many ways as possible
-2. Create – Build prototypes and MVPs based on user input
-3. Deliver – Launch as soon as a minimum feature set is reached and continue to iterate over time as the demands of your users change.
 
 See our System Overview Here for to for a graphic view of the technologies
 [System Overview](../master/artifacts/SystemOverview.pdf)
@@ -42,17 +35,30 @@ Front end systems:
 
 * Open source language: Javascript - [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * Open source UI Framework: Bootstrap - [http://getbootstrap.com/](http://getbootstrap.com/)
-* Open source Javascript library: jQuery - [https://jquery.com/](https://jquery.com/)
+* Open source Javascript library: jQuery - [https://github.com/jquery/jquery](https://github.com/jquery/jquery)
 
-Back end system:
-* Open source language: Ruby - [https://www.ruby-lang.org/en/](https://www.ruby-lang.org/en/)
+Back end systems:
+
+* Open source language: Ruby - [https://github.com/ruby/ruby](https://github.com/ruby/ruby)
+* Open source web application framework: Rails - [https://github.com/rails/rails](https://github.com/rails/rails)
+* Open source web server: Puma - [https://github.com/puma/puma](https://github.com/puma/puma)
+* Open source DBMS: PostgreSQL - [https://git.postgresql.org/gitweb/](https://git.postgresql.org/gitweb/)
 
 Libraries:
-  * Open source Web application framework: Rails - [http://rubyonrails.org/](http://rubyonrails.org/)
-  * Open source store application: Spree - [https://spreecommerce.com/](https://spreecommerce.com/)
-  * Open source API documentation: Swagger - [http://swagger.io/](http://swagger.io/)
-  * Open source Container system: LXC - [https://linuxcontainers.org/](https://linuxcontainers.org/)
-  * Open Source Continous Integration: CircleCI - [https://circleci.com/](https://circleci.com/)
+
+* Open source store application: SpreeCommerce - [https://spreecommerce.com/](https://spreecommerce.com/)
+* Open source application performance monitoring: NewRelic - [https://github.com/newrelic/rpm](https://github.com/newrelic/rpm)
+* Open source API documentation: Swagger - [http://swagger.io/](http://swagger.io/)
+* Open source Container system: LXC - [https://linuxcontainers.org/](https://linuxcontainers.org/)
+* Open Source Continous Integration: CircleCI - [https://circleci.com/](https://circleci.com/)
+
+**Our approach to Human-Centered Design (HCD):**
+
+We think of HCD as being in 3 repeating phases (read more here: [Agile Six's Human Centered Design Presentation](https://www.agile6.com/documents/8))
+
+1. Hear – Listen to your users in as many ways as possible
+2. Create – Build prototypes and MVPs based on user input
+3. Deliver – Launch as soon as a minimum feature set is reached and continue to iterate over time as the demands of your users change.
 
 **How we handled the specific RFI Requirements**
 
