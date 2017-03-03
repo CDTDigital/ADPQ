@@ -8,7 +8,7 @@ The team (described under item B below) conducted a one-week Runway Sprint (infr
 
 The team organized its work using a Trello board. We also set up a Slack Channel to facilitate quick communication among team members, as well as Google Hangouts to facilitate screen sharing and videoconferencing. We leveraged Google Drive as a collaborative document repository, and GitHub as a version control repository.
 
-The prototype is located at [http://orderit.agile6.com](http://orderit.agile6.com)
+The prototype is located at [https://orderit.agile6.com](https://orderit.agile6.com)
 
 Assumptions:
 
@@ -71,7 +71,7 @@ D. Agile Six used 4 user design techniques
 E. We used only one repository located at [https://github.com/agilesix/ADPQ](https://github.com/agilesix/ADPQ) where all code and artifacts are stored and all code commits documented.
 
 F. We believe that the requirement for swagger documentation of a REST API is grounded in an assumption that the solution would use a single page app/RESTful web service architecture. However, we did not see a requirement for such an architecture in the request. We believe the most efficient solution for delivering the stated requirements is to leverage an off-the-shelf component such as Spree. As a result our solution is not based on single page app/RESTful web service architecture, but on a rails MVC architecture. Nevertheless, we have documented a subset of the Spree RESTful API in order to demonstrate our understanding of how to use Swagger to document RESTful APIs
-http://orderit.agile6.com/api-docs
+https://orderit.agile6.com/api-docs
 
 G. We followed WCAG 2.0 as well as [http://www.ca.gov/Accessibility](http://www.ca.gov/Accessibility). We also leveraged [Sniffybara](https://github.com/department-of-veterans-affairs/sniffybara), a Ruby gem that adds automatic 508 accessibility compliance checks into your Capybara specs. Report screenshot can be found here [508 Report](../master/artifacts/ADPQ_508.png). 
 
