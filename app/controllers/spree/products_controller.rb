@@ -17,9 +17,9 @@ module Spree
 
     def show
       @variants = @product.variants_including_master.
-                           spree_base_scopes.
-                           active(current_currency).
-                           includes([:option_values, :images])
+          spree_base_scopes.
+          active(current_currency).
+          includes([:option_values, :images])
       @product_properties = @product.product_properties.includes(:property)
       @taxon = params[:taxon_id].present? ? Spree::Taxon.find(params[:taxon_id]) : @product.taxons.first
       redirect_if_legacy_path
@@ -47,9 +47,11 @@ module Spree
       session[:compare] ||= []
       if session[:compare].length == 4
         flash[:error] = 'Your compare list is full. Please remove items from your compare list.'
+      elsif session[:compare].include?(params[:id])
+        flash[:warning] = 'This item is already on your compare list.'
       else
         session[:compare] << params.permit(:id)[:id]
-        flash[:success] = 'Item added to compare list.'
+        flash[:success] = 'Item added to your compare list.'
       end
       redirect_to :back
     end
@@ -70,35 +72,35 @@ module Spree
 
     private
 
-      def accurate_title
-        if @product
-          @product.meta_title.blank? ? @product.name : @product.meta_title
-        else
-          super
-        end
+    def accurate_title
+      if @product
+        @product.meta_title.blank? ? @product.name : @product.meta_title
+      else
+        super
       end
+    end
 
-      def load_product
-        if try_spree_current_user.try(:has_spree_role?, "admin")
-          @products = Product.with_deleted
-        else
-          @products = Product.active(current_currency)
-        end
-        @product = @products.includes(:variants_including_master, variant_images: :viewable).friendly.find(params[:id])
+    def load_product
+      if try_spree_current_user.try(:has_spree_role?, "admin")
+        @products = Product.with_deleted
+      else
+        @products = Product.active(current_currency)
       end
+      @product = @products.includes(:variants_including_master, variant_images: :viewable).friendly.find(params[:id])
+    end
 
-      def load_taxon
-        @taxon = Spree::Taxon.find(params[:taxon]) if params[:taxon].present?
-      end
+    def load_taxon
+      @taxon = Spree::Taxon.find(params[:taxon]) if params[:taxon].present?
+    end
 
-      def redirect_if_legacy_path
-        # If an old id or a numeric id was used to find the record,
-        # we should do a 301 redirect that uses the current friendly id.
-        if params[:id] != @product.friendly_id
-          params[:id] = @product.friendly_id
-          params.permit!
-          return redirect_to url_for(params), status: :moved_permanently
-        end
+    def redirect_if_legacy_path
+      # If an old id or a numeric id was used to find the record,
+      # we should do a 301 redirect that uses the current friendly id.
+      if params[:id] != @product.friendly_id
+        params[:id] = @product.friendly_id
+        params.permit!
+        return redirect_to url_for(params), status: :moved_permanently
       end
+    end
   end
 end

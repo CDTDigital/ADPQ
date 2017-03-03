@@ -35,11 +35,11 @@
                 <div class="panel-footer">
                 </div>
                 <div class="text-center add-to-compare-btn">
-                  <% if (session[:compare] && session[:compare].include?(product.id.to_s)) %>
+                  <% if session[:compare] && session[:compare].include?(product.id.to_s) %>
                       <%= link_to "/compare/#{product.id}", method: :delete, class: "btn btn-default compare-btn" do %>
                           <span class="glyphicon glyphicon-remove"></span> Remove from Compare
                       <% end %>
-                  <% elsif (session[:compare] && session[:compare].length > 3) %>
+                  <% elsif session[:compare] && session[:compare].length > 3 %>
                       <%= link_to "javascript:void(0)", class: "btn btn-default compare-btn", disabled: "disabled", title: "Compare list has reached the maximum item limit" do %>
                           <span class="glyphicon glyphicon-plus"></span> Add to Compare
                       <% end %>
