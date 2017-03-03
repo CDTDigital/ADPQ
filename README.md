@@ -100,11 +100,11 @@ Hosting and Deployment: [Deployment to Heroku](https://github.com/agilesix/ADPQ/
 
 N. We developed automated unit tests for our code using [Rspec](http://rspec.info/)
 
-o. We used [CircleCI](https://circleci.com/) for continuous integration and our builds can be found here: [Agile Six ADPQ Builds](https://circleci.com/gh/agilesix/ADPQ)
+O. We used [CircleCI](https://circleci.com/) for continuous integration and our builds can be found here: [Agile Six ADPQ Builds](https://circleci.com/gh/agilesix/ADPQ)
 
 Sample report here: [Sample Report](https://117-81989727-gh.circle-artifacts.com/0/tmp/circle-artifacts.pAi5FCN/coverage/index.html#_AllFiles). Every time we do a code checkin, reports are produced under the corresponding build in CircleCI.
 
-p. Setup or used configuration management;
+P. Setup or used configuration management;
 
 This was managed via GitHub https://github.com/agilesix/ADPQ/
 
