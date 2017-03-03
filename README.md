@@ -4,9 +4,9 @@
 
 Agile Six is a small firm founded in response to the US Digital Services. Therefore, we plan to invest often in competitions like ADPQ and have won a few (i.e. as subs on GSA 18F and DHS Flash).  However, we have learned to minimize investments required in order to be able to compete with large firms.   For this effort, we intentionally limited our investment to 200 total man hours.  We hope that the State will view our input with this context as evidence of how agile we can be, meeting demanding budget constraints, while still respecting the values and techniques of the USDS Playbook. Looking forward, we have captured several bugs and potential improvements in our product backlog viewable at https://trello.com/b/9KZxufUT/adpq-prototype
 
-The team (described under item b below) conducted a one-week Runway Sprint (infrastructure/architecture/discovery), where we defined and proofed the core architecture of the site as well as settled upon a number of toolsets and processes, including those we would leverage for CI, CM, Deployment, Version Control, and general communication within the team. The runway sprint was followed by a one week feature development sprint in which the feature-based user stories were implemented and tested by the team, including usability testing by our focus group. Finally, the team held a short final sprint to implement some feedback.  
+The team (described under item B below) conducted a one-week Runway Sprint (infrastructure/architecture/discovery), where we defined and proofed the core architecture of the site as well as settled upon a number of toolsets and processes, including those we would leverage for CI, CM, Deployment, Version Control, and general communication within the team. The runway sprint was followed by a one week feature development sprint in which the feature-based user stories were implemented and tested by the team, including usability testing by our focus group. Finally, the team held a short final sprint to implement some feedback.  
 
-The team organized its work using a Trello  board. We also set up a Slack Channel to facilitate quick communication among team members, as well as Google Hangouts to facilitate screen sharing and videoconferencing. We leveraged Google Drive as a collaborative document repository, and GitHub as a version control repository.
+The team organized its work using a Trello board. We also set up a Slack Channel to facilitate quick communication among team members, as well as Google Hangouts to facilitate screen sharing and videoconferencing. We leveraged Google Drive as a collaborative document repository, and GitHub as a version control repository.
 
 The prototype is located at [http://orderit.agile6.com](http://orderit.agile6.com)
 
@@ -63,9 +63,9 @@ Future Backlog - The following link shows the trello board we used as both a pro
 
 D. Agile Six used 4 user design techniques
 
-1. Personas - [Personas](../master/artifacts/Front End Design/Personas.pdf)
-2. Empathy Map - [EmpathyMap](../master/artifacts/Front End Design/empathy_map.jpg)
-3. User Tests [User Testing Sessions](https://drive.google.com/drive/folders/0Bx_pTPgzhPf7Q2xocnpSMWF5Tzg?usp=sharin)
+1. [Personas](../master/artifacts/Front End Design/Personas.pdf)
+2. [Empathy Map](../master/artifacts/Front End Design/empathy_map.jpg)
+3. [User Testing Sessions](https://drive.google.com/drive/folders/0Bx_pTPgzhPf7Q2xocnpSMWF5Tzg?usp=sharin)
 4. Mock ups & Wireframes - [AdminUser Wireframe](../master/artifacts/Front End Design/AdminUser.pdf) | [UI Options](../master/artifacts/Front End Design/Comparison_selections_UI_Chosen_Options.pdf) | [Mobile View](../master/artifacts/Front End Design/Product_Comparison_mobile_sidescroll_indication.jpg) | [Other UI Options](../master/artifacts/Front End Design/Comparison_selections_UIoptions.pdf)
 
 E. We used only one repository located at [https://github.com/agilesix/ADPQ](https://github.com/agilesix/ADPQ) where all code and artifacts are stored and all code commits documented.
