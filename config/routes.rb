@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'style_guide/typography'
   get 'style_guide/forms'
   get 'style_guide/tables'
+  get '/.well-known/acme-challenge/{:id}' => 'style_guide#letsencrypt'
 
   # This line mounts Spree's routes at the root of your application.
   # This means, any requests to URLs such as /products, will go to Spree::ProductsController.
@@ -22,6 +23,11 @@ Rails.application.routes.draw do
     post '/compare/:id', :to => 'products#add_to_compare'
     delete '/compare', :to => 'products#clear_compare'
     delete '/compare/:id', to: 'products#clear_compare'
+
+    resources :orders do
+      post :cancel
+    end
+
     namespace :admin, path: Spree.admin_path do
     resources :reports, only: [:index] do
       collection do
