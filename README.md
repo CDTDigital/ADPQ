@@ -27,27 +27,7 @@ Our application architecture and infrastructure were anchored by a number of key
 
 **Principle 4: Leverage Automated Processes**. As the codebase for an application or system grows, it it essential to have an automated build, test, deployment, and monitoring infrastructure in place. Automated processes allow the team to focus on forward-looking feature development, and not on basic maintenance, testing, and infrastructure tasks. For OrderIT our team leverages the open source Capybara and Sniffybara testing frameworks for automated testing, CircleCI for continuous integration and automated builds, Heroku for automated deployments, and NewRelic for performance monitoring.
 
-
 See our [System Overview](../master/artifacts/SystemOverview.pdf) for a graphical depiction of the technologies used in this prototype.
-
-
-**Front end systems:**
-* Open source language: Javascript - [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* Open source UI Framework: Bootstrap - [http://getbootstrap.com/](http://getbootstrap.com/)
-* Open source Javascript library: jQuery - [https://github.com/jquery/jquery](https://github.com/jquery/jquery)
-
-**Back end systems:**
-* Open source language: Ruby - [https://github.com/ruby/ruby](https://github.com/ruby/ruby)
-* Open source web application framework: Rails - [https://github.com/rails/rails](https://github.com/rails/rails)
-* Open source web server: Puma - [https://github.com/puma/puma](https://github.com/puma/puma)
-* Open source DBMS: PostgreSQL - [https://git.postgresql.org/gitweb/](https://git.postgresql.org/gitweb/)
-
-**Libraries:**
-* Open source store application: SpreeCommerce - [https://spreecommerce.com/](https://spreecommerce.com/)
-* Open source application performance monitoring: NewRelic - [https://github.com/newrelic/rpm](https://github.com/newrelic/rpm)
-* Open source API documentation: Swagger - [http://swagger.io/](http://swagger.io/)
-* Open source Container system: LXC - [https://linuxcontainers.org/](https://linuxcontainers.org/)
-* Open Source Continous Integration: CircleCI - [https://circleci.com/](https://circleci.com/)
 
 ## Our approach to Human-Centered Design (HCD):
 
@@ -104,15 +84,15 @@ J. We believe strongly in frequent iterations based on user feedback.  Therefore
 K. The user-facing features of our prototype, including both the UI elements provided by SpreeCommerce, as well as our own UI implementations, leverage Bootstrap's grid system and employ responsive techniques, resulting in an excellent user experience regardless of the kind or size of device used. Our team utilized a mobile-first approach on the custom features we implemented, creating initial designs to work on phones and small mobile devices, then progressively enhancing this design for larger devices. We chose SpreeCommerce understanding that any choice of a third-party open source component entails trade-off decisions. In this case, Spree's admin functionality did not support responsive design, but the team felt that administrative functions would not typically be performed on mobile devices, and hence determined that the advantages gained by leveraging a pre-built component outweighed this disadvantage.
 
 L. Our solution is comprised entirely of modern open source technologies, including:
-- Ruby on Rails 5.0.1 as a development language/framework
-- SpreeCommerce 3.2.0 as an e-commerce platform
-- Bootstrap 3.3.7 as a responsive UI framework
-- JQuery 3.1.1 as a Javascript Library
-- Puma 3.7.1 as a web server
-- Capybara 2.12.1 as a Testing Framework
-- Sniffybara 0.0.1 as a 508 Compliance Testing Framework
-- PostgreSQL 9.6.2 as a relational DBMS
-- NewRelic RPM 3.18.1 as a Application Performance Monitoring Framework
+- Rails 5.0.1 as a webdevelopment language/framework - [https://github.com/rails/rails](https://github.com/rails/rails)
+- SpreeCommerce 3.2.0 as an e-commerce platform - [https://github.com/spree](https://github.com/spree)
+- Bootstrap 3.3.7 as a responsive UI framework - [https://github.com/twbs](https://github.com/twbs)
+- JQuery 3.1.1 as a Javascript Library - [https://github.com/jquery/jquery](https://github.com/jquery/jquery)
+- Puma 3.7.1 as a web server - [https://github.com/puma/puma](https://github.com/puma/puma)
+- Capybara 2.12.1 as a Testing Framework - [https://github.com/teamcapybara/capybara](https://github.com/teamcapybara/capybara) 
+- Sniffybara 0.0.1 as a 508 Compliance Testing Framework - [https://github.com/department-of-veterans-affairs/sniffybara](https://github.com/department-of-veterans-affairs/sniffybara) 
+- PostgreSQL 9.6.2 as a relational DBMS - [https://git.postgresql.org/gitweb/](https://git.postgresql.org/gitweb/)
+- NewRelic RPM 3.18.1 as a Application Performance Monitoring Framework - [https://github.com/newrelic/rpm](https://github.com/newrelic/rpm)
 
 M. We deployed the prototype on [Heroku](https://heroku.com), a PaaS provider. Heroku integrates with GitHub, allowing for easy automated deployment. 
 
