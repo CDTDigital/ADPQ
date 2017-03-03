@@ -8,7 +8,7 @@ The team (described under item b below) conducted a one-week Runway Sprint (infr
 
 The team organized its work using a Trello  board. We also set up a Slack Channel to facilitate quick communication among team members, as well as Google Hangouts to facilitate screen sharing and videoconferencing. We leveraged Google Drive as a collaborative document repository, and GitHub as a version control repository.
 
-The prototype is located here http://orderit.agile6.com.
+The prototype is located at [http://orderit.agile6.com](http://orderit.agile6.com)
 
 Assumptions:
 
@@ -28,8 +28,8 @@ Our application architecture and infrastructure were anchored by a number of key
 **Principle 4: Leverage Automated Processes**. As the codebase for an application or system grows, it it essential to have an automated build, test, deployment, and monitoring infrastructure in place. Automated processes allow the team to focus on forward-looking feature development, and not on basic maintenance, testing, and infrastructure tasks. For OrderIT our team leverages the open source Capybara and Sniffybara testing frameworks for automated testing, CircleCI for continuous integration and automated builds, Heroku for automated deployments, and NewRelic for performance monitoring.
 
 
-See our System Overview Here for to for a graphic view of the technologies
-[System Overview](../master/artifacts/SystemOverview.pdf)
+See our [System Overview](../master/artifacts/SystemOverview.pdf) for a graphical depiction of the technologies used in this prototype.
+
 
 **Front end systems:**
 * Open source language: Javascript - [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
